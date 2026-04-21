@@ -1,5 +1,7 @@
 # Skolverket åk 9-karta – statisk JSON + karta
 
+<img width="2246" height="1498" alt="image" src="https://github.com/user-attachments/assets/65d4de5e-cea1-4b5f-9c76-0efa97aec86e" />
+
 Den här versionen är uppdelad i två tydliga delar:
 
 1. **Byggläge**: hämtar data från Skolverkets API, filtrerar fram grundskolor med slutbetyg/meritvärde i åk 9 och skriver en JSON-fil.
