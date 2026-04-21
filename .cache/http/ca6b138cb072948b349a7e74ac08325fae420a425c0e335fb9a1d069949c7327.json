@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:29.422Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/93301103",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "93301103",
+      "name": "Aspdammskolan",
+      "contactInfo": {
+        "email": "daniela.edwards@skolgrunden.se",
+        "web": "http://www.aspdammskolan.se",
+        "telephone": "072-4014582",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hammarby Fabriksväg 65",
+            "zipCode": "12030",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.301258975701586",
+      "wgs84_Long": "18.10323840771555",
+      "sweRef_N": "6577714",
+      "sweRef_E": "676687",
+      "organisationRegistryNumber": "5565838066",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Aspdammskolan AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/93301103"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/93301103/statistics"
+        }
+      }
+    }
+  }
+}

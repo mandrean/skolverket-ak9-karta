@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:54.243Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/14845171",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "14845171",
+      "name": "Eviaskolan",
+      "contactInfo": {
+        "email": "info@eviaskolan.se",
+        "web": "http://www.eviagruppen.se",
+        "telephone": "08-50020410",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Klockargatan 17",
+            "zipCode": "13738",
+            "city": "Västerhaninge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.12137690305513",
+      "wgs84_Long": "18.10197549745796",
+      "sweRef_N": "6557694",
+      "sweRef_E": "677547",
+      "organisationRegistryNumber": "5567379093",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Evia Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14845171"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14845171/statistics"
+        }
+      }
+    }
+  }
+}

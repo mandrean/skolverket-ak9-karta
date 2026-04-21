@@ -1,0 +1,478 @@
+{
+  "generatedAt": "2026-04-21T09:53:20.825Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/15218794/statistics/gr",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "schoolUnit": "15218794",
+      "specialTeacherPositions": [
+        {
+          "value": "3,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "3,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "2,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "3,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "2,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "studentsPerTeacherQuota": [
+        {
+          "value": "12,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "14,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "15,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "17,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "19,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "certifiedTeachersQuota": [
+        {
+          "value": "64,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "59,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "63,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "70,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "76,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "docLinks": null,
+      "specialEducatorsQuota": [
+        {
+          "value": "1,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "2,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "2,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "4,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "totalNumberOfPupils": [
+        {
+          "value": "cirka 650",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        }
+      ],
+      "ratioOfPupilsIn6thGradeWithAllSubjectsPassed": [
+        {
+          "value": "78,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE6thGrade": [
+        {
+          "value": "13,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "10,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "11,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "13,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectENG6thGrade": [
+        {
+          "value": "16,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "15,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "15,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "16,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectMA6thGrade": [
+        {
+          "value": "13,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "9,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "10,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "12,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVA6thGrade": [
+        {
+          "value": "9,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "7,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE9thGrade": [
+        {
+          "value": "13,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "13,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "15,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "14,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectENG9thGrade": [
+        {
+          "value": "15,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "15,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "14,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "15,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectMA9thGrade": [
+        {
+          "value": "11,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "10,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "10,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "10,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVA9thGrade": [
+        {
+          "value": "6,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "8,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "7,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "10,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "ratioOfPupilsIn9thGradeWithAllSubjectsPassed": [
+        {
+          "value": "71,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "67,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "61,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "57,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "63,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "averageGradesMeritRating9thGrade": [
+        {
+          "value": "244,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "224,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "222,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "216,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "223,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramYR": [
+        {
+          "value": "80,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "75,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "72,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "67,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "69,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramES": [
+        {
+          "value": "80,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "75,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "70,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "64,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "69,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramSAEKHU": [
+        {
+          "value": "80,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "74,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "67,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "64,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "69,5",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramNATE": [
+        {
+          "value": "77,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "74,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "65,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "61,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        },
+        {
+          "value": "64,6",
+          "valueType": "EXISTS",
+          "timePeriod": "2020/21"
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v3/school-units/15218794/statistics/gr"
+        }
+      }
+    }
+  }
+}

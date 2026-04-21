@@ -1,0 +1,359 @@
+{
+  "generatedAt": "2026-04-21T10:24:20.334Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=0&size=50&geographicalAreaCode=0117&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "10715898",
+            "name": "Akers Friskola",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/10715898"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/10715898/statistics"
+              }
+            }
+          },
+          {
+            "code": "43869172",
+            "name": "Fredsborgskolan",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/43869172"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/43869172/statistics"
+              }
+            }
+          },
+          {
+            "code": "59457803",
+            "name": "Helleborusskolan Österåker",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/59457803"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/59457803/statistics"
+              }
+            }
+          },
+          {
+            "code": "53319802",
+            "name": "Ljusterö skola",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Ljusterö",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/53319802"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/53319802/statistics"
+              }
+            }
+          },
+          {
+            "code": "73272488",
+            "name": "Skärgårdsstadsskolan",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73272488"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73272488/statistics"
+              }
+            }
+          },
+          {
+            "code": "82624830",
+            "name": "Solskiftesskolan",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/82624830"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/82624830/statistics"
+              }
+            }
+          },
+          {
+            "code": "88712672",
+            "name": "Söraskolan",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/88712672"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/88712672/statistics"
+              }
+            }
+          },
+          {
+            "code": "51305351",
+            "name": "Tråsättraskolan",
+            "geographicalAreaCode": "0117",
+            "postCodeDistrict": "Åkersberga",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/51305351"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/51305351/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0117&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 8,
+        "totalPages": 1,
+        "number": 0
+      }
+    }
+  }
+}

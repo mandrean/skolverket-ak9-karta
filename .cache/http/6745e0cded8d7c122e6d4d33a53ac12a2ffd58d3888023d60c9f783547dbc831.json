@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:08.563Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/54332921",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "54332921",
+      "name": "Mellansjö skola",
+      "contactInfo": {
+        "email": "kajsa.sponton@nytida.se",
+        "web": "https://nytida.se/skola/vara-skolor/mellansjoskolan/",
+        "telephone": "070-3482577",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mellansjövägen 20",
+            "zipCode": "18770",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.49200653393631",
+      "wgs84_Long": "18.038961242490863",
+      "sweRef_N": "6598772",
+      "sweRef_E": "672059",
+      "organisationRegistryNumber": "5564870771",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Nytida Enigma AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54332921"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54332921/statistics"
+        }
+      }
+    }
+  }
+}

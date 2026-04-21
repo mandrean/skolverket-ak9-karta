@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-04-21T10:25:45.753Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57329777",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57329777",
+      "name": "Konradsbergsskolan",
+      "contactInfo": {
+        "email": "konradsbergsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/konradsbergsskolan",
+        "telephone": "076-1291084",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rålambsvägen 22",
+            "zipCode": "11259",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.328826361299626",
+      "wgs84_Long": "18.01267299734389",
+      "sweRef_N": "6580545",
+      "sweRef_E": "671394",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57329777"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57329777/statistics"
+        }
+      }
+    }
+  }
+}

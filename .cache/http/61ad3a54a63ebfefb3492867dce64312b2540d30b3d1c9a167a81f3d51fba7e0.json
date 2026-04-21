@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-04-21T10:27:06.643Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56662185",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56662185",
+      "name": "Balderskolan",
+      "contactInfo": {
+        "email": "balderskolan@up.se",
+        "web": "https://www.up.se/balderskolan/",
+        "telephone": "010-1401260",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lommarvägen 43",
+            "zipCode": "76152",
+            "city": "Norrtälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.7615962944341",
+      "wgs84_Long": "18.671797633992263",
+      "sweRef_N": "6630572.5",
+      "sweRef_E": "706206.5",
+      "organisationRegistryNumber": "5564715729",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Utvecklingspedagogik Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gyan",
+          "displayName": "Anpassad gymnasieskola",
+          "schoolYears": []
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56662185"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56662185/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:37.235Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/43403496",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "43403496",
+      "name": "Mariekällskolan",
+      "contactInfo": {
+        "email": "oxbacksskolan@skolasodertalje.se",
+        "web": "http://sodertalje.se/oxbacksskolan",
+        "telephone": "08-52304965",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mariekällgatan 3B",
+            "zipCode": "15144",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.18884630165",
+      "wgs84_Long": "17.625784031272758",
+      "sweRef_N": "6564033.393",
+      "sweRef_E": "650005.534",
+      "organisationRegistryNumber": "2120000159",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SÖDERTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/43403496"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/43403496/statistics"
+        }
+      }
+    }
+  }
+}

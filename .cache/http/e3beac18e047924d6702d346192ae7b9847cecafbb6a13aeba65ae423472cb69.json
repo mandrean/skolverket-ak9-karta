@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:17.320Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/84520303",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "84520303",
+      "name": "Hagaskolan",
+      "contactInfo": {
+        "email": "hagaskolan@vallentuna.se",
+        "web": "http://vallentuna.se/haga",
+        "telephone": "08-58785290",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lingsbergsvägen 14",
+            "zipCode": "18643",
+            "city": "Vallentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0115",
+      "wgs84_Lat": "59.537138520377184",
+      "wgs84_Long": "18.095490421224405",
+      "sweRef_N": "6603942",
+      "sweRef_E": "675024",
+      "organisationRegistryNumber": "2120000027",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "VALLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84520303"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84520303/statistics"
+        }
+      }
+    }
+  }
+}

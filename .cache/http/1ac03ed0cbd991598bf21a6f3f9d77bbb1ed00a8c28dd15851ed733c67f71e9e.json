@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:08.310Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/25309669",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "25309669",
+      "name": "Kunskapsskolan Täby",
+      "contactInfo": {
+        "email": "info.taby@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/taby",
+        "telephone": "08-50691110",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Källtorpsvägen 4",
+            "zipCode": "18371",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.43409330060156",
+      "wgs84_Long": "18.07911589907768",
+      "sweRef_N": "6592432",
+      "sweRef_E": "674630",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/25309669"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/25309669/statistics"
+        }
+      }
+    }
+  }
+}

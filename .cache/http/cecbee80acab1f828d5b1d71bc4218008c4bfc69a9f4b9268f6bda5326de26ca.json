@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:33.432Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/66455663",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "66455663",
+      "name": "Engelska Skolan Novia",
+      "contactInfo": {
+        "email": "exp@esnovia.se",
+        "web": "https://www.engelskaskolannovia.se",
+        "telephone": "08-40012140",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sjöviksbacken 24-26",
+            "zipCode": "11756",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.304804118211386",
+      "wgs84_Long": "18.029420045813957",
+      "sweRef_N": "6577915",
+      "sweRef_E": "672468",
+      "organisationRegistryNumber": "5565699302",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Engelska Skolor och Förskolor i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66455663"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66455663/statistics"
+        }
+      }
+    }
+  }
+}

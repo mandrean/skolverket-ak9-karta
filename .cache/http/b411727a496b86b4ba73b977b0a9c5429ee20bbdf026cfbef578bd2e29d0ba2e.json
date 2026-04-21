@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:27:08.148Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/99749462",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "99749462",
+      "name": "Långsjöskolan",
+      "contactInfo": {
+        "email": "langsjoenheten@norrtalje.se",
+        "web": "http://www.norrtalje.se",
+        "telephone": "0175-73964",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ängsvägen 4",
+            "zipCode": "76231",
+            "city": "Rimbo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.73891886833487",
+      "wgs84_Long": "18.36236033121214",
+      "sweRef_N": "6627127",
+      "sweRef_E": "688967",
+      "organisationRegistryNumber": "2120000217",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NORRTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/99749462"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/99749462/statistics"
+        }
+      }
+    }
+  }
+}

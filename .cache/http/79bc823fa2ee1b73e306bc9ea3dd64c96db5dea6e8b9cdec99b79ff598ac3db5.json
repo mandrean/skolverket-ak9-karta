@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:26:47.041Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/90207041",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "90207041",
+      "name": "Myrsjö resursskola",
+      "contactInfo": {
+        "email": "myrsjoresursskola@nacka.se",
+        "web": "nacka.se/valfard-skola/myrsjoresursskola",
+        "telephone": "08-7188580",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sandövägen 4",
+            "zipCode": "13232",
+            "city": "Saltsjö-Boo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.33028347569309",
+      "wgs84_Long": "18.257324371147018",
+      "sweRef_N": "6581362.49",
+      "sweRef_E": "685297.599",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90207041"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90207041/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:51.784Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/45553352",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "45553352",
+      "name": "Montessori Mondial Kungsholmen",
+      "contactInfo": {
+        "email": "kungsholmen@montessorimondial.se",
+        "web": "https://montessorimondial.se/kungsholmen",
+        "telephone": "0708-280668",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Konradsbergsgatan 12-24",
+            "zipCode": "11259",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.33000096041903",
+      "wgs84_Long": "18.015502862650592",
+      "sweRef_N": "6580683",
+      "sweRef_E": "671549",
+      "organisationRegistryNumber": "5567640205",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "International Montessori School Sweden AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45553352"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45553352/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:23:36.579Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/24374886",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "24374886",
+      "name": "Vittra Väsby",
+      "contactInfo": {
+        "email": "vasby@vittra.se",
+        "web": "http://www.vittra.se/vasby",
+        "telephone": "08-59421360",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Drabantgatan 3-5",
+            "zipCode": "19449",
+            "city": "Upplands Väsby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0114",
+      "wgs84_Lat": "59.51759577398046",
+      "wgs84_Long": "17.91601417916992",
+      "sweRef_N": "6601308",
+      "sweRef_E": "664976",
+      "organisationRegistryNumber": "5564586716",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Vittraskolorna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24374886"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24374886/statistics"
+        }
+      }
+    }
+  }
+}

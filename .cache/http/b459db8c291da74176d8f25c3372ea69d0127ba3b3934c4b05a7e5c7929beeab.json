@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:00.020Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56130729",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56130729",
+      "name": "Dalskolan",
+      "contactInfo": {
+        "email": "dalskolan@tyreso.se",
+        "web": "http://www.tyreso.se",
+        "telephone": "08-57829982",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Krusbodavägen 4",
+            "zipCode": "13535",
+            "city": "Tyresö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0138",
+      "wgs84_Lat": "59.23444480282762",
+      "wgs84_Long": "18.2416562767651",
+      "sweRef_N": "6570655",
+      "sweRef_E": "684926",
+      "organisationRegistryNumber": "2120000092",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TYRESÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56130729"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56130729/statistics"
+        }
+      }
+    }
+  }
+}

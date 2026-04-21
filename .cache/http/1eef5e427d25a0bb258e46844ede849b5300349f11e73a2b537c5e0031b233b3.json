@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:00.351Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/48760074",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "48760074",
+      "name": "Vittra Frösunda",
+      "contactInfo": {
+        "email": "frosunda@vittra.se",
+        "web": "http://www.vittra.se/frosunda",
+        "telephone": "08-4449470",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Anders Lundströms gata 5",
+            "zipCode": "16973",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.37052418736356",
+      "wgs84_Long": "18.015298116173945",
+      "sweRef_N": "6585192",
+      "sweRef_E": "671333",
+      "organisationRegistryNumber": "5564586716",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Vittraskolorna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48760074"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48760074/statistics"
+        }
+      }
+    }
+  }
+}

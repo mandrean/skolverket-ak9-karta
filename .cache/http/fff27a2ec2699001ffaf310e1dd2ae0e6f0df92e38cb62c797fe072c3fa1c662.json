@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-04-21T10:26:37.486Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/73075913",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "73075913",
+      "name": "Mikaelgården Läkeped. Institut",
+      "contactInfo": {
+        "email": "info@mikaelgarden.com",
+        "web": "http://www.mikaelgarden.se",
+        "telephone": "08-55150137",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Brogärdet 10",
+            "zipCode": "15391",
+            "city": "Järna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.10938639819396",
+      "wgs84_Long": "17.625456474803844",
+      "sweRef_N": "6555188.94956795",
+      "sweRef_E": "650334.9755015578",
+      "organisationRegistryNumber": "8156002795",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FÖRENINGEN MIKAELGÅRDENS LÄKEPEDAGOGISKA INST",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73075913"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73075913/statistics"
+        }
+      }
+    }
+  }
+}

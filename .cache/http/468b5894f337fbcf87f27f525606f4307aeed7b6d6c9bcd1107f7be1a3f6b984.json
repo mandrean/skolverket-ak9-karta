@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-04-21T09:58:52.344Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/17783822/statistics/gr",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "schoolUnit": "17783822",
+      "specialTeacherPositions": [
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "0,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "0,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "studentsPerTeacherQuota": [
+        {
+          "value": "15,0",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "12,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "9,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "11,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "certifiedTeachersQuota": [
+        {
+          "value": "83,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "75,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "77,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "75,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "docLinks": null,
+      "specialEducatorsQuota": [
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "1,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": ".",
+          "valueType": "MISSING",
+          "timePeriod": "2022/23"
+        },
+        {
+          "value": "7,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2021/22"
+        }
+      ],
+      "totalNumberOfPupils": [
+        {
+          "value": "cirka 80",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        }
+      ],
+      "ratioOfPupilsIn6thGradeWithAllSubjectsPassed": [
+        {
+          "value": null,
+          "valueType": "MISSING",
+          "timePeriod": null
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE6thGrade": [],
+      "averageResultNationalTestsSubjectENG6thGrade": [],
+      "averageResultNationalTestsSubjectMA6thGrade": [],
+      "averageResultNationalTestsSubjectSVA6thGrade": [],
+      "averageResultNationalTestsSubjectSVE9thGrade": [],
+      "averageResultNationalTestsSubjectENG9thGrade": [],
+      "averageResultNationalTestsSubjectMA9thGrade": [],
+      "averageResultNationalTestsSubjectSVA9thGrade": [],
+      "ratioOfPupilsIn9thGradeWithAllSubjectsPassed": [],
+      "averageGradesMeritRating9thGrade": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramYR": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramES": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramSAEKHU": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramNATE": [],
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v3/school-units/17783822/statistics/gr"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:46.541Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/11496096",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "11496096",
+      "name": "Kunskapsskolan Saltsjöbaden",
+      "contactInfo": {
+        "email": "info.saltsjobaden@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/saltsjobaden",
+        "telephone": "08-51008230",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Observatoriebacken 1",
+            "zipCode": "13336",
+            "city": "Saltsjöbaden"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.27199975744974",
+      "wgs84_Long": "18.30425771092638",
+      "sweRef_N": "6575009",
+      "sweRef_E": "688288",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11496096"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11496096/statistics"
+        }
+      }
+    }
+  }
+}

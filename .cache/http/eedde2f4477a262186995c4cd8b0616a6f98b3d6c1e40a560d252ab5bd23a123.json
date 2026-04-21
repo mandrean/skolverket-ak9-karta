@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:10.069Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/96330648",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "96330648",
+      "name": "Näsbyparksskolan",
+      "contactInfo": {
+        "email": "nasbyparksskolan@taby.se",
+        "web": "http://www.taby.se/nasbyparksskolan",
+        "telephone": "08-55558700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Centralvägen 37",
+            "zipCode": "18357",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.431680970348566",
+      "wgs84_Long": "18.09410160104223",
+      "sweRef_N": "6592203",
+      "sweRef_E": "675492",
+      "organisationRegistryNumber": "2120000118",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TÄBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/96330648"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/96330648/statistics"
+        }
+      }
+    }
+  }
+}

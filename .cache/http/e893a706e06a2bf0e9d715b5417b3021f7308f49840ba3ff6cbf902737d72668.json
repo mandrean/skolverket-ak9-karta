@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:35.974Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/41584790",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "41584790",
+      "name": "Järna friskola",
+      "contactInfo": {
+        "email": "info@jarnafriskola.se",
+        "web": "http://www.jarnafriskola.se",
+        "telephone": "08-55170329",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ljungstigen 2",
+            "zipCode": "15336",
+            "city": "Järna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.094903492450165",
+      "wgs84_Long": "17.557538874153245",
+      "sweRef_N": "6553426",
+      "sweRef_E": "646509",
+      "organisationRegistryNumber": "5591658975",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Montessori Förskolor och Skolor i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/41584790"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/41584790/statistics"
+        }
+      }
+    }
+  }
+}

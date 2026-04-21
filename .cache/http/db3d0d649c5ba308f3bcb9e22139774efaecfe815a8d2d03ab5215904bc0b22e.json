@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:18.365Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/12092203",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "12092203",
+      "name": "Brageskolan",
+      "contactInfo": {
+        "email": "mats.robertsson@sollentuna.se",
+        "web": "https://www.sollentuna.se/uweb/brageskolan/om-oss/",
+        "telephone": "08-7545012",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hertig Karls väg 5",
+            "zipCode": "19268",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.477158013205155",
+      "wgs84_Long": "17.91210193379449",
+      "sweRef_N": "6596798",
+      "sweRef_E": "664952",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/12092203"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/12092203/statistics"
+        }
+      }
+    }
+  }
+}

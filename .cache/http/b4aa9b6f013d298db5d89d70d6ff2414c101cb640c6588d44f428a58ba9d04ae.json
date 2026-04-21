@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:07.399Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57467562",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57467562",
+      "name": "Freinetskolan Mimer Tingshuset",
+      "contactInfo": {
+        "email": "freinetskolan@mimer.org",
+        "web": "http://www.mimer.org",
+        "telephone": "0176-55880",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Valhallagatan 1",
+            "zipCode": "76131",
+            "city": "Norrtälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.760520988510024",
+      "wgs84_Long": "18.701925555856853",
+      "sweRef_N": "6630547",
+      "sweRef_E": "707904",
+      "organisationRegistryNumber": "7696021117",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Freinetskolan Mimer ekonomisk förening",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57467562"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57467562/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-04-21T09:49:03.682Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/41690911/statistics/gr",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "schoolUnit": "41690911",
+      "specialTeacherPositions": [
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "studentsPerTeacherQuota": [
+        {
+          "value": "10,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "11,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "certifiedTeachersQuota": [
+        {
+          "value": "85,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "83,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "docLinks": null,
+      "specialEducatorsQuota": [
+        {
+          "value": "5,1",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "4,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "totalNumberOfPupils": [
+        {
+          "value": "cirka 210",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        }
+      ],
+      "ratioOfPupilsIn6thGradeWithAllSubjectsPassed": [
+        {
+          "value": null,
+          "valueType": "MISSING",
+          "timePeriod": null
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE6thGrade": [],
+      "averageResultNationalTestsSubjectENG6thGrade": [],
+      "averageResultNationalTestsSubjectMA6thGrade": [],
+      "averageResultNationalTestsSubjectSVA6thGrade": [],
+      "averageResultNationalTestsSubjectSVE9thGrade": [],
+      "averageResultNationalTestsSubjectENG9thGrade": [],
+      "averageResultNationalTestsSubjectMA9thGrade": [],
+      "averageResultNationalTestsSubjectSVA9thGrade": [],
+      "ratioOfPupilsIn9thGradeWithAllSubjectsPassed": [],
+      "averageGradesMeritRating9thGrade": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramYR": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramES": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramSAEKHU": [],
+      "ratioOfPupils9thGradeEligibleForNationalProgramNATE": [],
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v3/school-units/41690911/statistics/gr"
+        }
+      }
+    }
+  }
+}

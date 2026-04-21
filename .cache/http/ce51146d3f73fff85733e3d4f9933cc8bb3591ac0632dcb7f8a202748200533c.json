@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:48.521Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/24671487",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "24671487",
+      "name": "Kunskapsskolans Resursskola",
+      "contactInfo": {
+        "email": "info.hagersten@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se",
+        "telephone": "08-50691391",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Riksdalervägen 5",
+            "zipCode": "12932",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.297643089160076",
+      "wgs84_Long": "17.983880577163625",
+      "sweRef_N": "6577001.051",
+      "sweRef_E": "669912.241",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24671487"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24671487/statistics"
+        }
+      }
+    }
+  }
+}

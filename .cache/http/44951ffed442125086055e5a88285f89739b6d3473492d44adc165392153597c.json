@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:03.788Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/92284588",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "92284588",
+      "name": "Ekhammarskolan",
+      "contactInfo": {
+        "email": "ekhammarskolan@upplands-bro.se",
+        "web": "http://www.upplands-bro.se/barn-och-utbildning/barn-och-unga-6-16-ar/kommunala-skolor/ekhammarskolan.html",
+        "telephone": "08-58169310",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolvägen 20",
+            "zipCode": "19634",
+            "city": "Kungsängen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0139",
+      "wgs84_Lat": "59.48040269312342",
+      "wgs84_Long": "17.73753883601092",
+      "sweRef_N": "6596739",
+      "sweRef_E": "655053",
+      "organisationRegistryNumber": "2120000100",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "UPPLANDS-BRO KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/92284588"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/92284588/statistics"
+        }
+      }
+    }
+  }
+}

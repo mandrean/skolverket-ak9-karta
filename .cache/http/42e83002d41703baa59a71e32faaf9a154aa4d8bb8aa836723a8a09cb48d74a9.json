@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:16.608Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/74706113",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "74706113",
+      "name": "Resursskola Friberga",
+      "contactInfo": {
+        "email": "jenny.holmberg@danderyd.se",
+        "web": null,
+        "telephone": "08-56891565",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mörbyhöjden 24",
+            "zipCode": "18232",
+            "city": "Danderyd"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0162",
+      "wgs84_Lat": "59.39782067985211",
+      "wgs84_Long": "18.039673834427177",
+      "sweRef_N": "6588292.607",
+      "sweRef_E": "672578.618",
+      "organisationRegistryNumber": "2120000126",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "DANDERYDS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74706113"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74706113/statistics"
+        }
+      }
+    }
+  }
+}

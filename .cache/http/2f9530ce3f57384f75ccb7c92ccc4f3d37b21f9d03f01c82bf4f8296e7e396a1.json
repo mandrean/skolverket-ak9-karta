@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:46.290Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/87425546",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "87425546",
+      "name": "Kunskapsskolan Nacka",
+      "contactInfo": {
+        "email": "info.nacka@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/nacka",
+        "telephone": "073-3173440",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Helgesons väg 10",
+            "zipCode": "13137",
+            "city": "Nacka"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.30970411294903",
+      "wgs84_Long": "18.143270475454763",
+      "sweRef_N": "6578760.627",
+      "sweRef_E": "678920.814",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/87425546"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/87425546/statistics"
+        }
+      }
+    }
+  }
+}

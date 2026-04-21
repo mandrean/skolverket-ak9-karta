@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:27:00.603Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/98515782",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "98515782",
+      "name": "Ängkärrskolan i Solna",
+      "contactInfo": {
+        "email": "stiftelsen@angkarrskolan.se",
+        "web": "http://www.angkarrskolan.se",
+        "telephone": "08-12021670",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ängkärrsgatan 9",
+            "zipCode": "17170",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.35021403905662",
+      "wgs84_Long": "17.999401033760808",
+      "sweRef_N": "6582891",
+      "sweRef_E": "670532",
+      "organisationRegistryNumber": "8020174069",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN NYA ÄNGKÄRRSSKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98515782"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98515782/statistics"
+        }
+      }
+    }
+  }
+}

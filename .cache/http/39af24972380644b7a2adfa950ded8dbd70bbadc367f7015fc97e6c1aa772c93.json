@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:46.256Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/98760751",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "98760751",
+      "name": "Kristofferskolan, gr",
+      "contactInfo": {
+        "email": "info@kristofferskolan.se",
+        "web": "https://kristofferskolan.se",
+        "telephone": "08-50585800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Marklandsbacken 11",
+            "zipCode": "16836",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.33476522101174",
+      "wgs84_Long": "17.938766615222573",
+      "sweRef_N": "6581018",
+      "sweRef_E": "667162",
+      "organisationRegistryNumber": "8020018720",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN KRISTOFFERSKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98760751"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98760751/statistics"
+        }
+      }
+    }
+  }
+}

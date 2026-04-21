@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-04-21T10:27:16.946Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=0&size=50&geographicalAreaCode=0192&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "65717061",
+            "name": "Gröndalsskolan F-9",
+            "geographicalAreaCode": "0192",
+            "postCodeDistrict": "Nynäshamn",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/65717061"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/65717061/statistics"
+              }
+            }
+          },
+          {
+            "code": "68361133",
+            "name": "Vanstaskolan F-9",
+            "geographicalAreaCode": "0192",
+            "postCodeDistrict": "Ösmo",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/68361133"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/68361133/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0192&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 2,
+        "totalPages": 1,
+        "number": 0
+      }
+    }
+  }
+}

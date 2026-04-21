@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:18.321Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72378947",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72378947",
+      "name": "Vallentuna Friskola",
+      "contactInfo": {
+        "email": "camilla.stahre@vallentunafriskola.se",
+        "web": "http://www.vallentunafriskola.se",
+        "telephone": "08-51175920",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lars Hårds väg 20B",
+            "zipCode": "18641",
+            "city": "Vallentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0115",
+      "wgs84_Lat": "59.525585744347055",
+      "wgs84_Long": "18.08012060749089",
+      "sweRef_N": "6602616",
+      "sweRef_E": "674215",
+      "organisationRegistryNumber": "5565736187",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "VALLENTUNA FRISKOLA AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72378947"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72378947/statistics"
+        }
+      }
+    }
+  }
+}

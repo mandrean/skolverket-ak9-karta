@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:18.070Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/63742407",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "63742407",
+      "name": "Rosendalsskolan",
+      "contactInfo": {
+        "email": "rosendalsskolan@vallentuna.se",
+        "web": "http://www.vallentuna.se",
+        "telephone": "08-58785280",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ekebyvägen 2",
+            "zipCode": "18634",
+            "city": "Vallentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0115",
+      "wgs84_Lat": "59.54177920092868",
+      "wgs84_Long": "18.069406635668393",
+      "sweRef_N": "6604390",
+      "sweRef_E": "673526",
+      "organisationRegistryNumber": "2120000027",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "VALLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63742407"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63742407/statistics"
+        }
+      }
+    }
+  }
+}

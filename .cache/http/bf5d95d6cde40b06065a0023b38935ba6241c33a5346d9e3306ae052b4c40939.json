@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:24:38.175Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/90886859",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "90886859",
+      "name": "Utsäljeskolan",
+      "contactInfo": {
+        "email": "utsaljeskolan@huddinge.se",
+        "web": "http://www.huddinge.se/utsaljeskolan",
+        "telephone": "08-53530470",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Byggmästarvägen 227",
+            "zipCode": "14173",
+            "city": "Segeltorp"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.25993674455919",
+      "wgs84_Long": "17.966607224710263",
+      "sweRef_N": "6572761",
+      "sweRef_E": "669116",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90886859"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90886859/statistics"
+        }
+      }
+    }
+  }
+}

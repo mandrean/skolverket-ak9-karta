@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:26:49.055Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/80561156",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "80561156",
+      "name": "Skuru-Duvnäs resursskola",
+      "contactInfo": {
+        "email": "skuru-duvnasro@nacka.se",
+        "web": "nacka.se/valfard-skola/skuru-duvnasresursskola",
+        "telephone": "08-7189800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skuru skolväg 4",
+            "zipCode": "13147",
+            "city": "Nacka"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.31290521999942",
+      "wgs84_Long": "18.208036923856827",
+      "sweRef_N": "6579292.629024414",
+      "sweRef_E": "682588.444",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80561156"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80561156/statistics"
+        }
+      }
+    }
+  }
+}

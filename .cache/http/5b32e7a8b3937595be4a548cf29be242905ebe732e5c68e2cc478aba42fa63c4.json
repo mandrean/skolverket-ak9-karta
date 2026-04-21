@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:56.049Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/94943347",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "94943347",
+      "name": "S:t Eriks Katolska Skola",
+      "contactInfo": {
+        "email": "info@sterik.net",
+        "web": "http://www.sterikskatolskaskola.se",
+        "telephone": "08-12149400",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Enskedevägen 71-73",
+            "zipCode": "12232",
+            "city": "Enskede"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.284315473935614",
+      "wgs84_Long": "18.074630521630294",
+      "sweRef_N": "6575753",
+      "sweRef_E": "675146",
+      "organisationRegistryNumber": "8572015595",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN S:T ERIKS KATOLSKA SKOLA",
+      "companyForm": "Fristående",
+      "schoolOrientation": "KONFESSIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/94943347"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/94943347/statistics"
+        }
+      }
+    }
+  }
+}

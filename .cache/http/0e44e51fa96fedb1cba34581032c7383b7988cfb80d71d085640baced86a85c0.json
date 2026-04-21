@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:43.746Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/74482611",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "74482611",
+      "name": "Internationella Engelska skolan Hässelby",
+      "contactInfo": {
+        "email": "info.hasselby@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "08-52248200",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Aprikosgatan 68-74",
+            "zipCode": "16566",
+            "city": "Hässelby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.362248724251145",
+      "wgs84_Long": "17.836344205263654",
+      "sweRef_N": "6583824",
+      "sweRef_E": "661208",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74482611"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74482611/statistics"
+        }
+      }
+    }
+  }
+}

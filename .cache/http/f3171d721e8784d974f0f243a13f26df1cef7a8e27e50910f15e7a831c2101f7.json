@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-04-21T10:25:55.799Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/97686250",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "97686250",
+      "name": "Rödabergsskolan",
+      "contactInfo": {
+        "email": "rodabergsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/rodabergsskolan",
+        "telephone": "08-50844800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Upplandsgatan 100",
+            "zipCode": "11344",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.348579795254956",
+      "wgs84_Long": "18.042752963988274",
+      "sweRef_N": "6582821",
+      "sweRef_E": "673004",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97686250"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97686250/statistics"
+        }
+      }
+    }
+  }
+}

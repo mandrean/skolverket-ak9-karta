@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:45.204Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/10657244",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "10657244",
+      "name": "Skogsbacksskolan",
+      "contactInfo": {
+        "email": "skogsbacksskolan@botkyrka.se",
+        "web": "https://www.botkyrka.se/barn--utbildning/skolbarn/grundskolor-i-kommunal-regi/skogsbacksskolan.html",
+        "telephone": "070-2093846",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Odlingsvägen 36 B",
+            "zipCode": "14750",
+            "city": "Tumba"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.190298227900776",
+      "wgs84_Long": "17.841339601538966",
+      "sweRef_N": "6564699.758",
+      "sweRef_E": "662308.266",
+      "organisationRegistryNumber": "2120002882",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "BOTKYRKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10657244"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10657244/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-04-21T10:27:14.679Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/47969716",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "47969716",
+      "name": "Sigtunaskolan hum. läroverket, int gr",
+      "contactInfo": {
+        "email": "info@sshl.se",
+        "web": "http://www.sshl.se",
+        "telephone": "08-59257100",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Manfred Björkquists Allé 8",
+            "zipCode": "19331",
+            "city": "Sigtuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.614526444584705",
+      "wgs84_Long": "17.70348056775374",
+      "sweRef_N": "6611588",
+      "sweRef_E": "652517",
+      "organisationRegistryNumber": "8148002879",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "SIGTUNA SKOLSTIFTELSE",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47969716"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47969716/statistics"
+        }
+      }
+    }
+  }
+}

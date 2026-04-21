@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:23.650Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/21997077",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "21997077",
+      "name": "Viljaskolan Sollentuna",
+      "contactInfo": {
+        "email": "linda.skold@viljaskolan.se",
+        "web": "https://viljaskolan.se/viljaskolan-sollentuna/",
+        "telephone": "076-7715380",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kärleksbacken 3",
+            "zipCode": "19275",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.483062433926584",
+      "wgs84_Long": "17.930946619573565",
+      "sweRef_N": "6597502",
+      "sweRef_E": "665990",
+      "organisationRegistryNumber": "5568884240",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Viljaskolan Sollentuna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21997077"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21997077/statistics"
+        }
+      }
+    }
+  }
+}

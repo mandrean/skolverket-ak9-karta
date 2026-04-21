@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:46.041Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/52925821",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "52925821",
+      "name": "JENSEN grundskola Sickla",
+      "contactInfo": {
+        "email": "emil.burman@jenseneducation.se",
+        "web": "http://www.jensengrundskola.se/sickla",
+        "telephone": "0737-331308",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Planiavägen 15",
+            "zipCode": "13154",
+            "city": "Nacka"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.30387505788456",
+      "wgs84_Long": "18.133917253703917",
+      "sweRef_N": "6578086.9",
+      "sweRef_E": "678419.205",
+      "organisationRegistryNumber": "5566358759",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "JENSEN EDUCATION COLLEGE AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/52925821"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/52925821/statistics"
+        }
+      }
+    }
+  }
+}

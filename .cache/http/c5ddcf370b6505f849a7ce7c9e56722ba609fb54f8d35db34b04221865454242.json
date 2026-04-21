@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:50.026Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57034070",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57034070",
+      "name": "Magelungens Grundskola Södermalm",
+      "contactInfo": {
+        "email": "ki.sjoblom@magelungen.com",
+        "web": "http://www.magelungen.com",
+        "telephone": "073-5352513",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Björngårdsgatan 21",
+            "zipCode": "11852",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31551498823402",
+      "wgs84_Long": "18.06630433719254",
+      "sweRef_N": "6579203",
+      "sweRef_E": "674512",
+      "organisationRegistryNumber": "5564891447",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Magelungen Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57034070"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57034070/statistics"
+        }
+      }
+    }
+  }
+}

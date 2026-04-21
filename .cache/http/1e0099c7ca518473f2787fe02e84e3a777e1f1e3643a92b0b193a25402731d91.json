@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:00.269Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/71078874",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "71078874",
+      "name": "Fornuddens skola",
+      "contactInfo": {
+        "email": "fornudden@tyreso.se",
+        "web": "http://www.tyreso.se",
+        "telephone": "08-57827800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ängsvägen 8",
+            "zipCode": "13553",
+            "city": "Tyresö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0138",
+      "wgs84_Lat": "59.22095683203208",
+      "wgs84_Long": "18.190744868407986",
+      "sweRef_N": "6569014",
+      "sweRef_E": "682095",
+      "organisationRegistryNumber": "2120000092",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TYRESÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/71078874"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/71078874/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-04-21T10:24:29.637Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/79093755",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "79093755",
+      "name": "Internationella Engelska Skolan Järfälla",
+      "contactInfo": {
+        "email": "info.jarfalla@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "08-58430630",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hästskovägen 76",
+            "zipCode": "17665",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.42753534396891",
+      "wgs84_Long": "17.84177290487281",
+      "sweRef_N": "6591103",
+      "sweRef_E": "661206",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79093755"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79093755/statistics"
+        }
+      }
+    }
+  }
+}

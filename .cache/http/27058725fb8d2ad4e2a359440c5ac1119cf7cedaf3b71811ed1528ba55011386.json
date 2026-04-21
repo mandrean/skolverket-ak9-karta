@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:34.187Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/54847211",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "54847211",
+      "name": "Entréskolan Stockholm",
+      "contactInfo": {
+        "email": "info.stockholm@entreskolan.se",
+        "web": "http://www.entreskolan.se",
+        "telephone": "010-2070777",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lövholmsvägen 61",
+            "zipCode": "11765",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31298490628164",
+      "wgs84_Long": "18.01262388954149",
+      "sweRef_N": "6578782",
+      "sweRef_E": "671471",
+      "organisationRegistryNumber": "5568148117",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "AmiSgo AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54847211"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54847211/statistics"
+        }
+      }
+    }
+  }
+}

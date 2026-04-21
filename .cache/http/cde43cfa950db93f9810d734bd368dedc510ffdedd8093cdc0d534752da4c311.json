@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:09.317Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/34125463",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "34125463",
+      "name": "Nytorpsskolan",
+      "contactInfo": {
+        "email": "pontus.frolund@nytida.se",
+        "web": "https://nytida.se/skola/vara-skolor/nytorpsskolan/",
+        "telephone": "070-1665851",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Nytorpsvägen 5 A",
+            "zipCode": "18371",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.434923839208",
+      "wgs84_Long": "18.07666877417938",
+      "sweRef_N": "6592518",
+      "sweRef_E": "674487",
+      "organisationRegistryNumber": "5564870771",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Nytida Enigma AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34125463"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34125463/statistics"
+        }
+      }
+    }
+  }
+}

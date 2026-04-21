@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:16.857Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/13493243",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "13493243",
+      "name": "Viktor Rydbergs samskola Djursholm",
+      "contactInfo": {
+        "email": "info@vrsdjursholm.vrskolor.se",
+        "web": "http://www.vrskolor.se",
+        "telephone": "08-6222120",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Viktor Rydbergs väg 2",
+            "zipCode": "18262",
+            "city": "Djursholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0162",
+      "wgs84_Lat": "59.40260089454503",
+      "wgs84_Long": "18.082494612037898",
+      "sweRef_N": "6588936.400390625",
+      "sweRef_E": "674984.00390625",
+      "organisationRegistryNumber": "8120005650",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN VIKTOR RYDBERGS SKOLOR",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13493243"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13493243/statistics"
+        }
+      }
+    }
+  }
+}

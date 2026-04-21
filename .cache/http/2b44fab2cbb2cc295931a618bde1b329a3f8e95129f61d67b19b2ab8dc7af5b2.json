@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:50.276Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/38096510",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "38096510",
+      "name": "Magelungens Grundskola Älvsjö",
+      "contactInfo": {
+        "email": "asa.knifh@magelungen.com",
+        "web": "http://www.magelungen.com",
+        "telephone": "072-3006280",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Götalandsvägen 218",
+            "zipCode": "12544",
+            "city": "Älvsjö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.28080265753204",
+      "wgs84_Long": "18.013518427535512",
+      "sweRef_N": "6575203",
+      "sweRef_E": "671684",
+      "organisationRegistryNumber": "5564891447",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Magelungen Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38096510"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38096510/statistics"
+        }
+      }
+    }
+  }
+}

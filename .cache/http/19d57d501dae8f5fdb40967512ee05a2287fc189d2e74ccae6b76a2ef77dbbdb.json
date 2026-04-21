@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:57.305Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/53075005",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "53075005",
+      "name": "Skarpnäcks skola",
+      "contactInfo": {
+        "email": "skarpnacksskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/skarpnacks-skola",
+        "telephone": "08-50815600",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kärrtorpsvägen 95",
+            "zipCode": "12155",
+            "city": "Johanneshov"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.282083284699176",
+      "wgs84_Long": "18.113328339688632",
+      "sweRef_N": "6575607",
+      "sweRef_E": "677361",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53075005"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53075005/statistics"
+        }
+      }
+    }
+  }
+}

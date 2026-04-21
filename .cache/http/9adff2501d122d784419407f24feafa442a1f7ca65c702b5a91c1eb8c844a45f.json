@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:35.162Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/79012683",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "79012683",
+      "name": "Annerstaskolan",
+      "contactInfo": {
+        "email": "annerstaskolan@huddinge.se",
+        "web": "http://www.huddinge.se/annerstaskolan",
+        "telephone": "08-53533770",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ortopedvägen 4",
+            "zipCode": "14153",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.22267671367484",
+      "wgs84_Long": "17.94345602612301",
+      "sweRef_N": "6568556",
+      "sweRef_E": "667980",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79012683"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79012683/statistics"
+        }
+      }
+    }
+  }
+}

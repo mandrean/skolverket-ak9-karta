@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:36.668Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/54516737",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "54516737",
+      "name": "Kvarnbergsskolan",
+      "contactInfo": {
+        "email": "kvarnbergsskolan@huddinge.se",
+        "web": "http://www.huddinge.se/kvarnbergsskolan",
+        "telephone": "08-53530700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Gymnasievägen 6",
+            "zipCode": "14138",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.24203149850323",
+      "wgs84_Long": "17.999727708339364",
+      "sweRef_N": "6570853",
+      "sweRef_E": "671093",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54516737"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54516737/statistics"
+        }
+      }
+    }
+  }
+}

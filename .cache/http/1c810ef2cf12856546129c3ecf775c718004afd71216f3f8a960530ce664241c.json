@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:03.369Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/36276828",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "36276828",
+      "name": "Futuraskolan International Kottla",
+      "contactInfo": {
+        "email": "kottla@futuraskolan.se",
+        "web": "http://www.futuraskolan.se",
+        "telephone": "073-1544336",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kottlavägen 116C",
+            "zipCode": "18141",
+            "city": "Lidingö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0186",
+      "wgs84_Lat": "59.3559153874423",
+      "wgs84_Long": "18.169672509569835",
+      "sweRef_N": "6583974",
+      "sweRef_E": "680178",
+      "organisationRegistryNumber": "5566095047",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FUTURASKOLAN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/36276828"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/36276828/statistics"
+        }
+      }
+    }
+  }
+}

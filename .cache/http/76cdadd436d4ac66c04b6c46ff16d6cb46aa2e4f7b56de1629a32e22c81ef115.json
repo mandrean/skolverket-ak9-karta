@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-04-21T10:27:08.399Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/26281697",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "26281697",
+      "name": "Montessoriskolan - Gustafslund",
+      "contactInfo": {
+        "email": "rektor@montessoriskolan.nu",
+        "web": "http://www.montessoriskolan.nu",
+        "telephone": "070-6485653",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sveagatan 18",
+            "zipCode": "76144",
+            "city": "Norrtälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.754627262884405",
+      "wgs84_Long": "18.69377967127851",
+      "sweRef_N": "6629865.799972534",
+      "sweRef_E": "707483.3999938965",
+      "organisationRegistryNumber": "5562855410",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Montessori i Norrtälje AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/26281697"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/26281697/statistics"
+        }
+      }
+    }
+  }
+}

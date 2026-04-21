@@ -1,0 +1,993 @@
+{
+  "generatedAt": "2026-04-21T10:25:17.867Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=0&size=50&geographicalAreaCode=0163&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "76419481",
+            "name": "Bergtorpsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Malmö",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/76419481"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/76419481/statistics"
+              }
+            }
+          },
+          {
+            "code": "12092203",
+            "name": "Brageskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/12092203"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/12092203/statistics"
+              }
+            }
+          },
+          {
+            "code": "47462120",
+            "name": "Dibber International School Sollentuna",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/47462120"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/47462120/statistics"
+              }
+            }
+          },
+          {
+            "code": "18595907",
+            "name": "Edsbergsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/18595907"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/18595907/statistics"
+              }
+            }
+          },
+          {
+            "code": "40467992",
+            "name": "Futuraskolan International Hertig Karl",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/40467992"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/40467992/statistics"
+              }
+            }
+          },
+          {
+            "code": "47986219",
+            "name": "Futuraskolan International Rådan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/47986219"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/47986219/statistics"
+              }
+            }
+          },
+          {
+            "code": "73629371",
+            "name": "Gillbo-Gröndalsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73629371"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73629371/statistics"
+              }
+            }
+          },
+          {
+            "code": "70201551",
+            "name": "Gärdesskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/70201551"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/70201551/statistics"
+              }
+            }
+          },
+          {
+            "code": "62862066",
+            "name": "Helenelundsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/62862066"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/62862066/statistics"
+              }
+            }
+          },
+          {
+            "code": "85440729",
+            "name": "Häggvik- Skälbyskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/85440729"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/85440729/statistics"
+              }
+            }
+          },
+          {
+            "code": "85777315",
+            "name": "Mikaelskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "4"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/85777315"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/85777315/statistics"
+              }
+            }
+          },
+          {
+            "code": "15339442",
+            "name": "Runbackaskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15339442"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15339442/statistics"
+              }
+            }
+          },
+          {
+            "code": "43375546",
+            "name": "Rälsen AB åk 4-9",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/43375546"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/43375546/statistics"
+              }
+            }
+          },
+          {
+            "code": "56867397",
+            "name": "Silverbäcken Dibber",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/56867397"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/56867397/statistics"
+              }
+            }
+          },
+          {
+            "code": "69195602",
+            "name": "Silverdalsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/69195602"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/69195602/statistics"
+              }
+            }
+          },
+          {
+            "code": "39907811",
+            "name": "Sofielundsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39907811"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39907811/statistics"
+              }
+            }
+          },
+          {
+            "code": "21871265",
+            "name": "Sollentuna musikklasser",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/21871265"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/21871265/statistics"
+              }
+            }
+          },
+          {
+            "code": "83735665",
+            "name": "Stockholm International Academy Häggvik",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/83735665"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/83735665/statistics"
+              }
+            }
+          },
+          {
+            "code": "20253736",
+            "name": "Tegelhagens skola",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/20253736"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/20253736/statistics"
+              }
+            }
+          },
+          {
+            "code": "75401552",
+            "name": "Turebergsskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/75401552"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/75401552/statistics"
+              }
+            }
+          },
+          {
+            "code": "45882318",
+            "name": "Töjnaskolan",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/45882318"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/45882318/statistics"
+              }
+            }
+          },
+          {
+            "code": "15547680",
+            "name": "Vibyskolan ekonomisk förening",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15547680"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15547680/statistics"
+              }
+            }
+          },
+          {
+            "code": "21997077",
+            "name": "Viljaskolan Sollentuna",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/21997077"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/21997077/statistics"
+              }
+            }
+          },
+          {
+            "code": "58102266",
+            "name": "Vittra Sollentuna",
+            "geographicalAreaCode": "0163",
+            "postCodeDistrict": "Sollentuna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/58102266"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/58102266/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0163&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 24,
+        "totalPages": 1,
+        "number": 0
+      }
+    }
+  }
+}

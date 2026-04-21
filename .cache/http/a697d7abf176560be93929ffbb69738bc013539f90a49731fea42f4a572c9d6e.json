@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:35.947Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/42328518",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "42328518",
+      "name": "Franska Skolan/Ecole francaise",
+      "contactInfo": {
+        "email": "info@franskaskolan.se",
+        "web": "http://www.franskaskolan.se",
+        "telephone": "08-59888900",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Döbelsgatan 9",
+            "zipCode": "11140",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.338635147189336",
+      "wgs84_Long": "18.063323390584557",
+      "sweRef_N": "6581768",
+      "sweRef_E": "674224",
+      "organisationRegistryNumber": "8020061530",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN FRANSKA SKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/42328518"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/42328518/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:58.310Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57510246",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57510246",
+      "name": "Snitz Grundskola",
+      "contactInfo": {
+        "email": "info.grundskola@snitz.se",
+        "web": "https://snitz.se/grundskola/",
+        "telephone": "0768-852164",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Snickerigatan 4",
+            "zipCode": "12626",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.29960617387872",
+      "wgs84_Long": "17.99077322145647",
+      "sweRef_N": "6577237.113",
+      "sweRef_E": "670294.747",
+      "organisationRegistryNumber": "5565042255",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Swedish Education Group AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57510246"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57510246/statistics"
+        }
+      }
+    }
+  }
+}

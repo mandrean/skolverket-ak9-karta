@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:54.991Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/30255409",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "30255409",
+      "name": "JENSEN grundskola Tungelsta",
+      "contactInfo": {
+        "email": "michelle.naslund@jenseneducation.se",
+        "web": "http://www.jensengrundskola.se/tungelsta",
+        "telephone": "073-7733234",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lillgårdsvägen 3",
+            "zipCode": "13758",
+            "city": "Tungelsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.10049029143245",
+      "wgs84_Long": "18.04627235461666",
+      "sweRef_N": "6555222.888735482",
+      "sweRef_E": "674466.3147979992",
+      "organisationRegistryNumber": "5566358759",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "JENSEN EDUCATION COLLEGE AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/30255409"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/30255409/statistics"
+        }
+      }
+    }
+  }
+}

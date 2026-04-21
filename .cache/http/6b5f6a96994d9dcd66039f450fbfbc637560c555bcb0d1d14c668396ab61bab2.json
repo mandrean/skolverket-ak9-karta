@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-04-21T10:26:02.572Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/53175499",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "53175499",
+      "name": "Tyska skolan",
+      "contactInfo": {
+        "email": "dss@tyskaskolan.se",
+        "web": "http://www.tyskaskolan.se",
+        "telephone": "08-40919400",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Karlavägen 25",
+            "zipCode": "11431",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34210792390916",
+      "wgs84_Long": "18.07002246233443",
+      "sweRef_N": "6582172",
+      "sweRef_E": "674587",
+      "organisationRegistryNumber": "8020056530",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "TYSKA SKOLFÖRENINGEN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gy",
+          "displayName": "Gymnasieskolan",
+          "schoolYears": []
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53175499"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53175499/statistics"
+        }
+      }
+    }
+  }
+}

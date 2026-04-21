@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-04-21T10:26:57.591Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=0&size=50&geographicalAreaCode=0184&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "84585645",
+            "name": "Hagaskolan",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/84585645"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/84585645/statistics"
+              }
+            }
+          },
+          {
+            "code": "53259263",
+            "name": "Ingridskolan, grundskola",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/53259263"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/53259263/statistics"
+              }
+            }
+          },
+          {
+            "code": "12259212",
+            "name": "Internationella Engelska Skolan Solna",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/12259212"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/12259212/statistics"
+              }
+            }
+          },
+          {
+            "code": "48791751",
+            "name": "Magelungens Grundskola Solna",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48791751"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48791751/statistics"
+              }
+            }
+          },
+          {
+            "code": "27323097",
+            "name": "Noblaskolan Solna",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/27323097"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/27323097/statistics"
+              }
+            }
+          },
+          {
+            "code": "13384795",
+            "name": "Raoul Wallenbergskolan Bagartorp",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/13384795"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/13384795/statistics"
+              }
+            }
+          },
+          {
+            "code": "33951941",
+            "name": "Råsunda Centralskola",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/33951941"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/33951941/statistics"
+              }
+            }
+          },
+          {
+            "code": "89893224",
+            "name": "Svedenskolan Bergshamra",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/89893224"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/89893224/statistics"
+              }
+            }
+          },
+          {
+            "code": "73581523",
+            "name": "Tallbackaskolan",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73581523"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/73581523/statistics"
+              }
+            }
+          },
+          {
+            "code": "46706680",
+            "name": "Ulriksdalsskolan",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/46706680"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/46706680/statistics"
+              }
+            }
+          },
+          {
+            "code": "48760074",
+            "name": "Vittra Frösunda",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48760074"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48760074/statistics"
+              }
+            }
+          },
+          {
+            "code": "98515782",
+            "name": "Ängkärrskolan i Solna",
+            "geographicalAreaCode": "0184",
+            "postCodeDistrict": "Solna",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/98515782"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/98515782/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0184&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 12,
+        "totalPages": 1,
+        "number": 0
+      }
+    }
+  }
+}

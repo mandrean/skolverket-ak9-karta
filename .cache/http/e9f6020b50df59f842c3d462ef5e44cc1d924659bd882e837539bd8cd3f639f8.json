@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-04-21T10:24:56.498Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/38975788",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "38975788",
+      "name": "Tungelsta skola",
+      "contactInfo": {
+        "email": "tungelstaskola@haninge.se",
+        "web": "http://haninge.se/forskola-och-skola/grundskola/",
+        "telephone": "08-6068208",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tungelstavägen 135",
+            "zipCode": "13755",
+            "city": "Tungelsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.106087939713056",
+      "wgs84_Long": "18.044824524007396",
+      "sweRef_N": "6555842",
+      "sweRef_E": "674355",
+      "organisationRegistryNumber": "2120000084",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HANINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38975788"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38975788/statistics"
+        }
+      }
+    }
+  }
+}

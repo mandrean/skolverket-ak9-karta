@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:21.841Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/82624830",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "82624830",
+      "name": "Solskiftesskolan",
+      "contactInfo": {
+        "email": "solskiftesskolan@osteraker.se",
+        "web": "http://www.osteraker.se",
+        "telephone": "08-54081871",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Solskiftesvägen 8",
+            "zipCode": "18433",
+            "city": "Åkersberga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0117",
+      "wgs84_Lat": "59.501615179867265",
+      "wgs84_Long": "18.303240536553893",
+      "sweRef_N": "6600555",
+      "sweRef_E": "686961",
+      "organisationRegistryNumber": "2120002890",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "ÖSTERÅKERS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82624830"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82624830/statistics"
+        }
+      }
+    }
+  }
+}

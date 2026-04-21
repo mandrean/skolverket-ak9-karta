@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:11.324Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/32231541",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "32231541",
+      "name": "Täby Friskola-Enhagen",
+      "contactInfo": {
+        "email": "info@tabyfriskola.se",
+        "web": "http://www.tabyfriskola.se",
+        "telephone": "08-7921020",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Enhagsslingan 23-25",
+            "zipCode": "18740",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.43919994995622",
+      "wgs84_Long": "18.035278917329816",
+      "sweRef_N": "6592886",
+      "sweRef_E": "672119",
+      "organisationRegistryNumber": "5565998860",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "TÄBY FRISKOLA AKTIEBOLAG",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/32231541"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/32231541/statistics"
+        }
+      }
+    }
+  }
+}

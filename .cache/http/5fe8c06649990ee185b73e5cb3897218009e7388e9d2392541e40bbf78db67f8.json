@@ -1,0 +1,492 @@
+{
+  "generatedAt": "2026-04-21T10:23:33.890Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=0&size=50&geographicalAreaCode=0114&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "80509560",
+            "name": "Engelska skolan Upplands Väsby",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/80509560"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/80509560/statistics"
+              }
+            }
+          },
+          {
+            "code": "44227469",
+            "name": "Grimstaskolan",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              },
+              {
+                "code": "gran",
+                "displayName": "Anpassad grundskola",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/44227469"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/44227469/statistics"
+              }
+            }
+          },
+          {
+            "code": "24402537",
+            "name": "Internationella Engelska Skolan Upplands Väsby",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/24402537"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/24402537/statistics"
+              }
+            }
+          },
+          {
+            "code": "60211862",
+            "name": "Lärande Grundskola Vira",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/60211862"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/60211862/statistics"
+              }
+            }
+          },
+          {
+            "code": "26480342",
+            "name": "Nordanskolan",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/26480342"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/26480342/statistics"
+              }
+            }
+          },
+          {
+            "code": "77624936",
+            "name": "Runby skola",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/77624936"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/77624936/statistics"
+              }
+            }
+          },
+          {
+            "code": "97762139",
+            "name": "Sandbergska skolan",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/97762139"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/97762139/statistics"
+              }
+            }
+          },
+          {
+            "code": "63150475",
+            "name": "Sjumilaskolan",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/63150475"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/63150475/statistics"
+              }
+            }
+          },
+          {
+            "code": "68403656",
+            "name": "Sverigefinska skolan i Upplands Väsby",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/68403656"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/68403656/statistics"
+              }
+            }
+          },
+          {
+            "code": "49021135",
+            "name": "Södervikskolan AB",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/49021135"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/49021135/statistics"
+              }
+            }
+          },
+          {
+            "code": "24374886",
+            "name": "Vittra Väsby",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/24374886"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/24374886/statistics"
+              }
+            }
+          },
+          {
+            "code": "31018677",
+            "name": "Väsby skola",
+            "geographicalAreaCode": "0114",
+            "postCodeDistrict": "Upplands Väsby",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/31018677"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/31018677/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0114&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 12,
+        "totalPages": 1,
+        "number": 0
+      }
+    }
+  }
+}

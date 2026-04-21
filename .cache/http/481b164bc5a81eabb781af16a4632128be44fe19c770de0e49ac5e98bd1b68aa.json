@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-04-21T10:24:36.164Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/22127801",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "22127801",
+      "name": "Internationella Engelska Skolan Länna",
+      "contactInfo": {
+        "email": "info.lanna@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "070-9461419",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lunnarevägen 7",
+            "zipCode": "14252",
+            "city": "Skogås"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.213208389775076",
+      "wgs84_Long": "18.13170934230982",
+      "sweRef_N": "6567992",
+      "sweRef_E": "678768",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22127801"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22127801/statistics"
+        }
+      }
+    }
+  }
+}

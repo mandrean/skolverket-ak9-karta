@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:54.741Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/17957898",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "17957898",
+      "name": "Innovitaskolan Rudan",
+      "contactInfo": {
+        "email": "rudan@innovitaskolan.se",
+        "web": "https://innovitaskolan.se/rudan/",
+        "telephone": "08-146660",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Bodekulls väg 1",
+            "zipCode": "13636",
+            "city": "Handen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.16049903040208",
+      "wgs84_Long": "18.132604646112764",
+      "sweRef_N": "6562129.184552762",
+      "sweRef_E": "679094.7681788543",
+      "organisationRegistryNumber": "5560354309",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "AcadeMedia Grundskolor AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17957898"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17957898/statistics"
+        }
+      }
+    }
+  }
+}

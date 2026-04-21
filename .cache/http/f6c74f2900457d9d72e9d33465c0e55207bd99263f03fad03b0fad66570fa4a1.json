@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:26:58.094Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/53259263",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "53259263",
+      "name": "Ingridskolan, grundskola",
+      "contactInfo": {
+        "email": "info@ingridskolan.se",
+        "web": "http://www.ingridskolan.se",
+        "telephone": "08-272623",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hjortstigen 1",
+            "zipCode": "17071",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.38243066385045",
+      "wgs84_Long": "18.031621255538866",
+      "sweRef_N": "6586559.112509251",
+      "sweRef_E": "672199.6999969482",
+      "organisationRegistryNumber": "5566222013",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "INGRIDSKOLAN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53259263"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/53259263/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:53.288Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72584192",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72584192",
+      "name": "Nya Enskede skola",
+      "contactInfo": {
+        "email": "enskedeskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/enskede-skola",
+        "telephone": "08-50838350",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Drivhusvägen 4",
+            "zipCode": "12048",
+            "city": "Enskede gård"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.28704463626311",
+      "wgs84_Long": "18.074232317107715",
+      "sweRef_N": "6576055.651",
+      "sweRef_E": "675109.304",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72584192"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72584192/statistics"
+        }
+      }
+    }
+  }
+}

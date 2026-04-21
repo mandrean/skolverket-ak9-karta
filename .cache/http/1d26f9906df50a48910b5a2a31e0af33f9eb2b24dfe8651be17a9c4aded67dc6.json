@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:26.625Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/88283203",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "88283203",
+      "name": "Ösbyskolan",
+      "contactInfo": {
+        "email": "osbyskolan@varmdo.se",
+        "web": "http://www.varmdo.se",
+        "telephone": "08-57048804",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ösby skolväg 4",
+            "zipCode": "13443",
+            "city": "Gustavsberg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0120",
+      "wgs84_Lat": "59.31817931233838",
+      "wgs84_Long": "18.41662923039464",
+      "sweRef_N": "6580470",
+      "sweRef_E": "694424",
+      "organisationRegistryNumber": "2120000035",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "VÄRMDÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/88283203"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/88283203/statistics"
+        }
+      }
+    }
+  }
+}

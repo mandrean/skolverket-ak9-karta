@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:07.900Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72471883",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72471883",
+      "name": "Länna skola",
+      "contactInfo": {
+        "email": "lannarialaenheten@norrtalje.se",
+        "web": "http://www.norrtalje.se",
+        "telephone": "0176-284141",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Länna skolväg 23",
+            "zipCode": "76111",
+            "city": "Bergshamra"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.63962620444938",
+      "wgs84_Long": "18.655636070344364",
+      "sweRef_N": "6616953",
+      "sweRef_E": "706048",
+      "organisationRegistryNumber": "2120000217",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NORRTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72471883"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72471883/statistics"
+        }
+      }
+    }
+  }
+}

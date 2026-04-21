@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-04-21T09:49:56.519Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/44524062/statistics/gr",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "schoolUnit": "44524062",
+      "specialTeacherPositions": [
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "studentsPerTeacherQuota": [
+        {
+          "value": "12,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "12,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "12,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "12,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "certifiedTeachersQuota": [
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "docLinks": null,
+      "specialEducatorsQuota": [
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2025/26"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "*",
+          "valueType": "TEACHERS_EXCLUDED_DUE_TO_NO_REQUIRED_LEGITIMATION",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "totalNumberOfPupils": [
+        {
+          "value": "cirka 290",
+          "valueType": "EXISTS",
+          "timePeriod": "2025/26"
+        }
+      ],
+      "ratioOfPupilsIn6thGradeWithAllSubjectsPassed": [
+        {
+          "value": "66,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE6thGrade": [
+        {
+          "value": "14,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "12,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "averageResultNationalTestsSubjectENG6thGrade": [
+        {
+          "value": "17,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "14,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "17,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "averageResultNationalTestsSubjectMA6thGrade": [
+        {
+          "value": "12,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "9,3",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "10,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVA6thGrade": [
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2024/25"
+        },
+        {
+          "value": "5,8",
+          "valueType": "EXISTS",
+          "timePeriod": "2023/24"
+        },
+        {
+          "value": "..",
+          "valueType": "OMITTED_DUE_TO_BASED_ON_FEW_PUPILS",
+          "timePeriod": "2022/23"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVE9thGrade": [
+        {
+          "value": "15,2",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageResultNationalTestsSubjectENG9thGrade": [
+        {
+          "value": "16,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageResultNationalTestsSubjectMA9thGrade": [
+        {
+          "value": "12,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageResultNationalTestsSubjectSVA9thGrade": [
+        {
+          "value": "10,7",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "ratioOfPupilsIn9thGradeWithAllSubjectsPassed": [
+        {
+          "value": "75,9",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "averageGradesMeritRating9thGrade": [
+        {
+          "value": "259,4",
+          "valueType": "EXISTS",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramYR": [
+        {
+          "value": "~100",
+          "valueType": "ROUNDED_OFF_DUE_TO_FEW_PUPILS_NOT_ELIGIBLE",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramES": [
+        {
+          "value": "~100",
+          "valueType": "ROUNDED_OFF_DUE_TO_FEW_PUPILS_NOT_ELIGIBLE",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramSAEKHU": [
+        {
+          "value": "~100",
+          "valueType": "ROUNDED_OFF_DUE_TO_FEW_PUPILS_NOT_ELIGIBLE",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "ratioOfPupils9thGradeEligibleForNationalProgramNATE": [
+        {
+          "value": "~100",
+          "valueType": "ROUNDED_OFF_DUE_TO_FEW_PUPILS_NOT_ELIGIBLE",
+          "timePeriod": "2024/25"
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v3/school-units/44524062/statistics/gr"
+        }
+      }
+    }
+  }
+}

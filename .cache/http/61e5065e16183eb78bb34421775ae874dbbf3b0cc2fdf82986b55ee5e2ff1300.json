@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:23.901Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/58102266",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "58102266",
+      "name": "Vittra Sollentuna",
+      "contactInfo": {
+        "email": "sollentuna@vittra.se",
+        "web": "http://www.vittra.se/sollentuna",
+        "telephone": "08-6253331",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sollentunavägen 189",
+            "zipCode": "19135",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.432570209332354",
+      "wgs84_Long": "17.949365115770746",
+      "sweRef_N": "6591929",
+      "sweRef_E": "667282",
+      "organisationRegistryNumber": "5564586716",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Vittraskolorna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58102266"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58102266/statistics"
+        }
+      }
+    }
+  }
+}

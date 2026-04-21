@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:23:36.326Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/49021135",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "49021135",
+      "name": "Södervikskolan AB",
+      "contactInfo": {
+        "email": "info@sodervikskolan.se",
+        "web": "http://www.sodervikskolan.se",
+        "telephone": "08-41062950",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Söderviksvägen 1",
+            "zipCode": "19454",
+            "city": "Upplands Väsby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0114",
+      "wgs84_Lat": "59.523896334106",
+      "wgs84_Long": "17.947365014417525",
+      "sweRef_N": "6602087.424",
+      "sweRef_E": "666717.832",
+      "organisationRegistryNumber": "5567220347",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Södervikskolan AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/49021135"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/49021135/statistics"
+        }
+      }
+    }
+  }
+}

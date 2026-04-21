@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:07.306Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/24142153",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "24142153",
+      "name": "Futuraskolan International Bergtorp",
+      "contactInfo": {
+        "email": "bergtorp@futuraskolan.se",
+        "web": "http://www.futuraskolan.se",
+        "telephone": "072-1884666",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Viggbyholmsvägen 59",
+            "zipCode": "18369",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.447232471807276",
+      "wgs84_Long": "18.102405627496626",
+      "sweRef_N": "6593955.5",
+      "sweRef_E": "675882",
+      "organisationRegistryNumber": "5566095047",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FUTURASKOLAN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24142153"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24142153/statistics"
+        }
+      }
+    }
+  }
+}

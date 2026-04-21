@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:45.534Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/44373961",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "44373961",
+      "name": "Idunskolan Östra Stockholms Waldorfskola",
+      "contactInfo": {
+        "email": "kansli@idunskolan.se",
+        "web": "http://www.idunskolan.se",
+        "telephone": "08-7478110",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Velamsundsvägen 1",
+            "zipCode": "13236",
+            "city": "Saltsjö-Boo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.333361486537626",
+      "wgs84_Long": "18.31456967490442",
+      "sweRef_N": "6581865.69921875",
+      "sweRef_E": "688535.291015625",
+      "organisationRegistryNumber": "8024782230",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "IDUNSTIFTELSEN FÖR WALDORFPEDAGOGIK",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/44373961"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/44373961/statistics"
+        }
+      }
+    }
+  }
+}

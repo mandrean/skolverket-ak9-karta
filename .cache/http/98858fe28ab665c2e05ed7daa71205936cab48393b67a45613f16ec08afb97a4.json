@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:55.996Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/10035236",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "10035236",
+      "name": "Söderbymalmsskolan",
+      "contactInfo": {
+        "email": "soderbymalmsskolan@haninge.se",
+        "web": "http://haninge.se/forskola-och-skola/grundskola/",
+        "telephone": "08-6068875",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Marinens väg 30",
+            "zipCode": "13640",
+            "city": "Handen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.16286460429895",
+      "wgs84_Long": "18.13431274721177",
+      "sweRef_N": "6562397",
+      "sweRef_E": "679180",
+      "organisationRegistryNumber": "2120000084",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HANINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10035236"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10035236/statistics"
+        }
+      }
+    }
+  }
+}

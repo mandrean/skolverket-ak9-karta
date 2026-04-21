@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:26:03.827Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/86758230",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "86758230",
+      "name": "Viktor Rydbergs skola Jarlaplan",
+      "contactInfo": {
+        "email": "info@vrsjarlaplan.vrskolor.se",
+        "web": "http://www.vrskolor.se",
+        "telephone": "08-6222105",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kungstensgatan 6",
+            "zipCode": "11425",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.343376798659726",
+      "wgs84_Long": "18.06479350683015",
+      "sweRef_N": "6582299.499",
+      "sweRef_E": "674283.271",
+      "organisationRegistryNumber": "8120005650",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN VIKTOR RYDBERGS SKOLOR",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/86758230"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/86758230/statistics"
+        }
+      }
+    }
+  }
+}

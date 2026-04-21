@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:33.934Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/92750123",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "92750123",
+      "name": "Enskilda gymnasiet, gr",
+      "contactInfo": {
+        "email": "Info@enskildagymnasiet.se",
+        "web": "http://www.enskildagymnasiet.se",
+        "telephone": "08-4112060",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tegnérlunden 5",
+            "zipCode": "11161",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.33787621125285",
+      "wgs84_Long": "18.055462501310295",
+      "sweRef_N": "6581663",
+      "sweRef_E": "673781",
+      "organisationRegistryNumber": "8020126531",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "ENSKILDA GYMNASIET",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/92750123"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/92750123/statistics"
+        }
+      }
+    }
+  }
+}

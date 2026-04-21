@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:44.749Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/13582062",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "13582062",
+      "name": "Järvaskolan",
+      "contactInfo": {
+        "email": "info@jarvaskolan.se",
+        "web": "http://www.jarvaskolan.se",
+        "telephone": "08-55115591",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Isafjordsgatan 30 C",
+            "zipCode": "16440",
+            "city": "Kista"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.406208911580975",
+      "wgs84_Long": "17.949627290673245",
+      "sweRef_N": "6588996",
+      "sweRef_E": "667427",
+      "organisationRegistryNumber": "5569572315",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Järvaskolan AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13582062"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13582062/statistics"
+        }
+      }
+    }
+  }
+}

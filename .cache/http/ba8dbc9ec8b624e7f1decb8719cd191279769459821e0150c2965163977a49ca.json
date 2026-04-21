@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:03.537Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/16983719",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "16983719",
+      "name": "Broskolan",
+      "contactInfo": {
+        "email": "broskolan@upplands-bro.se",
+        "web": "http://www.upplands-bro.se/barn-och-utbildning/barn-och-unga-6-16-ar/kommunala-skolor/broskolan.html",
+        "telephone": "08-58169400",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Blomstervägen 4",
+            "zipCode": "19731",
+            "city": "Bro"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0139",
+      "wgs84_Lat": "59.51632968092047",
+      "wgs84_Long": "17.644304973702138",
+      "sweRef_N": "6600524",
+      "sweRef_E": "649615",
+      "organisationRegistryNumber": "2120000100",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "UPPLANDS-BRO KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16983719"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16983719/statistics"
+        }
+      }
+    }
+  }
+}

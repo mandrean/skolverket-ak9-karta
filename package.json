@@ -1,0 +1,16 @@
+{
+  "name": "skolverket-ak9-karta",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Statisk karta över grundskolor med slutbetyg i åk 9 i Stockholms län. Data byggs separat från Skolverkets API till en JSON-fil.",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build:data:sample": "USE_SAMPLE_DATA=1 node scripts/build-data.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check scripts/build-data.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

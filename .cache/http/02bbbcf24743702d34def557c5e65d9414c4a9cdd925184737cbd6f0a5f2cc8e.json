@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:10.320Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/83454509",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "83454509",
+      "name": "Skarpängsskolan",
+      "contactInfo": {
+        "email": "skarpangsskolan@taby.se",
+        "web": "http://www.taby.se/skarpangsskolan",
+        "telephone": "08-55558301",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ljungmyrsvägen 20-24",
+            "zipCode": "18746",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.4454354448052",
+      "wgs84_Long": "18.032997013924795",
+      "sweRef_N": "6593574",
+      "sweRef_E": "671958",
+      "organisationRegistryNumber": "2120000118",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TÄBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83454509"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83454509/statistics"
+        }
+      }
+    }
+  }
+}

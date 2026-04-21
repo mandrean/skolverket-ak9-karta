@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:39.212Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/69266159",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "69266159",
+      "name": "Hjulsta grundskola F-9",
+      "contactInfo": {
+        "email": "hjulstagrundskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/hjulsta-grundskola",
+        "telephone": "08-50841340",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hjulsta Backar 6",
+            "zipCode": "16365",
+            "city": "Spånga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.396646432050446",
+      "wgs84_Long": "17.889082514369306",
+      "sweRef_N": "6587781",
+      "sweRef_E": "664038",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69266159"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69266159/statistics"
+        }
+      }
+    }
+  }
+}

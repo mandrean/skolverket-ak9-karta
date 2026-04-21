@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:28.920Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72627865",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72627865",
+      "name": "Alviksskolan",
+      "contactInfo": {
+        "email": "alviksskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/alviksskolan/",
+        "telephone": "08-50807100",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tranebergsvägen 73",
+            "zipCode": "16745",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.33505414619185",
+      "wgs84_Long": "17.97433701582125",
+      "sweRef_N": "6581140",
+      "sweRef_E": "669183",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72627865"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72627865/statistics"
+        }
+      }
+    }
+  }
+}

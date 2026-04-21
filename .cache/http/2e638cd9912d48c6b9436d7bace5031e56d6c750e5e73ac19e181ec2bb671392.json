@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:46.507Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/23066257",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "23066257",
+      "name": "Kulturama gr. Hammarby Sjöstad",
+      "contactInfo": {
+        "email": "info@kulturama.se",
+        "web": "http://www.kulturama.se",
+        "telephone": "010-1576100",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Virkesvägen 21",
+            "zipCode": "10432",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.30174963627434",
+      "wgs84_Long": "18.097730399365553",
+      "sweRef_N": "6577754",
+      "sweRef_E": "676371",
+      "organisationRegistryNumber": "8020060524",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "MEDBORGARSKOLAN STOCKHOLMSREGIONEN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23066257"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23066257/statistics"
+        }
+      }
+    }
+  }
+}

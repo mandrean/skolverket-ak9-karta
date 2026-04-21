@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:49.274Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72509254",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72509254",
+      "name": "Lunaskolan Bromma",
+      "contactInfo": {
+        "email": "lunaskolanbromma@up.se",
+        "web": "https://www.up.se/lunaskolanbromma/",
+        "telephone": "010-1401220",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Johannesfredsvägen 43",
+            "zipCode": "16868",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34733003550355",
+      "wgs84_Long": "17.97219153485303",
+      "sweRef_N": "6582500.666671753",
+      "sweRef_E": "669000",
+      "organisationRegistryNumber": "5564715729",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Utvecklingspedagogik Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72509254"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72509254/statistics"
+        }
+      }
+    }
+  }
+}

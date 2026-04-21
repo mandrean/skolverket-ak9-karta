@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:45.787Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/74358019",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "74358019",
+      "name": "Internationella Engelska Skolan Nacka",
+      "contactInfo": {
+        "email": "info.nacka@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "08-56296900",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Augustendalsvägen 1",
+            "zipCode": "13152",
+            "city": "Nacka Strand"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.314982471229705",
+      "wgs84_Long": "18.16109444308624",
+      "sweRef_N": "6579396",
+      "sweRef_E": "679907",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74358019"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/74358019/statistics"
+        }
+      }
+    }
+  }
+}

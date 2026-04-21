@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:21.390Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56867397",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56867397",
+      "name": "Silverbäcken Dibber",
+      "contactInfo": {
+        "email": "eva.ulmandereriksson@dibber.se",
+        "web": "https://dibber.se/skola/silverbacken-dibber/",
+        "telephone": "0765-016444",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Silverbäcksvägen 1",
+            "zipCode": "19138",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.40051011179217",
+      "wgs84_Long": "17.987212934767907",
+      "sweRef_N": "6588457",
+      "sweRef_E": "669588",
+      "organisationRegistryNumber": "5566096516",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Dibber Inspira AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56867397"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56867397/statistics"
+        }
+      }
+    }
+  }
+}

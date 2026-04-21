@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-04-21T10:25:18.867Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/18595907",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "18595907",
+      "name": "Edsbergsskolan",
+      "contactInfo": {
+        "email": "mikael.marffy@sollentuna.se",
+        "web": "http://www.sollentuna.se/sv/uweb/edsbergsskolan/",
+        "telephone": "08-59477930",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Edsbergs Torg 5",
+            "zipCode": "19252",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.444866544902865",
+      "wgs84_Long": "17.965064121671123",
+      "sweRef_N": "6593337",
+      "sweRef_E": "668111",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/18595907"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/18595907/statistics"
+        }
+      }
+    }
+  }
+}

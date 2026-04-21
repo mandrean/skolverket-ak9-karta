@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:11.073Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/84230778",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "84230778",
+      "name": "Svalnäs skola",
+      "contactInfo": {
+        "email": "info@svalnas.se",
+        "web": "http://www.svalnas.se",
+        "telephone": "08-54470280",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sågtorpsvägen 81",
+            "zipCode": "18330",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.433407664762804",
+      "wgs84_Long": "18.055909902217596",
+      "sweRef_N": "6592295",
+      "sweRef_E": "673318",
+      "organisationRegistryNumber": "7696236806",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Svalnäs, ekonomisk förening",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84230778"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84230778/statistics"
+        }
+      }
+    }
+  }
+}

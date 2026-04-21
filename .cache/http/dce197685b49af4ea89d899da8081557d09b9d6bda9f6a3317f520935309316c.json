@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:47.769Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/63954028",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "63954028",
+      "name": "Kunskapsskolan Fruängen",
+      "contactInfo": {
+        "email": "info.fruangen@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/fruangen",
+        "telephone": "073-3137123",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ellen Keys gata 2-4",
+            "zipCode": "12952",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.28550859345335",
+      "wgs84_Long": "17.966521705411665",
+      "sweRef_N": "6575606.519",
+      "sweRef_E": "668984.359",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63954028"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63954028/statistics"
+        }
+      }
+    }
+  }
+}

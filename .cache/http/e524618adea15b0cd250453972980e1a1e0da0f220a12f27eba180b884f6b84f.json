@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:23:36.830Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/31018677",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "31018677",
+      "name": "Väsby skola",
+      "contactInfo": {
+        "email": "vasbyskola@upplandsvasby.se",
+        "web": "http://www.upplandsvasby.se/vasbyskola",
+        "telephone": "08-59097346",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolvägen 11",
+            "zipCode": "19476",
+            "city": "Upplands Väsby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0114",
+      "wgs84_Lat": "59.52110361800093",
+      "wgs84_Long": "17.909809308786304",
+      "sweRef_N": "6601683",
+      "sweRef_E": "664608",
+      "organisationRegistryNumber": "2120000019",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "UPPLANDS VÄSBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/31018677"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/31018677/statistics"
+        }
+      }
+    }
+  }
+}

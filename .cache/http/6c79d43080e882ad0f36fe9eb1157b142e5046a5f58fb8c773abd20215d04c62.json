@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-04-21T10:24:38.928Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/39229061",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "39229061",
+      "name": "Östra grundskolan",
+      "contactInfo": {
+        "email": "ostragrundskolan@huddinge.se",
+        "web": "http://www.huddinge.se/ostragrundskolan",
+        "telephone": "08-53534944",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Österleden 13",
+            "zipCode": "14230",
+            "city": "Skogås"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.2162966707777",
+      "wgs84_Long": "18.150800301448424",
+      "sweRef_N": "6568387",
+      "sweRef_E": "679841",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39229061"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39229061/statistics"
+        }
+      }
+    }
+  }
+}

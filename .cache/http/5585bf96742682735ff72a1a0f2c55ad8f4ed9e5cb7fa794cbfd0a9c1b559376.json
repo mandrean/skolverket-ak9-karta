@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-04-21T10:23:34.322Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/44227469",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "44227469",
+      "name": "Grimstaskolan",
+      "contactInfo": {
+        "email": "grimsta@upplandsvasby.se",
+        "web": "http://www.upplandsvasby.se/grimstaskolan",
+        "telephone": "08-59097328",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Vårvägen 1",
+            "zipCode": "19464",
+            "city": "Upplands Väsby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0114",
+      "wgs84_Lat": "59.50085523007776",
+      "wgs84_Long": "17.94767253827566",
+      "sweRef_N": "6599524",
+      "sweRef_E": "666849",
+      "organisationRegistryNumber": "2120000019",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "UPPLANDS VÄSBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/44227469"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/44227469/statistics"
+        }
+      }
+    }
+  }
+}

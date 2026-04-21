@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-04-21T10:25:06.300Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/99640618",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "99640618",
+      "name": "Lillhagaskolan",
+      "contactInfo": {
+        "email": "kommun@nykvarn.se",
+        "web": "http://www.nykvarn.se",
+        "telephone": "08-55501000",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lillhagavägen 2",
+            "zipCode": "15531",
+            "city": "Nykvarn"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0140",
+      "wgs84_Lat": "59.17681532700641",
+      "wgs84_Long": "17.423122660793425",
+      "sweRef_N": "6562256",
+      "sweRef_E": "638480",
+      "organisationRegistryNumber": "2120002999",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NYKVARNS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/99640618"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/99640618/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:04.129Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/20137688",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "20137688",
+      "name": "Käppala skola",
+      "contactInfo": {
+        "email": "monica.lemmini@lidingo.se",
+        "web": "https://www.lidingo.se/kappalaskola",
+        "telephone": "08-7316555",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Killingevägen 13A",
+            "zipCode": "18167",
+            "city": "Lidingö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0186",
+      "wgs84_Lat": "59.353545833454234",
+      "wgs84_Long": "18.20828448647396",
+      "sweRef_N": "6583815.492",
+      "sweRef_E": "682384.492",
+      "organisationRegistryNumber": "2120000191",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "LIDINGÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/20137688"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/20137688/statistics"
+        }
+      }
+    }
+  }
+}

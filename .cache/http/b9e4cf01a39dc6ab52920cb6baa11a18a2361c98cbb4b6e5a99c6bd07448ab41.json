@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:40.223Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/79626756",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "79626756",
+      "name": "Hästhagsskolan",
+      "contactInfo": {
+        "email": "hasthagsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/hasthagsskolan",
+        "telephone": "08-50847528",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Torsbygatan 31c",
+            "zipCode": "12341",
+            "city": "Farsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.24326158469083",
+      "wgs84_Long": "18.10126446302951",
+      "sweRef_N": "6571254.972",
+      "sweRef_E": "676875.24",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79626756"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79626756/statistics"
+        }
+      }
+    }
+  }
+}

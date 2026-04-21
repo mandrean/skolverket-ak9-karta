@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:10.571Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/69088221",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "69088221",
+      "name": "Skolhagenskolan",
+      "contactInfo": {
+        "email": "skolhagenskolan@taby.se",
+        "web": "http://www.taby.se/skolhagenskolan",
+        "telephone": "08-55558600",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolhagsvägen 1",
+            "zipCode": "18777",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.4924326612011",
+      "wgs84_Long": "18.0672550075961",
+      "sweRef_N": "6598893",
+      "sweRef_E": "673658",
+      "organisationRegistryNumber": "2120000118",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TÄBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69088221"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69088221/statistics"
+        }
+      }
+    }
+  }
+}

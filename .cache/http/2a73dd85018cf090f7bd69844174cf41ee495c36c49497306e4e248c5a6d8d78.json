@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-04-21T10:25:59.060Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/34671128",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "34671128",
+      "name": "Solbergaskolan",
+      "contactInfo": {
+        "email": "solbergaskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/solbergaskolan",
+        "telephone": "08-50821636",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lerkrogsvägen 28",
+            "zipCode": "12679",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.290292386641624",
+      "wgs84_Long": "18.005733404699896",
+      "sweRef_N": "6576239",
+      "sweRef_E": "671193",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34671128"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34671128/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:53.039Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/83828066",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "83828066",
+      "name": "Nya Elementar",
+      "contactInfo": {
+        "email": "nyaelementarskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/nya-elementar",
+        "telephone": "08-50807700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Bergslagsvägen 80",
+            "zipCode": "16855",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34263016495524",
+      "wgs84_Long": "17.92628790063256",
+      "sweRef_N": "6581862",
+      "sweRef_E": "666414",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83828066"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83828066/statistics"
+        }
+      }
+    }
+  }
+}

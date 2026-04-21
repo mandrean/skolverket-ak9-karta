@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:45.001Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/23617768",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "23617768",
+      "name": "Katarina Norra skola",
+      "contactInfo": {
+        "email": "katarinanorraskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/katarina-norra-skola",
+        "telephone": "08-4520105",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tjärhovsgatan 15-17",
+            "zipCode": "11621",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31586534140579",
+      "wgs84_Long": "18.081155027887874",
+      "sweRef_N": "6579281",
+      "sweRef_E": "675355",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23617768"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23617768/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:59.312Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/17640364",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "17640364",
+      "name": "Spånga grundskola",
+      "contactInfo": {
+        "email": "spangagrundskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/spanga-grundskola",
+        "telephone": "08-50841300",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Adolf Rudbecks väg 21",
+            "zipCode": "16354",
+            "city": "Spånga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.3799483684941",
+      "wgs84_Long": "17.892856276641794",
+      "sweRef_N": "6585932",
+      "sweRef_E": "664333",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17640364"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17640364/statistics"
+        }
+      }
+    }
+  }
+}

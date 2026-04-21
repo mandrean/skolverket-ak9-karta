@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:37.958Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/90850620",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "90850620",
+      "name": "Grundskolan Metapontum",
+      "contactInfo": {
+        "email": "info@metapontum.se",
+        "web": "http://www.metapontum.se",
+        "telephone": "08-57970445",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Stora Mans väg 11 C",
+            "zipCode": "12559",
+            "city": "Älvsjö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.283204133119256",
+      "wgs84_Long": "17.971996063992698",
+      "sweRef_N": "6575363.97",
+      "sweRef_E": "669307.512",
+      "organisationRegistryNumber": "5566641691",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "METAPONTUM AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90850620"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90850620/statistics"
+        }
+      }
+    }
+  }
+}

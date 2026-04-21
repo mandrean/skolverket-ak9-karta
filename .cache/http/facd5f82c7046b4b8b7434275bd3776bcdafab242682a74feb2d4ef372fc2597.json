@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:43.999Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57317316",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57317316",
+      "name": "JENSEN grundskola Långholmen",
+      "contactInfo": {
+        "email": "julia.brandell@jenseneducation.se",
+        "web": "https://www.jensengrundskola.se/langholmen",
+        "telephone": "0700-904172",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Alstaviksvägen 21",
+            "zipCode": "11733",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.32219494823926",
+      "wgs84_Long": "18.0266083155057",
+      "sweRef_N": "6579843",
+      "sweRef_E": "672220",
+      "organisationRegistryNumber": "5566358759",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "JENSEN EDUCATION COLLEGE AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57317316"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57317316/statistics"
+        }
+      }
+    }
+  }
+}

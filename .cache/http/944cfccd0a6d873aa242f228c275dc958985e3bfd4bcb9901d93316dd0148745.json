@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:57.555Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/23414344",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "23414344",
+      "name": "Skolgrunden",
+      "contactInfo": {
+        "email": "daniela.edwards@skolgrunden.se",
+        "web": "http://www.skolgrunden.se",
+        "telephone": "072-4014582",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hammarby Fabriksväg 61",
+            "zipCode": "12030",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.301320158532064",
+      "wgs84_Long": "18.102326739888625",
+      "sweRef_N": "6577718.39",
+      "sweRef_E": "676634.8",
+      "organisationRegistryNumber": "5565588166",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "SKOLGRUNDEN AKTIEBOLAG",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23414344"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/23414344/statistics"
+        }
+      }
+    }
+  }
+}

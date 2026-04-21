@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-04-21T00:00:00.000Z",
+  "source": {
+    "name": "sample",
+    "description": "Offline-exempel. Kör npm run build:data för att hämta aktuell data från Skolverket."
+  },
+  "scope": {
+    "county": "Stockholms län",
+    "municipalities": [
+      { "code": "0180", "name": "Stockholm" }
+    ]
+  },
+  "metadata": {
+    "complete": true,
+    "schoolUnitsExamined": 1,
+    "schoolsWithMerit": 1,
+    "networkCallsThisBuild": 0,
+    "warnings": []
+  },
+  "schools": [
+    {
+      "schoolUnitCode": "86597125",
+      "name": "Hässelby Villastads skola",
+      "municipalityCode": "0180",
+      "municipality": "Stockholm",
+      "county": "Stockholms län",
+      "lat": 59.3839,
+      "lng": 17.8398,
+      "typeOfSchool": "Grundskola",
+      "averageMeritGrade9": 255.5,
+      "averageMeritGrade9Label": "255,5",
+      "utbildningsguidenUrl": "https://utbildningsguiden.skolverket.se/skolenhet?schoolUnitID=86597125",
+      "source": "sample"
+    }
+  ]
+}

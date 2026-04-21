@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:48.296Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/37887150",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "37887150",
+      "name": "Nordic International School Nacka",
+      "contactInfo": {
+        "email": "nacka@nordicinternational.se",
+        "web": "https://nordicinternational.se/nacka",
+        "telephone": "070-1457197",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kanholmsvägen 51",
+            "zipCode": "13230",
+            "city": "Saltsjö-boo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.32829231006562",
+      "wgs84_Long": "18.259624315008068",
+      "sweRef_N": "6581147.337",
+      "sweRef_E": "685439.22",
+      "organisationRegistryNumber": "5566102033",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Nordic International School AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/37887150"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/37887150/statistics"
+        }
+      }
+    }
+  }
+}

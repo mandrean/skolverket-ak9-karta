@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:32.901Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/52217632",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "52217632",
+      "name": "Tappströmsskolan",
+      "contactInfo": {
+        "email": "Eva.horn@ekero.se",
+        "web": "http://www.ekero.se/tappstromsskolan",
+        "telephone": "072-1433893",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tappströmsvägen 3",
+            "zipCode": "17832",
+            "city": "Ekerö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0125",
+      "wgs84_Lat": "59.29188211296896",
+      "wgs84_Long": "17.803643874757313",
+      "sweRef_N": "6575914",
+      "sweRef_E": "659680",
+      "organisationRegistryNumber": "2120000050",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "EKERÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/52217632"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/52217632/statistics"
+        }
+      }
+    }
+  }
+}

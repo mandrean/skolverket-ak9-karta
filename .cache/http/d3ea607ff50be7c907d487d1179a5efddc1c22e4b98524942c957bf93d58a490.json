@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:49.775Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/40610606",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "40610606",
+      "name": "Lycée Francais Saint Louis, gr",
+      "contactInfo": {
+        "email": "secretariat@lfsl.net",
+        "web": "http://www.lfsl.net",
+        "telephone": "08-4413030",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Essingestråket 24",
+            "zipCode": "11266",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.32092757756506",
+      "wgs84_Long": "17.986533683762936",
+      "sweRef_N": "6579599",
+      "sweRef_E": "669947",
+      "organisationRegistryNumber": "9020041852",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "LYCÉE FRANCAIS SAINT-LOUIS",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40610606"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40610606/statistics"
+        }
+      }
+    }
+  }
+}

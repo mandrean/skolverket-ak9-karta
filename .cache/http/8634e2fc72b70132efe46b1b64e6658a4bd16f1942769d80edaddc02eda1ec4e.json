@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:09.568Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/22807677",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "22807677",
+      "name": "Näsbydalskolan",
+      "contactInfo": {
+        "email": "nasbydalskolan@taby.se",
+        "web": "http://www.taby.se/nasbydalskolan",
+        "telephone": "08-55558500",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Östra Banvägen 90",
+            "zipCode": "18337",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.43998738490633",
+      "wgs84_Long": "18.067707295407526",
+      "sweRef_N": "6593058",
+      "sweRef_E": "673953",
+      "organisationRegistryNumber": "2120000118",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "TÄBY KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22807677"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22807677/statistics"
+        }
+      }
+    }
+  }
+}

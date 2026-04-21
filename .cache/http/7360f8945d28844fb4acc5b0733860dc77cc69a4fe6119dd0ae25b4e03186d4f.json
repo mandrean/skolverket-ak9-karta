@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:58.058Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/50060022",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "50060022",
+      "name": "Smedshagsskolan",
+      "contactInfo": {
+        "email": "smedshagsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/smedshagsskolan",
+        "telephone": "08-50841750",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Smedshagsvägen 3",
+            "zipCode": "16573",
+            "city": "Hässelby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.37844163959585",
+      "wgs84_Long": "17.824701236489066",
+      "sweRef_N": "6585598",
+      "sweRef_E": "660470",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/50060022"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/50060022/statistics"
+        }
+      }
+    }
+  }
+}

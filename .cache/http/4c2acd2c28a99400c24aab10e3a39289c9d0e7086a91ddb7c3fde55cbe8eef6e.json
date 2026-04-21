@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:36.956Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/69004747",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "69004747",
+      "name": "Fryshuset Grundskola Husby",
+      "contactInfo": {
+        "email": "christer.vestergren@fryshuset.se",
+        "web": "https://fryshuset.se/",
+        "telephone": "0763-3446644",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lofotengatan 32-34",
+            "zipCode": "16433",
+            "city": "Kista"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.411425232401726",
+      "wgs84_Long": "17.928447226143035",
+      "sweRef_N": "6589523.40234375",
+      "sweRef_E": "666199.71875",
+      "organisationRegistryNumber": "8020111582",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN FRYSHUSET",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69004747"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69004747/statistics"
+        }
+      }
+    }
+  }
+}

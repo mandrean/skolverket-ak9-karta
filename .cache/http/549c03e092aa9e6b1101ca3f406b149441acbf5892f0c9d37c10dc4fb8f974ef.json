@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-04-21T10:26:40.008Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56568612",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56568612",
+      "name": "Wasaskolan",
+      "contactInfo": {
+        "email": "wasaskolan@skolasodertalje.se",
+        "web": "http://www.sodertalje.se/wasaskolan",
+        "telephone": "08-52301800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Prosten Linders väg 2",
+            "zipCode": "15145",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.19362375276606",
+      "wgs84_Long": "17.580888628718444",
+      "sweRef_N": "6564465",
+      "sweRef_E": "647421",
+      "organisationRegistryNumber": "2120000159",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SÖDERTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56568612"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56568612/statistics"
+        }
+      }
+    }
+  }
+}

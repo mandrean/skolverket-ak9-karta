@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:44.249Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/46405935",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "46405935",
+      "name": "JENSEN grundskola Stockholm 3",
+      "contactInfo": {
+        "email": "mats.rosen@jenseneducation.se",
+        "web": "http://www.jensengrundskola.se",
+        "telephone": "0707-272746",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lilla Nygatan 13",
+            "zipCode": "10061",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.32379753058676",
+      "wgs84_Long": "18.068757597113265",
+      "sweRef_N": "6580131.109",
+      "sweRef_E": "674609.062",
+      "organisationRegistryNumber": "5566358759",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "JENSEN EDUCATION COLLEGE AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/46405935"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/46405935/statistics"
+        }
+      }
+    }
+  }
+}

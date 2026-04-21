@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:13.670Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/63592981",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "63592981",
+      "name": "Internationella Engelska Skolan Sigtuna",
+      "contactInfo": {
+        "email": "sandy.schafer.sigtuna@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "073-8620480",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Stadsängsgatan 67",
+            "zipCode": "19337",
+            "city": "Sigtuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.43491528712441",
+      "wgs84_Long": "18.07665035634572",
+      "sweRef_N": "6592517",
+      "sweRef_E": "674486",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63592981"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63592981/statistics"
+        }
+      }
+    }
+  }
+}

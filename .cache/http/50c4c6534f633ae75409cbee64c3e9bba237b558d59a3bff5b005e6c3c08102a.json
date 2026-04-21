@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:48.017Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/46796995",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "46796995",
+      "name": "Kunskapsskolan Spånga",
+      "contactInfo": {
+        "email": "info.spanga@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/spanga",
+        "telephone": "08-50691780",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Salagatan 42",
+            "zipCode": "16353",
+            "city": "Spånga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.38617805023111",
+      "wgs84_Long": "17.889089513896888",
+      "sweRef_N": "6586616",
+      "sweRef_E": "664089",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/46796995"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/46796995/statistics"
+        }
+      }
+    }
+  }
+}

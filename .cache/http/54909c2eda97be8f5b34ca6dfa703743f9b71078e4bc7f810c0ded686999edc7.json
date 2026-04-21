@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:26:37.736Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/26804905",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "26804905",
+      "name": "Mora Parks skola",
+      "contactInfo": {
+        "email": "skolan@morapark.se",
+        "web": "http://www.morapark.se",
+        "telephone": "08-55170034",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mora Park",
+            "zipCode": "15395",
+            "city": "Järna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.13257123876193",
+      "wgs84_Long": "17.468103517890157",
+      "sweRef_N": "6557425.701",
+      "sweRef_E": "641232.121",
+      "organisationRegistryNumber": "8156003926",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN MORA PARK",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/26804905"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/26804905/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:26:58.594Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/48791751",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "48791751",
+      "name": "Magelungens Grundskola Solna",
+      "contactInfo": {
+        "email": "eva.torvaldsson@magelungen.com",
+        "web": "http://www.magelungen.com",
+        "telephone": "072-2524633",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hemvärnsgatan 15",
+            "zipCode": "17154",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.35332153310147",
+      "wgs84_Long": "17.97556645770537",
+      "sweRef_N": "6583176",
+      "sweRef_E": "669162",
+      "organisationRegistryNumber": "5564891447",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Magelungen Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48791751"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48791751/statistics"
+        }
+      }
+    }
+  }
+}

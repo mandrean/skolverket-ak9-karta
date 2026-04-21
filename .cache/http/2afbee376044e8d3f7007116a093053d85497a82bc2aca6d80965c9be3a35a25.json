@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:37.671Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/22019000",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "22019000",
+      "name": "Södertörns friskola",
+      "contactInfo": {
+        "email": "info@frisko.la",
+        "web": "http://www.friskola.nu",
+        "telephone": "08-6071880",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Björnkullaringen 42",
+            "zipCode": "14151",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.21095780251181",
+      "wgs84_Long": "17.941920772821074",
+      "sweRef_N": "6567248",
+      "sweRef_E": "667950",
+      "organisationRegistryNumber": "7696004238",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "SÖDERTÖRNS FRISKOLA EKONOMISK FÖRENING",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22019000"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/22019000/statistics"
+        }
+      }
+    }
+  }
+}

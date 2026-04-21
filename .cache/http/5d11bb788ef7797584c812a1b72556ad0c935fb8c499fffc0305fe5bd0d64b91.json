@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-04-21T10:24:30.136Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/17287315",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "17287315",
+      "name": "Källtorpskolan",
+      "contactInfo": {
+        "email": "kalltorpskolan@jarfalla.se",
+        "web": "http://www.jarfalla.se",
+        "telephone": "08-58029633",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Källtorpsvägen 10",
+            "zipCode": "17674",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.454190569997834",
+      "wgs84_Long": "17.810424839453923",
+      "sweRef_N": "6593994",
+      "sweRef_E": "659303",
+      "organisationRegistryNumber": "2120000043",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "JÄRFÄLLA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17287315"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/17287315/statistics"
+        }
+      }
+    }
+  }
+}

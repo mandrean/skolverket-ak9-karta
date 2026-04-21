@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:17.451Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/68361133",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "68361133",
+      "name": "Vanstaskolan F-9",
+      "contactInfo": {
+        "email": "vanstaskolan@nynashamn.se",
+        "web": "https://nynashamn.se/service/forskola--skola/grundskola/hitta-skola/vanstaskolan-f-9",
+        "telephone": "08-52073500",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ösmo centrum 6",
+            "zipCode": "14821",
+            "city": "Ösmo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0192",
+      "wgs84_Lat": "58.98368340449149",
+      "wgs84_Long": "17.89495983186458",
+      "sweRef_N": "6541838.3855320895",
+      "sweRef_E": "666367.6148869783",
+      "organisationRegistryNumber": "2120000233",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NYNÄSHAMNS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/68361133"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/68361133/statistics"
+        }
+      }
+    }
+  }
+}

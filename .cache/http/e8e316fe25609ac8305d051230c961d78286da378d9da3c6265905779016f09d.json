@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:30.636Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/66634449",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "66634449",
+      "name": "Vittra Jakobsberg",
+      "contactInfo": {
+        "email": "jakobsberg@vittra.se",
+        "web": "http://www.vittra.se/jakobsberg",
+        "telephone": "08-58410590",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Vibblabyvägen 5",
+            "zipCode": "17764",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.42232907133146",
+      "wgs84_Long": "17.828711456688183",
+      "sweRef_N": "6590492",
+      "sweRef_E": "660490",
+      "organisationRegistryNumber": "5564586716",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Vittraskolorna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66634449"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66634449/statistics"
+        }
+      }
+    }
+  }
+}

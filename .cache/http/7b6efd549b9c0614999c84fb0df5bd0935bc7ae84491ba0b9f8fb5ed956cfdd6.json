@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:57.838Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/84585645",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "84585645",
+      "name": "Hagaskolan",
+      "contactInfo": {
+        "email": "kansli@hagaskolan.se",
+        "web": "http://www.hagaskolan.se",
+        "telephone": "08-40300400",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hagalundsgatan 26",
+            "zipCode": "16964",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.36158021629928",
+      "wgs84_Long": "18.0124480665568",
+      "sweRef_N": "6584189.355628954",
+      "sweRef_E": "671216.1974117765",
+      "organisationRegistryNumber": "8024222641",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "DJURGÅRDENS WALDORFSKOLEFÖRENING",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84585645"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84585645/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:54.825Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/67788311",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "67788311",
+      "name": "Noblaskolan Sundbyberg",
+      "contactInfo": {
+        "email": "sundbyberg@noblaskolan.se",
+        "web": "https://noblaskolan.se/sundbyberg/",
+        "telephone": "08-54512230",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Marieborgsgatan 12",
+            "zipCode": "17462",
+            "city": "Sundbyberg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0183",
+      "wgs84_Lat": "59.38529072417351",
+      "wgs84_Long": "17.95316348343149",
+      "sweRef_N": "6586677",
+      "sweRef_E": "667731",
+      "organisationRegistryNumber": "5560354309",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "AcadeMedia Grundskolor AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67788311"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67788311/statistics"
+        }
+      }
+    }
+  }
+}

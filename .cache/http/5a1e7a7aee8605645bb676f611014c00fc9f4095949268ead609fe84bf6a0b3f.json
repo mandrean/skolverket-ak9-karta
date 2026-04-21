@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:47.011Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/63321041",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "63321041",
+      "name": "Kungliga Svenska Balettskolan",
+      "contactInfo": {
+        "email": "kungligasvenskabalettskolan@stockholm.se",
+        "web": "http://www.kungligasvenskabalettskolan.se/grundskolan",
+        "telephone": "08-50833510",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Söder Mälarstrand 39, 7 tr",
+            "zipCode": "11825",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.32067916197995",
+      "wgs84_Long": "18.051895935649323",
+      "sweRef_N": "6579740",
+      "sweRef_E": "673666",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63321041"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/63321041/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-04-21T10:25:27.671Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units?page=3&size=50&geographicalAreaCode=0180&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "listedSchoolUnits": [
+          {
+            "code": "35890890",
+            "name": "Västerholms friskola",
+            "geographicalAreaCode": "0180",
+            "postCodeDistrict": "Skärholmen",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Fristående",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/35890890"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/35890890/statistics"
+              }
+            }
+          },
+          {
+            "code": "15594566",
+            "name": "Äppelviksskolan",
+            "geographicalAreaCode": "0180",
+            "postCodeDistrict": "Bromma",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15594566"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/15594566/statistics"
+              }
+            }
+          },
+          {
+            "code": "48328583",
+            "name": "Årstaskolan",
+            "geographicalAreaCode": "0180",
+            "postCodeDistrict": "Årsta",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48328583"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/48328583/statistics"
+              }
+            }
+          },
+          {
+            "code": "94864296",
+            "name": "Åsö grundskola",
+            "geographicalAreaCode": "0180",
+            "postCodeDistrict": "Stockholm",
+            "typeOfSchooling": [
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/94864296"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/94864296/statistics"
+              }
+            }
+          },
+          {
+            "code": "39171821",
+            "name": "Örbyskolan",
+            "geographicalAreaCode": "0180",
+            "postCodeDistrict": "Älvsjö",
+            "typeOfSchooling": [
+              {
+                "code": "fsk",
+                "displayName": "Förskoleklassen",
+                "schoolYears": [
+                  "0"
+                ]
+              },
+              {
+                "code": "gr",
+                "displayName": "Grundskolan",
+                "schoolYears": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ]
+              }
+            ],
+            "studentsPerTeacherQuota": null,
+            "principalOrganizerType": "Kommunal",
+            "abroadSchool": false,
+            "_links": {
+              "self": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39171821"
+              },
+              "statistics": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39171821/statistics"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "first": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0180&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=0&size=50"
+        },
+        "prev": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0180&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=2&size=50"
+        },
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0180&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=3&size=50"
+        },
+        "last": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units?geographicalAreaCode=0180&typeOfSchooling=gr&schoolYears=9&coordinateSystemType=WGS84&page=3&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 155,
+        "totalPages": 4,
+        "number": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:31.682Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/35784391",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "35784391",
+      "name": "Distra IRS",
+      "contactInfo": {
+        "email": "info@distrairs.se",
+        "web": "http://www.distraresursskolor.se",
+        "telephone": "073-3414987",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Åsögatan 97",
+            "zipCode": "11829",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31259994042208",
+      "wgs84_Long": "18.07086944857493",
+      "sweRef_N": "6578890.588",
+      "sweRef_E": "674786.66",
+      "organisationRegistryNumber": "5565833562",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "DISTANS STRATEG SWEDEN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35784391"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35784391/statistics"
+        }
+      }
+    }
+  }
+}

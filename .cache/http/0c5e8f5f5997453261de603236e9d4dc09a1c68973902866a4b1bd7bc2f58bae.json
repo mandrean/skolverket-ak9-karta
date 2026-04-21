@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:51.228Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/71677992",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "71677992",
+      "name": "Rönninge skola",
+      "contactInfo": {
+        "email": "ronningeskola@salem.se",
+        "web": "https://salem.se/forskolaochskola/grundskola/ronningeskola.4.335d63281936795eddcda10.html",
+        "telephone": "08-53259400",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rönninge Skolväg 31",
+            "zipCode": "14462",
+            "city": "Rönninge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0128",
+      "wgs84_Lat": "59.189060161902184",
+      "wgs84_Long": "17.742256179627688",
+      "sweRef_N": "6564325",
+      "sweRef_E": "656656",
+      "organisationRegistryNumber": "2120002874",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SALEMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/71677992"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/71677992/statistics"
+        }
+      }
+    }
+  }
+}

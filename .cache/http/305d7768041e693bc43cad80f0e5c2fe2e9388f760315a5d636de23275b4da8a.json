@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:00.061Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/11442396",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "11442396",
+      "name": "Stockholm International Academy Hägersten",
+      "contactInfo": {
+        "email": "info@mubarak.se",
+        "web": "http://www.mubarak.se",
+        "telephone": "070-9646311",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sulvägen 52",
+            "zipCode": "12640",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.284365376582656",
+      "wgs84_Long": "18.007511137786",
+      "sweRef_N": "6575584",
+      "sweRef_E": "671324",
+      "organisationRegistryNumber": "5568571748",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Mubarak Utbildning AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11442396"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11442396/statistics"
+        }
+      }
+    }
+  }
+}

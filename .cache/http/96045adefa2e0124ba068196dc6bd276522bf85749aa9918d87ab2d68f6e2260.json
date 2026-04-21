@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-04-21T10:26:38.748Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/11914814",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "11914814",
+      "name": "Rosenborgskolan",
+      "contactInfo": {
+        "email": "rosenborgskolan@skolasodertalje.se",
+        "web": "http://www.sodertalje.se/rosenborgskolan",
+        "telephone": "08-52301502",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Erik Dahlbergs väg 9",
+            "zipCode": "14185",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.19799672730816",
+      "wgs84_Long": "17.63651348055673",
+      "sweRef_N": "6565076",
+      "sweRef_E": "650578",
+      "organisationRegistryNumber": "2120000159",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SÖDERTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11914814"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11914814/statistics"
+        }
+      }
+    }
+  }
+}

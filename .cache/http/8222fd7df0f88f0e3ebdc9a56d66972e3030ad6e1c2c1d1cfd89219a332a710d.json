@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:49.307Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/14040970",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "14040970",
+      "name": "Stavsborgsskolan",
+      "contactInfo": {
+        "email": "stavsborg@nacka.se",
+        "web": "http://www.stavsborg.nacka.se",
+        "telephone": "08-7188814",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Flädervägen 4",
+            "zipCode": "13830",
+            "city": "Älta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.257986710530666",
+      "wgs84_Long": "18.179589755080173",
+      "sweRef_N": "6573104",
+      "sweRef_E": "681262",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14040970"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14040970/statistics"
+        }
+      }
+    }
+  }
+}

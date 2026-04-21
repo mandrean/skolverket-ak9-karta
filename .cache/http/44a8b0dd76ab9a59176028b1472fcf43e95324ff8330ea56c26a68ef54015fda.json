@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-04-21T10:25:42.741Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/82982309",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "82982309",
+      "name": "Internationella Engelska Skolan Kista",
+      "contactInfo": {
+        "email": "info.kista@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "073-7462244",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Isafjordsgatan 39",
+            "zipCode": "16440",
+            "city": "Kista"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.40549915537896",
+      "wgs84_Long": "17.94524753982852",
+      "sweRef_N": "6588906",
+      "sweRef_E": "667182",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82982309"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82982309/statistics"
+        }
+      }
+    }
+  }
+}

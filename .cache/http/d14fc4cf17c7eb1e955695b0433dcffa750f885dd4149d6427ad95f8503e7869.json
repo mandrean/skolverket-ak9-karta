@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-04-21T10:27:13.168Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/38526011",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "38526011",
+      "name": "Eddaskolan",
+      "contactInfo": {
+        "email": "lena.thornblom@sigtuna.se",
+        "web": "http://www.sigtuna.se/eddaskolan",
+        "telephone": "08-59783124",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Torsgatan 49",
+            "zipCode": "19554",
+            "city": "Märsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.61281293416159",
+      "wgs84_Long": "17.82636560240677",
+      "sweRef_N": "6611686",
+      "sweRef_E": "659455",
+      "organisationRegistryNumber": "2120000225",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SIGTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38526011"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38526011/statistics"
+        }
+      }
+    }
+  }
+}

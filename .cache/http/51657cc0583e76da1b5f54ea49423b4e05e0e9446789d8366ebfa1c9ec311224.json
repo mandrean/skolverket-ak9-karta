@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:06.894Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/98239828",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "98239828",
+      "name": "Ekebyholmsskolan, gr",
+      "contactInfo": {
+        "email": "info@ekebyholm.se",
+        "web": "http://www.ekebyholm.se",
+        "telephone": "0175-754500",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ekebyholm 9",
+            "zipCode": "76291",
+            "city": "Rimbo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.76918908949363",
+      "wgs84_Long": "18.355308181206173",
+      "sweRef_N": "6630475.07",
+      "sweRef_E": "688400.3",
+      "organisationRegistryNumber": "5562512425",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "EKEBYHOLMSSKOLAN AKTIEBOLAG",
+      "companyForm": "Fristående",
+      "schoolOrientation": "KONFESSIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98239828"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98239828/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:43.946Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/67742754",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "67742754",
+      "name": "Karsby International School",
+      "contactInfo": {
+        "email": "karsbyskolan@botkyrka.se",
+        "web": "http://www.botkyrka.se/karsbyinternationalschool",
+        "telephone": "070-1886944",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tomtbergavägen 370",
+            "zipCode": "14571",
+            "city": "Norsborg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.244936510666605",
+      "wgs84_Long": "17.81057356524716",
+      "sweRef_N": "6570706",
+      "sweRef_E": "660295",
+      "organisationRegistryNumber": "2120002882",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "BOTKYRKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67742754"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67742754/statistics"
+        }
+      }
+    }
+  }
+}

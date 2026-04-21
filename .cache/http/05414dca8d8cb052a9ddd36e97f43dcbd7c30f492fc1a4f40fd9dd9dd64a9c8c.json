@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-04-21T10:25:29.671Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/72672270",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "72672270",
+      "name": "Aspuddens skola",
+      "contactInfo": {
+        "email": "aspuddensskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/aspuddens-skola",
+        "telephone": "08-50845900",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Blommensbergsvägen 166",
+            "zipCode": "12655",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.30925526962082",
+      "wgs84_Long": "17.99823385688868",
+      "sweRef_N": "6578329.991",
+      "sweRef_E": "670671.009",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72672270"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/72672270/statistics"
+        }
+      }
+    }
+  }
+}

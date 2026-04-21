@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:59.812Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/85670099",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "85670099",
+      "name": "Stift. Sthlm Intern. School gr",
+      "contactInfo": {
+        "email": "info@intsch.se",
+        "web": "http://www.intsch.se",
+        "telephone": "08-4124000",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Johannesgatan 18",
+            "zipCode": "11138",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.339096196063906",
+      "wgs84_Long": "18.065880446133082",
+      "sweRef_N": "6581826",
+      "sweRef_E": "674367",
+      "organisationRegistryNumber": "8024264775",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN STOCKHOLM INTERNATIONAL SCHOOL",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85670099"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85670099/statistics"
+        }
+      }
+    }
+  }
+}

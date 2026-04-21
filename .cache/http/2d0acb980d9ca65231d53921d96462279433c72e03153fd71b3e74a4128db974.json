@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:07.646Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/24146389",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "24146389",
+      "name": "Hallsta skola",
+      "contactInfo": {
+        "email": "hallstaenheten@norrtalje.se",
+        "web": "http://www.norrtalje.se",
+        "telephone": "0175-25644",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolvägen 15-17",
+            "zipCode": "76334",
+            "city": "Hallstavik"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "60.05547045564768",
+      "wgs84_Long": "18.599192954905398",
+      "sweRef_N": "6663044.333343506",
+      "sweRef_E": "700352.3333129883",
+      "organisationRegistryNumber": "2120000217",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NORRTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24146389"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24146389/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:47.516Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/16426165",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "16426165",
+      "name": "Kunskapsskolan Enskede",
+      "contactInfo": {
+        "email": "info.enskede@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/enskede",
+        "telephone": "08-50691230",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Enskedevägen 89",
+            "zipCode": "12263",
+            "city": "Enskede"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.28272800062406",
+      "wgs84_Long": "18.072794625678668",
+      "sweRef_N": "6575571.522",
+      "sweRef_E": "675049.619",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16426165"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16426165/statistics"
+        }
+      }
+    }
+  }
+}

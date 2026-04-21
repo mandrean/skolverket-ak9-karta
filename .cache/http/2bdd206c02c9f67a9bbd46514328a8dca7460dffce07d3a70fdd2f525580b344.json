@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:48.269Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/81266343",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "81266343",
+      "name": "Kunskapsskolan Tyresö",
+      "contactInfo": {
+        "email": "info.tyreso@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/tyreso",
+        "telephone": "08-50691051",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Solkraftsvägen 15",
+            "zipCode": "13570",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.23587006384342",
+      "wgs84_Long": "18.192235377429178",
+      "sweRef_N": "6570677.5",
+      "sweRef_E": "682100.5",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/81266343"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/81266343/statistics"
+        }
+      }
+    }
+  }
+}

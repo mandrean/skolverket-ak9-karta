@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:16.102Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/42986451",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "42986451",
+      "name": "Fribergaskolan",
+      "contactInfo": {
+        "email": "jenny.holmberg@danderyd.se",
+        "web": "https://www.danderyd.se/skolor/fribergaskolan/",
+        "telephone": "08-56891502",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mörbyhöjden 24",
+            "zipCode": "18232",
+            "city": "Danderyd"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0162",
+      "wgs84_Lat": "59.3970038084756",
+      "wgs84_Long": "18.0405588784422",
+      "sweRef_N": "6588204",
+      "sweRef_E": "672633",
+      "organisationRegistryNumber": "2120000126",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "DANDERYDS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/42986451"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/42986451/statistics"
+        }
+      }
+    }
+  }
+}

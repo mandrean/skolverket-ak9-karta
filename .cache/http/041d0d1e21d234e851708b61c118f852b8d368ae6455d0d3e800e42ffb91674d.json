@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:33.181Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/29725531",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "29725531",
+      "name": "Engelska Skolan Norr",
+      "contactInfo": {
+        "email": "info@esn.se",
+        "web": "http://www.esn.se",
+        "telephone": "08-4418580",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Roslagstullsbacken 4",
+            "zipCode": "11421",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.35041017209535",
+      "wgs84_Long": "18.059756935543255",
+      "sweRef_N": "6583069",
+      "sweRef_E": "673961",
+      "organisationRegistryNumber": "5565699302",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Engelska Skolor och Förskolor i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29725531"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29725531/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:40.975Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/57184925",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "57184925",
+      "name": "Hökarängsskolan",
+      "contactInfo": {
+        "email": "hokarangsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/hokarangsskolan",
+        "telephone": "08-50847550",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Fagersjövägen 18",
+            "zipCode": "12354",
+            "city": "Farsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.25589890803042",
+      "wgs84_Long": "18.076209805746377",
+      "sweRef_N": "6572595",
+      "sweRef_E": "675382",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57184925"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/57184925/statistics"
+        }
+      }
+    }
+  }
+}

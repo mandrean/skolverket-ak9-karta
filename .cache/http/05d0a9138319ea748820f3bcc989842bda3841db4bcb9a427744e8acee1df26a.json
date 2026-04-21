@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:26:49.559Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/34672217",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "34672217",
+      "name": "Älta resursskola",
+      "contactInfo": {
+        "email": "anne.sjo@nacka.se",
+        "web": "https://www.nacka.se/altaresursskola",
+        "telephone": "08-7188000",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Almvägen 2",
+            "zipCode": "13830",
+            "city": "Älta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.25786876025886",
+      "wgs84_Long": "18.18154931961559",
+      "sweRef_N": "6573096.208",
+      "sweRef_E": "681374.283",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34672217"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/34672217/statistics"
+        }
+      }
+    }
+  }
+}

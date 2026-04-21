@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:32.430Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/16394249",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "16394249",
+      "name": "Ellen Key skolan",
+      "contactInfo": {
+        "email": "rektor@eks.se",
+        "web": "http://www.eks.se",
+        "telephone": "070-8334232",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Duvbovägen 94",
+            "zipCode": "16343",
+            "city": "Spånga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.37804593913607",
+      "wgs84_Long": "17.91854553167672",
+      "sweRef_N": "6585784",
+      "sweRef_E": "665801",
+      "organisationRegistryNumber": "8152007970",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN ELLEN KEY SKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16394249"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16394249/statistics"
+        }
+      }
+    }
+  }
+}

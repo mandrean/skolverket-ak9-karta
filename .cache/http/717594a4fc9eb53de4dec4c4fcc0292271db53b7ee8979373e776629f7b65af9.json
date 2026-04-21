@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:26:45.032Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/47243834",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "47243834",
+      "name": "Eklidens skola",
+      "contactInfo": {
+        "email": "ekliden@nacka.se",
+        "web": "http://www.ekliden.nacka.se",
+        "telephone": "08-7189750",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Griffelvägen 15",
+            "zipCode": "13140",
+            "city": "Nacka"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.30914131870527",
+      "wgs84_Long": "18.154118976991313",
+      "sweRef_N": "6578727.199989319",
+      "sweRef_E": "679541",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47243834"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47243834/statistics"
+        }
+      }
+    }
+  }
+}

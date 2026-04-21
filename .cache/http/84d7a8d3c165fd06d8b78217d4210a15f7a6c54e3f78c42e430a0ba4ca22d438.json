@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:47.545Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/54348763",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "54348763",
+      "name": "Nacka Idrottsgrundskola",
+      "contactInfo": {
+        "email": "info@idrottsgrundskolannacka.se",
+        "web": "https://idrottsgrundskolannacka.se/",
+        "telephone": "0736-748973",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Cylindervägen 2",
+            "zipCode": "13152",
+            "city": "Nacka Strand"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.31546209646471",
+      "wgs84_Long": "18.163547399163093",
+      "sweRef_N": "6579456",
+      "sweRef_E": "680044",
+      "organisationRegistryNumber": "5592885098",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Nacka Idrottsgrundskola AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54348763"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54348763/statistics"
+        }
+      }
+    }
+  }
+}

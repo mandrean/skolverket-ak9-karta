@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:15.433Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/78491090",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "78491090",
+      "name": "Tingvallaskolan",
+      "contactInfo": {
+        "email": "jessica.ljungvall@sigtuna.se",
+        "web": "http://www.sigtuna.se/tingvallaskolan",
+        "telephone": "08-59126714",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tingvallavägen 44",
+            "zipCode": "19533",
+            "city": "Märsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.62604408200172",
+      "wgs84_Long": "17.827797453069458",
+      "sweRef_N": "6613162",
+      "sweRef_E": "659473",
+      "organisationRegistryNumber": "2120000225",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SIGTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/78491090"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/78491090/statistics"
+        }
+      }
+    }
+  }
+}

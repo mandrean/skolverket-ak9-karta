@@ -1,0 +1,838 @@
+{
+  "generatedAt": "2026-04-21T10:18:57.956Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/compact-school-units?page=3&size=50&municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "_embedded": {
+        "compactSchoolUnits": [
+          {
+            "schoolUnitCode": "38448056",
+            "schoolUnitName": "Berga naturbruksgymnasium",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.091783739897146",
+            "wgs84Longitude": "18.10909854704233",
+            "sweref99Latitude": "6554420",
+            "sweref99Longitude": "678108",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38448056"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38449858",
+            "schoolUnitName": "Silverbergsskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "56.198181537248",
+            "wgs84Longitude": "15.290564511468268",
+            "sweref99Latitude": "6228175",
+            "sweref99Longitude": "518029",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38449858"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38460895",
+            "schoolUnitName": "JENSEN Gymnasium Linköping",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.41253428116237",
+            "wgs84Longitude": "15.624930046830174",
+            "sweref99Latitude": "6474810",
+            "sweref99Longitude": "536513",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38460895"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38508908",
+            "schoolUnitName": "Kopperskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.06788898097345",
+            "wgs84Longitude": "11.846229942148241",
+            "sweref99Latitude": "6440615.153",
+            "sweref99Longitude": "313977.475",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38508908"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38526011",
+            "schoolUnitName": "Eddaskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.61281293416159",
+            "wgs84Longitude": "17.82636560240677",
+            "sweref99Latitude": "6611686",
+            "sweref99Longitude": "659455",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38526011"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38539206",
+            "schoolUnitName": "Röselidsskolan skolenhet B",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.83409187268863",
+            "wgs84Longitude": "12.302807918189558",
+            "sweref99Latitude": "6413431",
+            "sweref99Longitude": "339860",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38539206"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38544187",
+            "schoolUnitName": "Munkagårdsgymnasiet",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.03344805238329",
+            "wgs84Longitude": "12.393901472918747",
+            "sweref99Latitude": "6324127.666656494",
+            "sweref99Longitude": "341849.3333129883",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38544187"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38545211",
+            "schoolUnitName": "Stenportskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.51084128175522",
+            "wgs84Longitude": "13.130169066251922",
+            "sweref99Latitude": "6487102",
+            "sweref99Longitude": "391063",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38545211"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38553494",
+            "schoolUnitName": "Hagabodaskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.9111499737001",
+            "wgs84Longitude": "14.078134866012988",
+            "sweref99Latitude": "6419190.599990845",
+            "sweref99Longitude": "445375.3999938965",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38553494"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38604678",
+            "schoolUnitName": "Nösnäsgymnasiet 5",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.056052525617524",
+            "wgs84Longitude": "11.828953823763053",
+            "sweref99Latitude": "6439346",
+            "sweref99Longitude": "312897",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38604678"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38619250",
+            "schoolUnitName": "Mariebergsskolan 1",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "63.844855122810095",
+            "wgs84Longitude": "20.322905873432692",
+            "sweref99Latitude": "7090643",
+            "sweref99Longitude": "761567",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38619250"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38620615",
+            "schoolUnitName": "Eklandaskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.6508504600701",
+            "wgs84Longitude": "11.970857285542643",
+            "sweref99Latitude": "6393877.363",
+            "sweref99Longitude": "319246.305",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38620615"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38621807",
+            "schoolUnitName": "Ankarskolan F-3 och fritidshem",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.05659829562169",
+            "wgs84Longitude": "12.289170745852381",
+            "sweref99Latitude": "6326951",
+            "sweref99Longitude": "335598",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38621807"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38645259",
+            "schoolUnitName": "Praktiska Gymnasiet Karlstad",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.37419206831512",
+            "wgs84Longitude": "13.505419168421195",
+            "sweref99Latitude": "6582673",
+            "sweref99Longitude": "415071",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38645259"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38646067",
+            "schoolUnitName": "Mimers hus Gymnasium, Skolenhet 5",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.875021551178406",
+            "wgs84Longitude": "11.977660574386366",
+            "sweref99Latitude": "6418801",
+            "sweref99Longitude": "320766",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38646067"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38653015",
+            "schoolUnitName": "Pershagenskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.15281392174659",
+            "wgs84Longitude": "17.651839109065794",
+            "sweref99Latitude": "6560082",
+            "sweref99Longitude": "651653",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38653015"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38661388",
+            "schoolUnitName": "Broängsskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.1830030010147",
+            "wgs84Longitude": "17.80958086955661",
+            "sweref99Latitude": "6563811",
+            "sweref99Longitude": "660529",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38661388"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38682093",
+            "schoolUnitName": "Emåskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.508347059221066",
+            "wgs84Longitude": "14.70568687638519",
+            "sweref99Latitude": "6374013.251762698",
+            "sweref99Longitude": "482365.62210997014",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38682093"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38683336",
+            "schoolUnitName": "Kungl. Svenska Balettskolan gy 38683336",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.32067916197995",
+            "wgs84Longitude": "18.051895935649323",
+            "sweref99Latitude": "6579740",
+            "sweref99Longitude": "673666",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38683336"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38684438",
+            "schoolUnitName": "JENSEN Gymnasium Göteborg",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.704657937727625",
+            "wgs84Longitude": "11.972368055028012",
+            "sweref99Latitude": "6399860",
+            "sweref99Longitude": "319604",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38684438"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38697974",
+            "schoolUnitName": "Tingvallagymnasiet 5",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.38264025637155",
+            "wgs84Longitude": "13.490294946253847",
+            "sweref99Latitude": "6583633",
+            "sweref99Longitude": "414233",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38697974"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38721951",
+            "schoolUnitName": "Trojaskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "56.466502623431246",
+            "wgs84Longitude": "14.69039682136688",
+            "sweref99Latitude": "6258045",
+            "sweref99Longitude": "480924",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38721951"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38730714",
+            "schoolUnitName": "Björkedalsskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.07135025599546",
+            "wgs84Longitude": "12.368550397071752",
+            "sweref99Latitude": "6328404",
+            "sweref99Longitude": "340474",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38730714"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38758770",
+            "schoolUnitName": "Farsta grundskola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.25079417043452",
+            "wgs84Longitude": "18.095540858235864",
+            "sweref99Latitude": "6572078",
+            "sweref99Longitude": "676510",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38758770"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38759147",
+            "schoolUnitName": "Stensättersskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.00636238838977",
+            "wgs84Longitude": "16.204607039266048",
+            "sweref99Latitude": "6541384.020932769",
+            "sweref99Longitude": "569192.2964425049",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38759147"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38769534",
+            "schoolUnitName": "FRI att VÄXA Växsjö Byskola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "61.41171592691593",
+            "wgs84Longitude": "16.41323196704047",
+            "sweref99Latitude": "6809464.562",
+            "sweref99Longitude": "575440.384",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38769534"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38786603",
+            "schoolUnitName": "Paradisskolan 4-9",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.2958361940712",
+            "wgs84Longitude": "12.276200407711034",
+            "sweref99Latitude": "6464876.66",
+            "sweref99Longitude": "340355.286",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38786603"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38786895",
+            "schoolUnitName": "Stenungsunds Montessoriskola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.072583037880605",
+            "wgs84Longitude": "11.821447905918426",
+            "sweref99Latitude": "6441206",
+            "sweref99Longitude": "312541",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38786895"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38797837",
+            "schoolUnitName": "Sturegymnasiet 6",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "56.66954870008558",
+            "wgs84Longitude": "12.86952265584255",
+            "sweref99Latitude": "6282631",
+            "sweref99Longitude": "369445",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38797837"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38841825",
+            "schoolUnitName": "Molla skola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.93012838924388",
+            "wgs84Longitude": "13.043264285125563",
+            "sweref99Latitude": "6422608.167730176",
+            "sweref99Longitude": "384123.507459584",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38841825"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38854084",
+            "schoolUnitName": "Steningehöjdens skola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.621640825273715",
+            "wgs84Longitude": "17.794747117981668",
+            "sweref99Latitude": "6612593",
+            "sweref99Longitude": "657630.5",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38854084"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38862939",
+            "schoolUnitName": "Landamäreskolan F-3",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.736380039465246",
+            "wgs84Longitude": "11.8949717106913",
+            "sweref99Latitude": "6403598.067",
+            "sweref99Longitude": "315156.257",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38862939"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38880984",
+            "schoolUnitName": "Jämtlands Gymn, Wargentin 1A",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "63.1784473107406",
+            "wgs84Longitude": "14.644835920963843",
+            "sweref99Latitude": "7005521",
+            "sweref99Longitude": "482120",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38880984"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38897013",
+            "schoolUnitName": "Kristna skolan Oasen",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "62.40186376221401",
+            "wgs84Longitude": "17.318244441498095",
+            "sweref99Latitude": "6921097.794",
+            "sweref99Longitude": "619802.345",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38897013"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38917647",
+            "schoolUnitName": "Hörby Yrkesgymnasium",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "55.85943698302876",
+            "wgs84Longitude": "13.666872264194783",
+            "sweref99Latitude": "6191239",
+            "sweref99Longitude": "416557",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38917647"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38920772",
+            "schoolUnitName": "Rävemåla Friskola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "56.559201885386386",
+            "wgs84Longitude": "15.262852217926365",
+            "sweref99Latitude": "6268351",
+            "sweref99Longitude": "516156",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38920772"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38925677",
+            "schoolUnitName": "Gullmarsskolan F-6",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.277537147513804",
+            "wgs84Longitude": "11.437970701301648",
+            "sweref99Latitude": "6465135",
+            "sweref99Longitude": "291143",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38925677"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38935587",
+            "schoolUnitName": "Internationella Engelska Skolan Enskede",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.26196711314333",
+            "wgs84Longitude": "18.085216949474553",
+            "sweref99Latitude": "6573294",
+            "sweref99Longitude": "675864",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38935587"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38936292",
+            "schoolUnitName": "Vittra Röda stan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.59544118460674",
+            "wgs84Longitude": "16.168571977930835",
+            "sweref99Latitude": "6495596.788",
+            "sweref99Longitude": "567920.847",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38936292"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38944084",
+            "schoolUnitName": "Fågelforsskolan 7-9",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.43417662976166",
+            "wgs84Longitude": "14.092219206436422",
+            "sweref99Latitude": "6366082",
+            "sweref99Longitude": "445499.0000305176",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38944084"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38948355",
+            "schoolUnitName": "Västra Husby skola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.48184010459675",
+            "wgs84Longitude": "16.174130315733592",
+            "sweref99Latitude": "6482955",
+            "sweref99Longitude": "568465",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38948355"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38957274",
+            "schoolUnitName": "Stadsskogenskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.92299937018263",
+            "wgs84Longitude": "12.505865513239584",
+            "sweref99Latitude": "6422862.5528411865",
+            "sweref99Longitude": "352277.6747741699",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38957274"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38969377",
+            "schoolUnitName": "Jernvallskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "60.6063411766556",
+            "wgs84Longitude": "16.774450803652133",
+            "sweref99Latitude": "6720252",
+            "sweref99Longitude": "597150",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38969377"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38975788",
+            "schoolUnitName": "Tungelsta skola",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.106087939713056",
+            "wgs84Longitude": "18.044824524007396",
+            "sweref99Latitude": "6555842",
+            "sweref99Longitude": "674355",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38975788"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "38993745",
+            "schoolUnitName": "Höglundaskolan anpassad grundskola 1-6",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.13011740246559",
+            "wgs84Longitude": "12.90142638659955",
+            "sweref99Latitude": "6556429",
+            "sweref99Longitude": "379900",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/38993745"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "39000072",
+            "schoolUnitName": "Utmarksskolan 4-9",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.76209739992002",
+            "wgs84Longitude": "12.044634358261883",
+            "sweref99Latitude": "6406060.847",
+            "sweref99Longitude": "324187.191",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39000072"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "39015433",
+            "schoolUnitName": "Hörby Lärcenter, komvux",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "55.85330541670927",
+            "wgs84Longitude": "13.657497170936379",
+            "sweref99Latitude": "6190568",
+            "sweref99Longitude": "415957",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39015433"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "39026192",
+            "schoolUnitName": "Lindöskolan",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "58.6075882960326",
+            "wgs84Longitude": "16.239411674478475",
+            "sweref99Latitude": "6497023",
+            "sweref99Longitude": "572013",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39026192"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "39059912",
+            "schoolUnitName": "Mörmoskolan 4-6",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "59.331664782029186",
+            "wgs84Longitude": "13.4721556743454",
+            "sweref99Latitude": "6577981.0175",
+            "sweref99Longitude": "413072.377",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39059912"
+              }
+            }
+          },
+          {
+            "schoolUnitCode": "39064377",
+            "schoolUnitName": "Bosgårdsskolan F-3 och fritidshem",
+            "educationEventTypeOfSchooling": null,
+            "coordinateSystemType": null,
+            "wgs84Latitude": "57.04077546963058",
+            "wgs84Longitude": "12.401839009087979",
+            "sweref99Latitude": "6324924.622",
+            "sweref99Longitude": "342361.928",
+            "abroadSchool": false,
+            "_links": {
+              "school-unit": {
+                "href": "https://api.skolverket.se/planned-educations/v4/school-units/39064377"
+              }
+            }
+          }
+        ]
+      },
+      "_links": {
+        "first": {
+          "href": "https://api.skolverket.se/planned-educations/v4/compact-school-units?municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84&page=0&size=50"
+        },
+        "prev": {
+          "href": "https://api.skolverket.se/planned-educations/v4/compact-school-units?municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84&page=2&size=50"
+        },
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/compact-school-units?municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84&page=3&size=50"
+        },
+        "next": {
+          "href": "https://api.skolverket.se/planned-educations/v4/compact-school-units?municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84&page=4&size=50"
+        },
+        "last": {
+          "href": "https://api.skolverket.se/planned-educations/v4/compact-school-units?municipalityCode=0128&schoolType=GR&coordinateSystemType=WGS84&page=132&size=50"
+        }
+      },
+      "page": {
+        "size": 50,
+        "totalElements": 6615,
+        "totalPages": 133,
+        "number": 3
+      }
+    }
+  }
+}

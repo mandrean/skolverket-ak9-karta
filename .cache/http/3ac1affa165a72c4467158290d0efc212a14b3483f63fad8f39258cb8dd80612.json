@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:50.780Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/69895255",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "69895255",
+      "name": "Mariaskolan",
+      "contactInfo": {
+        "email": "mariaskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/mariaskolan",
+        "telephone": "08-50840750",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ringvägen 23",
+            "zipCode": "11853",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31507516426807",
+      "wgs84_Long": "18.052131587242986",
+      "sweRef_N": "6579117",
+      "sweRef_E": "673708",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69895255"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69895255/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-04-21T10:25:58.809Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/86086213",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "86086213",
+      "name": "Sofiaängens skola",
+      "contactInfo": {
+        "email": "info@sofiaangen.se",
+        "web": "http://www.sofiaangen.se",
+        "telephone": "073-5227422",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Bergsunds strand 43 A",
+            "zipCode": "11738",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31579716968874",
+      "wgs84_Long": "18.031998378672665",
+      "sweRef_N": "6579145",
+      "sweRef_E": "672559",
+      "organisationRegistryNumber": "5565980942",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Sofiaängen AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gy",
+          "displayName": "Gymnasieskolan",
+          "schoolYears": []
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/86086213"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/86086213/statistics"
+        }
+      }
+    }
+  }
+}

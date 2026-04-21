@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:25:51.031Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/82854505",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "82854505",
+      "name": "Martinskolan Söders waldorfskola",
+      "contactInfo": {
+        "email": "kansli@martinskolan.se",
+        "web": "http://www.martinskolan.se",
+        "telephone": "08-6043827",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Munstycksvägen 18",
+            "zipCode": "12357",
+            "city": "Farsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.25172884468149",
+      "wgs84_Long": "18.079641221928618",
+      "sweRef_N": "6572140",
+      "sweRef_E": "675599",
+      "organisationRegistryNumber": "8020072644",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN MARTINSKOLAN SÖDERS WALDORFSKOLA",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82854505"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/82854505/statistics"
+        }
+      }
+    }
+  }
+}

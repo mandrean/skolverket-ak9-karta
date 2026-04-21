@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:06.140Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/48724676",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "48724676",
+      "name": "Kronängsskolan",
+      "contactInfo": {
+        "email": "kronangsskolan@skola.vaxholm.se",
+        "web": "http://vaxholm.se",
+        "telephone": "08-54170800",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ingenjörvägen 1",
+            "zipCode": "18534",
+            "city": "Vaxholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0187",
+      "wgs84_Lat": "59.40349799621942",
+      "wgs84_Long": "18.329880154065165",
+      "sweRef_N": "6589713",
+      "sweRef_E": "689015",
+      "organisationRegistryNumber": "2120002908",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "VAXHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48724676"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/48724676/statistics"
+        }
+      }
+    }
+  }
+}

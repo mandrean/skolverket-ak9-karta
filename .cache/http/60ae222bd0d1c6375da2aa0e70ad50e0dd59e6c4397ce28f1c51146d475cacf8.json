@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:51.479Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/58385274",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "58385274",
+      "name": "Skogsängsskolan",
+      "contactInfo": {
+        "email": "skogsangsskolan@salem.se",
+        "web": "https://salem.se/forskolaochskola/grundskola/skogsangsskolan.4.335d63281936795eddcd74f.html",
+        "telephone": "08-53259700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Säbytorgsvägen 18-20",
+            "zipCode": "14442",
+            "city": "Rönninge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0128",
+      "wgs84_Lat": "59.19616728860136",
+      "wgs84_Long": "17.758396965457994",
+      "sweRef_N": "6565154",
+      "sweRef_E": "657545",
+      "organisationRegistryNumber": "2120002874",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SALEMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58385274"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58385274/statistics"
+        }
+      }
+    }
+  }
+}

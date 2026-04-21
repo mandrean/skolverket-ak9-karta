@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:14.931Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/35008423",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "35008423",
+      "name": "Skolan Bergius",
+      "contactInfo": {
+        "email": "magnus@skolanbergius.se",
+        "web": "http://www.skolanbergius.se",
+        "telephone": "0732-572122",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Nymärsta Kulle 1",
+            "zipCode": "19530",
+            "city": "Märsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.6211150823695",
+      "wgs84_Long": "17.85765648574032",
+      "sweRef_N": "6612685.543",
+      "sweRef_E": "661179.838",
+      "organisationRegistryNumber": "5567482707",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Sigtuna Friskola AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35008423"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35008423/statistics"
+        }
+      }
+    }
+  }
+}

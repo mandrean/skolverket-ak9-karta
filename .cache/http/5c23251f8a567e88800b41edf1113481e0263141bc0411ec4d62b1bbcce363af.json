@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-04-21T10:25:16.353Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/97174070",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "97174070",
+      "name": "Mörbyskolan",
+      "contactInfo": {
+        "email": "isabel.rodriguez@danderyd.se",
+        "web": "http://www.morbyskolan.se",
+        "telephone": "08-56891440",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Vendevägen 94",
+            "zipCode": "18273",
+            "city": "Danderyd"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0162",
+      "wgs84_Lat": "59.39406658927409",
+      "wgs84_Long": "18.044191620434503",
+      "sweRef_N": "6587886.572540283",
+      "sweRef_E": "672854.1231079102",
+      "organisationRegistryNumber": "2120000126",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "DANDERYDS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97174070"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97174070/statistics"
+        }
+      }
+    }
+  }
+}

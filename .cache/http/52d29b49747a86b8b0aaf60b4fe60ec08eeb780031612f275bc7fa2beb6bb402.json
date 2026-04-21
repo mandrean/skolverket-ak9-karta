@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:20.127Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/62862066",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "62862066",
+      "name": "Helenelundsskolan",
+      "contactInfo": {
+        "email": "helenelundsskolan@edu.sollentuna.se",
+        "web": "http://www.sollentuna.se/sv/uweb/helenelundsskolan/",
+        "telephone": "08-57922150",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sollentunavägen 68",
+            "zipCode": "19140",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.414991884075896",
+      "wgs84_Long": "17.96491834179146",
+      "sweRef_N": "6590012",
+      "sweRef_E": "668251",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/62862066"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/62862066/statistics"
+        }
+      }
+    }
+  }
+}

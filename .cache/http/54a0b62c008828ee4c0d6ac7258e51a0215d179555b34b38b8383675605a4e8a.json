@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:24:44.202Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/84411355",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "84411355",
+      "name": "Kunskapsskolan Tumba",
+      "contactInfo": {
+        "email": "info.tumba@kunskapsskolan.se",
+        "web": "https://www.kunskapsskolan.se/skolor/tumba",
+        "telephone": "0733-173445",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hans Stahles väg 17",
+            "zipCode": "14741",
+            "city": "Tumba"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.20027201027238",
+      "wgs84_Long": "17.85033925114766",
+      "sweRef_N": "6565831.665",
+      "sweRef_E": "662774.692",
+      "organisationRegistryNumber": "5565661815",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Kunskapsskolan i Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84411355"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/84411355/statistics"
+        }
+      }
+    }
+  }
+}

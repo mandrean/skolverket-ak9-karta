@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:53.540Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/29158808",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "29158808",
+      "name": "Observatorielundens skola",
+      "contactInfo": {
+        "email": "observatorielundensskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/observatorielundens-skola",
+        "telephone": "08-50834000",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sandåsgatan 2",
+            "zipCode": "11329",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34211446329013",
+      "wgs84_Long": "18.05253610099016",
+      "sweRef_N": "6582127",
+      "sweRef_E": "673593",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29158808"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29158808/statistics"
+        }
+      }
+    }
+  }
+}

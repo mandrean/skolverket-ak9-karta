@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:40.476Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/24716970",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "24716970",
+      "name": "Högalidsskolan",
+      "contactInfo": {
+        "email": "hogalidsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/hogalidsskolan",
+        "telephone": "08-50843550",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Folkskolegatan 13",
+            "zipCode": "11735",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.317077144175975",
+      "wgs84_Long": "18.031057680170196",
+      "sweRef_N": "6579285",
+      "sweRef_E": "672499",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24716970"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/24716970/statistics"
+        }
+      }
+    }
+  }
+}

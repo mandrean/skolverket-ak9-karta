@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:35.696Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/60308449",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "60308449",
+      "name": "Filosofiska",
+      "contactInfo": {
+        "email": "info@filosofiska.nu",
+        "web": "http://www.filosofiska.nu",
+        "telephone": "+46704553450",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Horisontvägen 22-24",
+            "zipCode": "12834",
+            "city": "Skarpnäck"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.266637235094684",
+      "wgs84_Long": "18.12411764855116",
+      "sweRef_N": "6573917",
+      "sweRef_E": "678056",
+      "organisationRegistryNumber": "5568674252",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Filosofiska i Sverige AB (svb)",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60308449"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60308449/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:43.497Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/35129114",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "35129114",
+      "name": "Internationella Engelska Skolan Årsta",
+      "contactInfo": {
+        "email": "info.arsta@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "073-3823405",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sköntorpsvägen 31",
+            "zipCode": "12038",
+            "city": "Årsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.29764254783443",
+      "wgs84_Long": "18.06357027584556",
+      "sweRef_N": "6577207",
+      "sweRef_E": "674448",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35129114"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/35129114/statistics"
+        }
+      }
+    }
+  }
+}

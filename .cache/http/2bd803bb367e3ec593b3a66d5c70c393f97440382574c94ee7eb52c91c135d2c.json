@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:54.572Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/37112288",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "37112288",
+      "name": "Kulturama Grundsk. Sundbyberg",
+      "contactInfo": {
+        "email": "info@kulturama.se",
+        "web": "http://www.kulturama.se",
+        "telephone": "010-1576130",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lötsjövägen 10-12",
+            "zipCode": "17452",
+            "city": "Sundbyberg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0183",
+      "wgs84_Lat": "59.37469899035507",
+      "wgs84_Long": "17.96650502034701",
+      "sweRef_N": "6585532",
+      "sweRef_E": "668541",
+      "organisationRegistryNumber": "8020060524",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "MEDBORGARSKOLAN STOCKHOLMSREGIONEN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/37112288"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/37112288/statistics"
+        }
+      }
+    }
+  }
+}

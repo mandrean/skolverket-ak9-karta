@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:04.885Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/45104329",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "45104329",
+      "name": "Torsviks skola",
+      "contactInfo": {
+        "email": "sara.carlson@lidingo.se",
+        "web": "https://www.lidingo.se/torsvikskola",
+        "telephone": "08-7314460",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolvägen 3E",
+            "zipCode": "18133",
+            "city": "Lidingö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0186",
+      "wgs84_Lat": "59.365592985942804",
+      "wgs84_Long": "18.1267340338833",
+      "sweRef_N": "6584935.449",
+      "sweRef_E": "677687.749",
+      "organisationRegistryNumber": "2120000191",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "LIDINGÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45104329"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45104329/statistics"
+        }
+      }
+    }
+  }
+}

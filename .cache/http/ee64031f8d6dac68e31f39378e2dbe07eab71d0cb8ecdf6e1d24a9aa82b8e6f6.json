@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:09.405Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/54806839",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "54806839",
+      "name": "Viby friskola",
+      "contactInfo": {
+        "email": "info.viby@vibyfriskola.se",
+        "web": "http://www.vibyfriskola.se",
+        "telephone": "0175-72131",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lillskogsvägen 2",
+            "zipCode": "76231",
+            "city": "Rimbo"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.74244265425292",
+      "wgs84_Long": "18.356304703534764",
+      "sweRef_N": "6627501.843750001",
+      "sweRef_E": "688607.0000000008",
+      "organisationRegistryNumber": "5565533873",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "OGENHOLTS FRISKOLA AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54806839"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/54806839/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:23:34.072Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/80509560",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "80509560",
+      "name": "Engelska skolan Upplands Väsby",
+      "contactInfo": {
+        "email": "skolan@sprakskolanvasby.se",
+        "web": "http://www.sprakskolanvasby.se",
+        "telephone": "073-1451891",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ryttargatan 275",
+            "zipCode": "19471",
+            "city": "Upplands Väsby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0114",
+      "wgs84_Lat": "59.50720318638665",
+      "wgs84_Long": "17.9077806356273",
+      "sweRef_N": "6600131",
+      "sweRef_E": "664561",
+      "organisationRegistryNumber": "8160005966",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN SPRÅKSKOLAN I UPPLANDS VÄSBY",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80509560"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80509560/statistics"
+        }
+      }
+    }
+  }
+}

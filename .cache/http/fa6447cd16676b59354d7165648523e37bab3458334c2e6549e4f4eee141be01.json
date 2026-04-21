@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:43.242Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/83584296",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "83584296",
+      "name": "Internationella Engelska Skolan Älvsjö",
+      "contactInfo": {
+        "email": "info.alvsjo@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "073-1524882",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Armborstvägen 1",
+            "zipCode": "12544",
+            "city": "Älvsjö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.43491528712441",
+      "wgs84_Long": "18.07665035634572",
+      "sweRef_N": "6592517",
+      "sweRef_E": "674486",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83584296"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/83584296/statistics"
+        }
+      }
+    }
+  }
+}

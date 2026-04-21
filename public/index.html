@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Åk 9-meritvärden på karta – Stockholms län</title>
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQmC5S1sqgLMkRZ0bcpF5iGv7+edmVM=" crossorigin="" />
+  <link rel="stylesheet" href="/styles.css?v=popupread-20260421" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Grundskolor med slutbetyg i åk 9</h1>
+      <p>Stockholms län · kartan läser en färdig JSON-fil, inga liveanrop till Skolverket</p>
+    </div>
+    <button id="reloadButton" type="button">Ladda om JSON</button>
+  </header>
+
+  <main class="layout">
+    <aside class="panel" aria-label="Filter och status">
+      <section class="card">
+        <h2>Datakälla</h2>
+        <div id="status" class="status">Laddar JSON…</div>
+        <p class="muted tiny">Uppdatera listan genom att köra <code>npm run build:data</code> och ladda om sidan.</p>
+      </section>
+
+      <section class="card filters">
+        <h2>Filter</h2>
+        <label>
+          Kommun
+          <select id="municipalityFilter"><option value="">Alla kommuner</option></select>
+        </label>
+        <label>
+          Sök skola
+          <input id="searchFilter" type="search" placeholder="t.ex. Hässelby" />
+        </label>
+        <div class="range-row">
+          <label>
+            Min merit
+            <input id="minMerit" type="number" inputmode="decimal" min="0" max="340" step="0.1" placeholder="0" />
+          </label>
+          <label>
+            Max merit
+            <input id="maxMerit" type="number" inputmode="decimal" min="0" max="340" step="0.1" placeholder="340" />
+          </label>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Skolor</h2>
+        <p id="countText" class="muted">–</p>
+        <div id="schoolList" class="school-list"></div>
+      </section>
+    </aside>
+
+    <section class="map-wrap" aria-label="Karta">
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <template id="schoolItemTemplate">
+    <button type="button" class="school-item">
+      <span class="school-item__grade"></span>
+      <span class="school-item__text">
+        <strong class="school-item__name"></strong>
+        <small class="school-item__meta"></small>
+      </span>
+    </button>
+  </template>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="/app.js?v=popupread-20260421" type="module"></script>
+</body>
+</html>

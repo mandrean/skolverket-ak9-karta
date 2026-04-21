@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:54.325Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/98753011",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "98753011",
+      "name": "Internationella Engelska Skolan Sundbyberg",
+      "contactInfo": {
+        "email": "info.sundbyberg@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "070-9710878",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rissneleden 136",
+            "zipCode": "17457",
+            "city": "Sundbyberg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0183",
+      "wgs84_Lat": "59.37293948239033",
+      "wgs84_Long": "17.9342701834624",
+      "sweRef_N": "6585255",
+      "sweRef_E": "666719",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98753011"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98753011/statistics"
+        }
+      }
+    }
+  }
+}

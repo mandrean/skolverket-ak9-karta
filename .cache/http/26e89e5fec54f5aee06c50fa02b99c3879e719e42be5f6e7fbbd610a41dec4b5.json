@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:08.650Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/39351914",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "39351914",
+      "name": "Norrsundsskolan",
+      "contactInfo": {
+        "email": "vaddoenheten@norrtalje.se",
+        "web": "http://www.norrtalje.se",
+        "telephone": "0176-284280",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sandviksvägen 6",
+            "zipCode": "76431",
+            "city": "Väddö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0188",
+      "wgs84_Lat": "59.97361605203046",
+      "wgs84_Long": "18.817032073997673",
+      "sweRef_N": "6654619",
+      "sweRef_E": "712996",
+      "organisationRegistryNumber": "2120000217",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NORRTÄLJE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39351914"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39351914/statistics"
+        }
+      }
+    }
+  }
+}

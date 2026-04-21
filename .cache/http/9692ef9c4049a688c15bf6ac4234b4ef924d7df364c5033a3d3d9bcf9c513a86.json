@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:07.555Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/45984740",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "45984740",
+      "name": "Helleborusskolan Täby AB",
+      "contactInfo": {
+        "email": "emma.beckman@helleborusskolan.se",
+        "web": "http://www.helleborusskolan.se",
+        "telephone": "+46707889332",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kuttervägen 1- 3",
+            "zipCode": "18353",
+            "city": "Täby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0160",
+      "wgs84_Lat": "59.43393893044516",
+      "wgs84_Long": "18.087930877608517",
+      "sweRef_N": "6592438",
+      "sweRef_E": "675130.5",
+      "organisationRegistryNumber": "5567508386",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Helleborusskolan Täby AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45984740"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/45984740/statistics"
+        }
+      }
+    }
+  }
+}

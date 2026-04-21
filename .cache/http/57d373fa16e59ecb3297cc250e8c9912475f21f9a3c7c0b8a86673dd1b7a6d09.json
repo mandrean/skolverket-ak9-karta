@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:13.421Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/14261356",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "14261356",
+      "name": "Ekillaskolan",
+      "contactInfo": {
+        "email": "anna.svensson@sigtuna.se",
+        "web": "http://www.sigtuna.se/ekillaskolan",
+        "telephone": "08-59783500",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Stockholmsvägen 49",
+            "zipCode": "19532",
+            "city": "Märsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.62533337544873",
+      "wgs84_Long": "17.846301393344838",
+      "sweRef_N": "6613127.5",
+      "sweRef_E": "660519.5",
+      "organisationRegistryNumber": "2120000225",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SIGTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14261356"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14261356/statistics"
+        }
+      }
+    }
+  }
+}

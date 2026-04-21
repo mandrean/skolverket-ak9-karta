@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:49.525Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/67731691",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "67731691",
+      "name": "Lunaskolan Södra",
+      "contactInfo": {
+        "email": "lunaskolansodra@up.se",
+        "web": "https://www.up.se/lunaskolansodra/",
+        "telephone": "010-1401240",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Junohällsvägen 1D",
+            "zipCode": "11264",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.3260859736221",
+      "wgs84_Long": "17.99020942367693",
+      "sweRef_N": "6580182.431",
+      "sweRef_E": "670130.285",
+      "organisationRegistryNumber": "5564715729",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Utvecklingspedagogik Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67731691"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/67731691/statistics"
+        }
+      }
+    }
+  }
+}

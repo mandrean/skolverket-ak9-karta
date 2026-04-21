@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:26:01.067Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/21724208",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "21724208",
+      "name": "Sätraskolan",
+      "contactInfo": {
+        "email": "satraskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/satraskolan",
+        "telephone": "08-50824223",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Bogsätravägen 46",
+            "zipCode": "12738",
+            "city": "Skärholmen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.28447906973233",
+      "wgs84_Long": "17.917252716639105",
+      "sweRef_N": "6575368",
+      "sweRef_E": "666184",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21724208"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21724208/statistics"
+        }
+      }
+    }
+  }
+}

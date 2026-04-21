@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:21.895Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/39907811",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "39907811",
+      "name": "Sofielundsskolan",
+      "contactInfo": {
+        "email": "sofielundsskolan@edu.sollentuna.se",
+        "web": "http://www.sollentuna.se/sv/uweb/sofielundsskolan/",
+        "telephone": "08-59496630",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sollentunavägen 192",
+            "zipCode": "19135",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.43361072852683",
+      "wgs84_Long": "17.94984378894086",
+      "sweRef_N": "6592046",
+      "sweRef_E": "667304",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39907811"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/39907811/statistics"
+        }
+      }
+    }
+  }
+}

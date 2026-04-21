@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:35.196Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/61184554",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "61184554",
+      "name": "Eviaskolan Söder",
+      "contactInfo": {
+        "email": "info@eviaskolan.se",
+        "web": "https://wemind.se/hvb-och-skola/eviaskolan-soder/",
+        "telephone": "070-6608323",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Fatburs Brunnsgatan 26",
+            "zipCode": "11828",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.313291100933945",
+      "wgs84_Long": "18.067240636011626",
+      "sweRef_N": "6578957.981",
+      "sweRef_E": "674576.667",
+      "organisationRegistryNumber": "5567379093",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Evia Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/61184554"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/61184554/statistics"
+        }
+      }
+    }
+  }
+}

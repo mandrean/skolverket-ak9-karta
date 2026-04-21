@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:26:59.598Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/89893224",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "89893224",
+      "name": "Svedenskolan Bergshamra",
+      "contactInfo": {
+        "email": "svedenskolanbergshamra@up.se",
+        "web": "https://www.up.se/svedenskolanbergshamra/",
+        "telephone": "010-1401230",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hjortstigen 3",
+            "zipCode": "17071",
+            "city": "Solna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0184",
+      "wgs84_Lat": "59.384238205812316",
+      "wgs84_Long": "18.030361281275983",
+      "sweRef_N": "6586757",
+      "sweRef_E": "672119",
+      "organisationRegistryNumber": "5564715729",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Utvecklingspedagogik Sverige Aktiebolag",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/89893224"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/89893224/statistics"
+        }
+      }
+    }
+  }
+}

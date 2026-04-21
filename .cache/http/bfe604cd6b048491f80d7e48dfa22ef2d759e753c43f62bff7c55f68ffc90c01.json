@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:22.143Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/21871265",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "21871265",
+      "name": "Sollentuna musikklasser",
+      "contactInfo": {
+        "email": "sollentunamusikklass@edu.sollentuna.se",
+        "web": "http://www.edu.sollentuna.se/smk",
+        "telephone": "08-57922103",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sollentunavägen 265-267",
+            "zipCode": "19136",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.44854489286919",
+      "wgs84_Long": "17.938298240006294",
+      "sweRef_N": "6593679",
+      "sweRef_E": "666576",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21871265"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/21871265/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:24:42.440Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/40631085",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "40631085",
+      "name": "Fittjaskolan",
+      "contactInfo": {
+        "email": "fittjaskolan@botkyrka.se",
+        "web": "http://www.botkyrka.se/fittjaskolanbotkyrkanorra",
+        "telephone": "08-53063900",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Stökhagsvägen 1",
+            "zipCode": "14550",
+            "city": "Norsborg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.245956470237026",
+      "wgs84_Long": "17.861146887529298",
+      "sweRef_N": "6570942.245",
+      "sweRef_E": "663173.331",
+      "organisationRegistryNumber": "2120002882",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "BOTKYRKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40631085"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40631085/statistics"
+        }
+      }
+    }
+  }
+}

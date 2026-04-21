@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:50.530Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/73893187",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "73893187",
+      "name": "Maria Elementarskola",
+      "contactInfo": {
+        "email": "marie.gulliksson@mariaelementarskola.se",
+        "web": "http://www.mariaelementar.se",
+        "telephone": "+46736250960",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Kvarngatan 18",
+            "zipCode": "11847",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.31668632147073",
+      "wgs84_Long": "18.06807994111031",
+      "sweRef_N": "6579338",
+      "sweRef_E": "674607",
+      "organisationRegistryNumber": "8020060458",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "MÄRTA FRANSONS STIFTELSE",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73893187"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73893187/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:53.993Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/73926940",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "73926940",
+      "name": "Deltaskolan",
+      "contactInfo": {
+        "email": "thomas@deltaskolan.se",
+        "web": "http://www.deltaskolan.se",
+        "telephone": "070-4210130",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rudsjöterrassen 1, 3 tr",
+            "zipCode": "13640",
+            "city": "Handen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.168408712146906",
+      "wgs84_Long": "18.136473377424988",
+      "sweRef_N": "6563019.723",
+      "sweRef_E": "679274.432",
+      "organisationRegistryNumber": "5568658545",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Deltaskolan AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73926940"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/73926940/statistics"
+        }
+      }
+    }
+  }
+}

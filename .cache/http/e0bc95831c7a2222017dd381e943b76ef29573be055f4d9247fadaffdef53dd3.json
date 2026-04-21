@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:25.105Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/62569730",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "62569730",
+      "name": "Internationella Engelska Skolan Värmdö",
+      "contactInfo": {
+        "email": "info.varmdo@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "070-1643323",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Charlottendalsvägen 2A-B",
+            "zipCode": "13439",
+            "city": "Värmdö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0120",
+      "wgs84_Lat": "59.43491528712441",
+      "wgs84_Long": "18.07665035634572",
+      "sweRef_N": "6592517",
+      "sweRef_E": "674486",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/62569730"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/62569730/statistics"
+        }
+      }
+    }
+  }
+}

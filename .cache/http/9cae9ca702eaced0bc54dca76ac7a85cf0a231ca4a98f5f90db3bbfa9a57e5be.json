@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:35.914Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/97942210",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "97942210",
+      "name": "Internationella Engelska Skolan Huddinge",
+      "contactInfo": {
+        "email": "info.huddinge@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "070-1643323",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Regulatorvägen 11",
+            "zipCode": "14149",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.22160033772581",
+      "wgs84_Long": "17.961173261017972",
+      "sweRef_N": "6568481",
+      "sweRef_E": "668996",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97942210"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/97942210/statistics"
+        }
+      }
+    }
+  }
+}

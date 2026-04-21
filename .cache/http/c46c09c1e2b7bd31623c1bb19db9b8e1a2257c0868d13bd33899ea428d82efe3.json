@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:42.189Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/85558618",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "85558618",
+      "name": "Falkbergsskolan",
+      "contactInfo": {
+        "email": "falkbergsskolan@botkyrka.se",
+        "web": "http://www.botkyrka.se/falkbergsskolan",
+        "telephone": "072-5134160",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Östanvägen 3",
+            "zipCode": "14640",
+            "city": "Tullinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.204779250122925",
+      "wgs84_Long": "17.89574767950746",
+      "sweRef_N": "6566445",
+      "sweRef_E": "665345",
+      "organisationRegistryNumber": "2120002882",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "BOTKYRKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85558618"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85558618/statistics"
+        }
+      }
+    }
+  }
+}

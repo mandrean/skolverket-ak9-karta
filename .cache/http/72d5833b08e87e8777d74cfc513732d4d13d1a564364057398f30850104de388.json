@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:17.196Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/65717061",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "65717061",
+      "name": "Gröndalsskolan F-9",
+      "contactInfo": {
+        "email": "grondalsskolan@nynashamn.se",
+        "web": "https://nynashamn.se/service/forskola--skola/grundskola/hitta-skola/grondalsskolan-f-9",
+        "telephone": "08-52073600",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Idunvägen 23",
+            "zipCode": "14931",
+            "city": "Nynäshamn"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0192",
+      "wgs84_Lat": "58.90055927209708",
+      "wgs84_Long": "17.935551763660285",
+      "sweRef_N": "6532690",
+      "sweRef_E": "669105.75",
+      "organisationRegistryNumber": "2120000233",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NYNÄSHAMNS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/65717061"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/65717061/statistics"
+        }
+      }
+    }
+  }
+}

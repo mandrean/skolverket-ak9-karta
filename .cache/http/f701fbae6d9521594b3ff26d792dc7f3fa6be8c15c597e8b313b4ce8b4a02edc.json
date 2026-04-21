@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-04-21T10:25:15.852Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/66620411",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "66620411",
+      "name": "British International School",
+      "contactInfo": {
+        "email": "school@bisstockholm.se",
+        "web": "http://www.bisstockholm.se",
+        "telephone": "08-7552375",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Östra Valhallavägen 17",
+            "zipCode": "18268",
+            "city": "Djursholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0162",
+      "wgs84_Lat": "59.40700172886807",
+      "wgs84_Long": "18.07445167076374",
+      "sweRef_N": "6589405",
+      "sweRef_E": "674505",
+      "organisationRegistryNumber": "8024777289",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN BORGEN 2 - BRITISH INTERNATIONAL SCHOOL STOCKHOLM",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gy",
+          "displayName": "Gymnasieskolan",
+          "schoolYears": []
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66620411"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/66620411/statistics"
+        }
+      }
+    }
+  }
+}

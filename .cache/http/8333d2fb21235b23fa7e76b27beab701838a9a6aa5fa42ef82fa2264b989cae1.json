@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:42.236Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/90732940",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "90732940",
+      "name": "Internationella Engelska Skolan Bromma",
+      "contactInfo": {
+        "email": "info.bromma@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "08-56461940",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Riksbyvägen 40-48",
+            "zipCode": "16874",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34258882213788",
+      "wgs84_Long": "17.944474241616035",
+      "sweRef_N": "6581903",
+      "sweRef_E": "667448",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90732940"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/90732940/statistics"
+        }
+      }
+    }
+  }
+}

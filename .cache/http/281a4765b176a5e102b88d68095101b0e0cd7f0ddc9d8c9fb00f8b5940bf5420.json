@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:54.072Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/60521412",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "60521412",
+      "name": "Igelbäckskolan",
+      "contactInfo": {
+        "email": "johanna.eriksson@sundbyberg.se",
+        "web": "https://www.sundbyberg.se/forskola-utbildning/grundskola-och-grundsarskola/sundbybergs-resursskola.html",
+        "telephone": "08-7068734",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "ridvägen 13A",
+            "zipCode": "17457",
+            "city": "sundbyberg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0183",
+      "wgs84_Lat": "59.225698888397794",
+      "wgs84_Long": "15.159174168922648",
+      "sweRef_N": "6565195",
+      "sweRef_E": "509085",
+      "organisationRegistryNumber": "2120000175",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SUNDBYBERGS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60521412"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60521412/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:26:36.726Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/14872951",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "14872951",
+      "name": "Magelungens Grundskola Södertälje",
+      "contactInfo": {
+        "email": "lena.sahrblom@magelungen.com",
+        "web": "http://www.magelungen.com",
+        "telephone": "076-3099935",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Hertig Carls väg 22",
+            "zipCode": "15138",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.18155758080306",
+      "wgs84_Long": "17.644752845292913",
+      "sweRef_N": "6563265",
+      "sweRef_E": "651121",
+      "organisationRegistryNumber": "5564891447",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Magelungen Utveckling AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14872951"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/14872951/statistics"
+        }
+      }
+    }
+  }
+}

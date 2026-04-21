@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:40.257Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/10661388",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "10661388",
+      "name": "Örjanskolan grund",
+      "contactInfo": {
+        "email": "rektor@orjanskolan.se",
+        "web": "http://www.orjanskolan.se",
+        "telephone": "08-55150051",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Nibble 19",
+            "zipCode": "15391",
+            "city": "Järna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.06655486426569",
+      "wgs84_Long": "17.61655981354482",
+      "sweRef_N": "6550401.911390625",
+      "sweRef_E": "650012.62234375",
+      "organisationRegistryNumber": "8156005103",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FÖRENINGEN ÖRJANSKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10661388"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10661388/statistics"
+        }
+      }
+    }
+  }
+}

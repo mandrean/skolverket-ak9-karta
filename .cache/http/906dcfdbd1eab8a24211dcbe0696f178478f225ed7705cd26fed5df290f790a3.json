@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:54.492Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/81680693",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "81680693",
+      "name": "HagaLyckebyskolan",
+      "contactInfo": {
+        "email": "hagalyckebyskolan@haninge.se",
+        "web": "http://haninge.se/forskola-och-skola/grundskola/",
+        "telephone": "08-6068625",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skomakarvägen 1",
+            "zipCode": "13670",
+            "city": "Vendelsö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0136",
+      "wgs84_Lat": "59.194444633360476",
+      "wgs84_Long": "18.190928402642466",
+      "sweRef_N": "6566064.4375",
+      "sweRef_E": "682246.75",
+      "organisationRegistryNumber": "2120000084",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HANINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/81680693"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/81680693/statistics"
+        }
+      }
+    }
+  }
+}

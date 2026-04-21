@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:04.380Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/75109796",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "75109796",
+      "name": "Lillåkers skola",
+      "contactInfo": {
+        "email": "catrin.freidenvall@lidingo.se",
+        "web": null,
+        "telephone": "08-7313097",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Högsätravägen 6",
+            "zipCode": "18158",
+            "city": "LIDINGÖ"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0186",
+      "wgs84_Lat": "59.350836468133984",
+      "wgs84_Long": "18.154219381461964",
+      "sweRef_N": "6583367.111",
+      "sweRef_E": "679326.799",
+      "organisationRegistryNumber": "2120000191",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "LIDINGÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/75109796"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/75109796/statistics"
+        }
+      }
+    }
+  }
+}

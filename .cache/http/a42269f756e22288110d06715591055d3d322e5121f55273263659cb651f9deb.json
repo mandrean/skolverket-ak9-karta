@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:44.450Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56417100",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56417100",
+      "name": "Kvarnhagsskolan",
+      "contactInfo": {
+        "email": "kvarnhagsskolan@botkyrka.se",
+        "web": "http://www.botkyrka.se/kvarnhagsskolan",
+        "telephone": "08-53061087",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Servitutsvägen 17",
+            "zipCode": "14559",
+            "city": "Norsborg"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.235148657726",
+      "wgs84_Long": "17.847101373860507",
+      "sweRef_N": "6569705.147",
+      "sweRef_E": "662424.023",
+      "organisationRegistryNumber": "2120002882",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "BOTKYRKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56417100"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56417100/statistics"
+        }
+      }
+    }
+  }
+}

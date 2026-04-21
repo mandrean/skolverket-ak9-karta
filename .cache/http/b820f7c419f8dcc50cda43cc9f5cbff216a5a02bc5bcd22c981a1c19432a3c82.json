@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-21T10:26:02.823Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/29270748",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "29270748",
+      "name": "Vanadisskolan",
+      "contactInfo": {
+        "email": "info@iofi.se",
+        "web": "http://www.iofi.se",
+        "telephone": "070-1475367",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Idungatan 4b",
+            "zipCode": "11345",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34838451512553",
+      "wgs84_Long": "18.048031762930858",
+      "sweRef_N": "6582813",
+      "sweRef_E": "673305",
+      "organisationRegistryNumber": "5569990160",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Individ och familjeinsatser (IOFI) AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29270748"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29270748/statistics"
+        }
+      }
+    }
+  }
+}

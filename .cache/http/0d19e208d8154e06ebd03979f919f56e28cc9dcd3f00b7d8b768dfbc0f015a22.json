@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:52.032Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/36066067",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "36066067",
+      "name": "Musikskolan Lilla Akademien",
+      "contactInfo": {
+        "email": "info@lillaakademien.se",
+        "web": "http://www.lillaakademien.se",
+        "telephone": "08-54541830",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Norrtullsgatan 14",
+            "zipCode": "11345",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34593954678331",
+      "wgs84_Long": "18.048445874670424",
+      "sweRef_N": "6582542",
+      "sweRef_E": "673341",
+      "organisationRegistryNumber": "5565510756",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "MUSIKSKOLAN LILLA AKADEMIEN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/36066067"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/36066067/statistics"
+        }
+      }
+    }
+  }
+}

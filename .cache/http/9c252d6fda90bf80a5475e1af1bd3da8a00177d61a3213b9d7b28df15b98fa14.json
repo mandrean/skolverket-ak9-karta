@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:31.177Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/29371242",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "29371242",
+      "name": "Campus Manilla",
+      "contactInfo": {
+        "email": "adm@campusmanilla.se",
+        "web": "http://www.campusmanilla.se",
+        "telephone": "08-6627700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Manillavägen 32-36",
+            "zipCode": "11521",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.323458186085055",
+      "wgs84_Long": "18.133344033248736",
+      "sweRef_N": "6580264.5",
+      "sweRef_E": "678284",
+      "organisationRegistryNumber": "5568834765",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Campus Manilla Utbildning AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29371242"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/29371242/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:32.402Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/27595656",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "27595656",
+      "name": "Birkaskolan",
+      "contactInfo": {
+        "email": "info@birkaskolan.se",
+        "web": "http://www.birkaskolan.se",
+        "telephone": "08-56410920",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Björkuddsvägen 98",
+            "zipCode": "17834",
+            "city": "Ekerö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0125",
+      "wgs84_Lat": "59.28312089652484",
+      "wgs84_Long": "17.8031365766048",
+      "sweRef_N": "6574937.7326413",
+      "sweRef_E": "659692.163490496",
+      "organisationRegistryNumber": "7696032353",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "MÄLARÖARNAS MONTESSORI, EK. FÖR.",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/27595656"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/27595656/statistics"
+        }
+      }
+    }
+  }
+}

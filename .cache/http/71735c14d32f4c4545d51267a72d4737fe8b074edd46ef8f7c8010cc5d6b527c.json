@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:24:29.886Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/77763178",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "77763178",
+      "name": "Kvarnskolan",
+      "contactInfo": {
+        "email": "Kvarnskolan@jarfalla.se",
+        "web": "http://www.jarfalla.se",
+        "telephone": "08-58029890",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Mjölnarvägen 15",
+            "zipCode": "17741",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.420009607211924",
+      "wgs84_Long": "17.826514710526308",
+      "sweRef_N": "6590228.56337497",
+      "sweRef_E": "660376.386488125",
+      "organisationRegistryNumber": "2120000043",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "JÄRFÄLLA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/77763178"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/77763178/statistics"
+        }
+      }
+    }
+  }
+}

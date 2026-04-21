@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:52.534Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/15171331",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "15171331",
+      "name": "Nordic International School, Stockholm",
+      "contactInfo": {
+        "email": "essingen@nordicinternational.se",
+        "web": "https://nordicinternational.se/essingen",
+        "telephone": "08-41023888",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Segelbåtsvägen 11B",
+            "zipCode": "11264",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.326531135479556",
+      "wgs84_Long": "17.990815939364808",
+      "sweRef_N": "6580233.52",
+      "sweRef_E": "670162.552",
+      "organisationRegistryNumber": "5566102033",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Nordic International School AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/15171331"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/15171331/statistics"
+        }
+      }
+    }
+  }
+}

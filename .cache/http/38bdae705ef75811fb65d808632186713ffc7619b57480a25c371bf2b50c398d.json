@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:43.694Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/80731562",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "80731562",
+      "name": "JENSEN grundskola Kvarnsjön",
+      "contactInfo": {
+        "email": "pavi.sateri@jenseneducation.se",
+        "web": "http://www.jensengrundskola.se/kvarnsjon",
+        "telephone": "073-7731053",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tant Gredelins väg 6",
+            "zipCode": "14760",
+            "city": "Uttran"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0127",
+      "wgs84_Lat": "59.20353020118481",
+      "wgs84_Long": "17.804192769325116",
+      "sweRef_N": "6566082.524571908",
+      "sweRef_E": "660125.1522039019",
+      "organisationRegistryNumber": "5566358759",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "JENSEN EDUCATION COLLEGE AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80731562"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/80731562/statistics"
+        }
+      }
+    }
+  }
+}

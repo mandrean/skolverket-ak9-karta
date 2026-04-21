@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:42.480Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/38935587",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "38935587",
+      "name": "Internationella Engelska Skolan Enskede",
+      "contactInfo": {
+        "email": "info.enskede@engelska.se",
+        "web": "http://www.engelska.se",
+        "telephone": "08-50553300",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Lingvägen 123",
+            "zipCode": "12245",
+            "city": "Enskede"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.26196711314333",
+      "wgs84_Long": "18.085216949474553",
+      "sweRef_N": "6573294",
+      "sweRef_E": "675864",
+      "organisationRegistryNumber": "5564624368",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Internationella Engelska Skolan i Sverige AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38935587"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/38935587/statistics"
+        }
+      }
+    }
+  }
+}

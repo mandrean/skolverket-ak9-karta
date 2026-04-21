@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-04-21T10:25:20.641Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/85777315",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "85777315",
+      "name": "Mikaelskolan",
+      "contactInfo": {
+        "email": "info@mikaelskolan.se",
+        "web": "http://www.mikaelskolan.se",
+        "telephone": "08-7540025",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ebba Brahes väg 1",
+            "zipCode": "19269",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.47737223842555",
+      "wgs84_Long": "17.90964733699965",
+      "sweRef_N": "6596815.75339978",
+      "sweRef_E": "664811.9768308105",
+      "organisationRegistryNumber": "8148008330",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FÖRENINGEN MIKAELSKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "KONFESSIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "4"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85777315"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85777315/statistics"
+        }
+      }
+    }
+  }
+}

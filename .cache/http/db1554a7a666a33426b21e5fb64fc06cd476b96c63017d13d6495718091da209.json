@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:27:14.176Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/55508705",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "55508705",
+      "name": "Josefinaskolan, grundskola",
+      "contactInfo": {
+        "email": "kansli@josefinaskolan.se",
+        "web": "http://www.josefinaskolan.se",
+        "telephone": "+46707799720",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rävsta gård",
+            "zipCode": "19592",
+            "city": "Märsta"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.6273349477832",
+      "wgs84_Long": "17.783012868413966",
+      "sweRef_N": "6613198.936006104",
+      "sweRef_E": "656942.3369938965",
+      "organisationRegistryNumber": "8148007258",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "STIFTELSEN JOSEFINASKOLAN",
+      "companyForm": "Fristående",
+      "schoolOrientation": "WALDORF",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/55508705"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/55508705/statistics"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:37.993Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/16068461",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "16068461",
+      "name": "Nyckelskolan",
+      "contactInfo": {
+        "email": "info@nyckelskolan.se",
+        "web": "http://www.knippan.se",
+        "telephone": "08-55061510",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Ekensbergsgatan 34",
+            "zipCode": "15243",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.20657226277028",
+      "wgs84_Long": "17.6394173945489",
+      "sweRef_N": "6566037",
+      "sweRef_E": "650706",
+      "organisationRegistryNumber": "5564787397",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "NYCKELKNIPPAN FÖRSKOLE AKTIEBOLAG",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16068461"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/16068461/statistics"
+        }
+      }
+    }
+  }
+}

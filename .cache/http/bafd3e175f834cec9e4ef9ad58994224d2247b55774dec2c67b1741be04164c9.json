@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:26:05.833Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/15594566",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "15594566",
+      "name": "Äppelviksskolan",
+      "contactInfo": {
+        "email": "appelviksskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/appelviksskolan",
+        "telephone": "08-4459700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Alviksvägen 97",
+            "zipCode": "16753",
+            "city": "Bromma"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.323867790582256",
+      "wgs84_Long": "17.9746775232703",
+      "sweRef_N": "6579896",
+      "sweRef_E": "669258",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/15594566"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/15594566/statistics"
+        }
+      }
+    }
+  }
+}

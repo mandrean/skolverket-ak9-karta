@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:19.879Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/70201551",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "70201551",
+      "name": "Gärdesskolan",
+      "contactInfo": {
+        "email": "paulina.pastene@sollentuna.se",
+        "web": "http://www.sollentuna.se/sv/uweb/gardesskolan-med-forskolor/",
+        "telephone": "08-57921000",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Malla Silfverstolpes väg 2",
+            "zipCode": "19251",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.44400682385766",
+      "wgs84_Long": "17.956219422082714",
+      "sweRef_N": "6593219",
+      "sweRef_E": "667614",
+      "organisationRegistryNumber": "2120000134",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SOLLENTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/70201551"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/70201551/statistics"
+        }
+      }
+    }
+  }
+}

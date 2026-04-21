@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:48.549Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/11777750",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "11777750",
+      "name": "Saltsjöbadens samskola",
+      "contactInfo": {
+        "email": "samskolan@nacka.se",
+        "web": "http://www.samskolan.org",
+        "telephone": "08-7188200",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Samskolevägen 1",
+            "zipCode": "13334",
+            "city": "Saltsjöbaden"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0182",
+      "wgs84_Lat": "59.27780724552396",
+      "wgs84_Long": "18.283606998605894",
+      "sweRef_N": "6575597",
+      "sweRef_E": "687080",
+      "organisationRegistryNumber": "2120000167",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "NACKA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11777750"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/11777750/statistics"
+        }
+      }
+    }
+  }
+}

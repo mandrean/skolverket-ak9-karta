@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:27:03.875Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/69329486",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "69329486",
+      "name": "Källängens skola",
+      "contactInfo": {
+        "email": "anna.lena.jenny.bergman@lidingo.se",
+        "web": "https://www.lidingo.se/kallangensskola",
+        "telephone": "08-7313515",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Källängsvägen 1",
+            "zipCode": "18143",
+            "city": "Lidingö"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0186",
+      "wgs84_Lat": "59.37227772912638",
+      "wgs84_Long": "18.145715649004487",
+      "sweRef_N": "6585730.1328125",
+      "sweRef_E": "678730.75",
+      "organisationRegistryNumber": "2120000191",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "LIDINGÖ KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69329486"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/69329486/statistics"
+        }
+      }
+    }
+  }
+}

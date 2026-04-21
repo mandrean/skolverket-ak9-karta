@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-04-21T10:24:29.129Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/40847752",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "40847752",
+      "name": "Björkebyskolan",
+      "contactInfo": {
+        "email": "bjorkebyskolan@jarfalla.se",
+        "web": "http://www.jarfalla.se",
+        "telephone": "08-58029940",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Österdalsvägen 1",
+            "zipCode": "17568",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.398707169295385",
+      "wgs84_Long": "17.849735496603984",
+      "sweRef_N": "6587914",
+      "sweRef_E": "661795",
+      "organisationRegistryNumber": "2120000043",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "JÄRFÄLLA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40847752"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40847752/statistics"
+        }
+      }
+    }
+  }
+}

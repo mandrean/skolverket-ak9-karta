@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:26:39.754Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/12757193",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "12757193",
+      "name": "Vittra Östertälje",
+      "contactInfo": {
+        "email": "ostertalje@vittra.se",
+        "web": "http://www.vittra.se/ostertalje",
+        "telephone": "08-55422340",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Gärtunavägen 4",
+            "zipCode": "15257",
+            "city": "Södertälje"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0181",
+      "wgs84_Lat": "59.180190154118684",
+      "wgs84_Long": "17.66768528959442",
+      "sweRef_N": "6563165",
+      "sweRef_E": "652437",
+      "organisationRegistryNumber": "5564586716",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Vittraskolorna AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/12757193"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/12757193/statistics"
+        }
+      }
+    }
+  }
+}

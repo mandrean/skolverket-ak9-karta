@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-04-21T10:25:04.544Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/85796724",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "85796724",
+      "name": "Källskolan 6-9",
+      "contactInfo": {
+        "email": "info@kallskolan.se",
+        "web": "http://www.kallskolan.se",
+        "telephone": "08-58166620",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolvägen 20 E",
+            "zipCode": "19634",
+            "city": "Kungsängen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0139",
+      "wgs84_Lat": "59.48042218275937",
+      "wgs84_Long": "17.737221455610214",
+      "sweRef_N": "6596740.429",
+      "sweRef_E": "655034.941",
+      "organisationRegistryNumber": "8132004659",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FÖRENINGEN FÖR KRISTEN SKOLA I UPPLANDS-BRO",
+      "companyForm": "Fristående",
+      "schoolOrientation": "KONFESSIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85796724"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/85796724/statistics"
+        }
+      }
+    }
+  }
+}

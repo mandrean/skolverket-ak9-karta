@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:34.943Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/79969356",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "79969356",
+      "name": "Europaskolan",
+      "contactInfo": {
+        "email": "info@europaskolan.nu",
+        "web": "http://www.europaskolan.nu",
+        "telephone": "+46733136837",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Gotlandsgatan 43",
+            "zipCode": "11665",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.30983954345977",
+      "wgs84_Long": "18.077182162742385",
+      "sweRef_N": "6578600",
+      "sweRef_E": "675160",
+      "organisationRegistryNumber": "5567025696",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "AB Parts & Paomees",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79969356"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/79969356/statistics"
+        }
+      }
+    }
+  }
+}

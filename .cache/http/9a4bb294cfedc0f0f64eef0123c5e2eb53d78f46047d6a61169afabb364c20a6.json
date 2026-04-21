@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:19.380Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/47986219",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "47986219",
+      "name": "Futuraskolan International Rådan",
+      "contactInfo": {
+        "email": "radan@futuraskolan.se",
+        "web": "http://www.futuraskolan.se",
+        "telephone": "076-7242558",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rådan skolan 3",
+            "zipCode": "19138",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.39974889766551",
+      "wgs84_Long": "18.001190527450333",
+      "sweRef_N": "6588408",
+      "sweRef_E": "670385",
+      "organisationRegistryNumber": "5566095047",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FUTURASKOLAN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47986219"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/47986219/statistics"
+        }
+      }
+    }
+  }
+}

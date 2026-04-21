@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:51.727Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/56858061",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "56858061",
+      "name": "Söderby friskola",
+      "contactInfo": {
+        "email": "info@soderbyfriskola.se",
+        "web": "http://www.soderbyfriskola.se",
+        "telephone": "08-53474030",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Söderbyvägen 25-27",
+            "zipCode": "14444",
+            "city": "Rönninge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0128",
+      "wgs84_Lat": "59.19568959869055",
+      "wgs84_Long": "17.77315889745863",
+      "sweRef_N": "6565135.8087971695",
+      "sweRef_E": "658390.0227072685",
+      "organisationRegistryNumber": "7696016117",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "SÖDERBY FRISKOLA EKONOMISK FÖRENING",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56858061"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/56858061/statistics"
+        }
+      }
+    }
+  }
+}

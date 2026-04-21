@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:36.919Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/41213404",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "41213404",
+      "name": "Källbrinksskolan",
+      "contactInfo": {
+        "email": "Kallbrinksskolan@huddinge.se",
+        "web": "https://www.huddinge.se/kallbrinksskolan",
+        "telephone": "08-53530601",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Källbrinksvägen 55",
+            "zipCode": "14131",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.24921639333165",
+      "wgs84_Long": "17.96148205368669",
+      "sweRef_N": "6571555",
+      "sweRef_E": "668877",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/41213404"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/41213404/statistics"
+        }
+      }
+    }
+  }
+}

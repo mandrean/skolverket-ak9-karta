@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:24:30.389Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/98925408",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "98925408",
+      "name": "Viksjöskolan",
+      "contactInfo": {
+        "email": "viksjoskolan@jarfalla.se",
+        "web": "http://www.jarfalla.se",
+        "telephone": "08-58029750",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Agrargränd 4",
+            "zipCode": "17544",
+            "city": "Järfälla"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0123",
+      "wgs84_Lat": "59.41251162307392",
+      "wgs84_Long": "17.803989742953522",
+      "sweRef_N": "6589340",
+      "sweRef_E": "659134",
+      "organisationRegistryNumber": "2120000043",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "JÄRFÄLLA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98925408"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/98925408/statistics"
+        }
+      }
+    }
+  }
+}

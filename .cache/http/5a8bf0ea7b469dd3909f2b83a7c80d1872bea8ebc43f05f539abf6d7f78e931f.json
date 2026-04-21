@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:25:54.041Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/10360193",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "10360193",
+      "name": "Profilskolan",
+      "contactInfo": {
+        "email": "info@profilskolan.se",
+        "web": "http://www.profilskolan.se",
+        "telephone": "08-6380240",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Krossgatan 34, plan 4",
+            "zipCode": "16250",
+            "city": "Vällingby"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.37236334291662",
+      "wgs84_Long": "17.85664433661321",
+      "sweRef_N": "6584999",
+      "sweRef_E": "662313",
+      "organisationRegistryNumber": "5569247264",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "Profilskolan AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10360193"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/10360193/statistics"
+        }
+      }
+    }
+  }
+}

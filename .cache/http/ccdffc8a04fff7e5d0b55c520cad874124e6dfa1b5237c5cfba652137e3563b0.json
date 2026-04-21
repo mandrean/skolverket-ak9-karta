@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:27:14.427Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/13579948",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "13579948",
+      "name": "S:t Olofs skola",
+      "contactInfo": {
+        "email": "mia.wik@sigtuna.se",
+        "web": "http://www.sigtuna.se/stolofsskola",
+        "telephone": "08-59783600",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Skolbacken 58",
+            "zipCode": "19330",
+            "city": "Sigtuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0191",
+      "wgs84_Lat": "59.621166629212745",
+      "wgs84_Long": "17.725137821597862",
+      "sweRef_N": "6612377",
+      "sweRef_E": "653708",
+      "organisationRegistryNumber": "2120000225",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "SIGTUNA KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13579948"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13579948/statistics"
+        }
+      }
+    }
+  }
+}

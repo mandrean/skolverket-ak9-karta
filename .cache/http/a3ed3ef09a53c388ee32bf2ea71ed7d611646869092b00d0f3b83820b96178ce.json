@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:24:22.344Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/51305351",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "51305351",
+      "name": "Tråsättraskolan",
+      "contactInfo": {
+        "email": "trasattraskolan@osteraker.se",
+        "web": "http://www.osteraker.se",
+        "telephone": "08-54081933",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Sjöfågelvägen 1",
+            "zipCode": "18461",
+            "city": "Åkersberga"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0117",
+      "wgs84_Lat": "59.47533586393518",
+      "wgs84_Long": "18.34071649350571",
+      "sweRef_N": "6597737",
+      "sweRef_E": "689228",
+      "organisationRegistryNumber": "2120002890",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "ÖSTERÅKERS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/51305351"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/51305351/statistics"
+        }
+      }
+    }
+  }
+}

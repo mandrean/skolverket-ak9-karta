@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-04-21T10:25:21.137Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/43375546",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "43375546",
+      "name": "Rälsen AB åk 4-9",
+      "contactInfo": {
+        "email": "annika.ekman@ralsen.se",
+        "web": "http://www.ralsen.se",
+        "telephone": "08-12134751",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Staffans väg 13",
+            "zipCode": "19278",
+            "city": "Sollentuna"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0163",
+      "wgs84_Lat": "59.48281153304404",
+      "wgs84_Long": "17.914795896959767",
+      "sweRef_N": "6597433.862",
+      "sweRef_E": "665076.935",
+      "organisationRegistryNumber": "5564524220",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "RÄLSEN AKTIEBOLAG",
+      "companyForm": "Fristående",
+      "schoolOrientation": "ALLMAN",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/43375546"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/43375546/statistics"
+        }
+      }
+    }
+  }
+}

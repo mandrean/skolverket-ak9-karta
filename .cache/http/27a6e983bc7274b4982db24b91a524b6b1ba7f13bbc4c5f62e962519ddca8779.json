@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-04-21T10:24:36.418Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/89510449",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "89510449",
+      "name": "Kungsklippeskolan",
+      "contactInfo": {
+        "email": "kungsklippeskolan@huddinge.se",
+        "web": "http://www.huddinge.se/kungsklippeskolan",
+        "telephone": "08-53530781",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Segersminnesvägen 8 A",
+            "zipCode": "14140",
+            "city": "Huddinge"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0126",
+      "wgs84_Lat": "59.252029826234676",
+      "wgs84_Long": "18.001817495815587",
+      "sweRef_N": "6571971",
+      "sweRef_E": "671162",
+      "organisationRegistryNumber": "2120000068",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "HUDDINGE KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/89510449"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/89510449/statistics"
+        }
+      }
+    }
+  }
+}

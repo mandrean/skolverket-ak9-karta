@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-21T10:25:37.204Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/40978257",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "40978257",
+      "name": "Futuraskolan International School of Stockholm",
+      "contactInfo": {
+        "email": "international@futuraskolan.se",
+        "web": "http://www.futuraskolaninternational.se",
+        "telephone": "+46708100153",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Erik Dahlbergsgatan 58-62",
+            "zipCode": "11557",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.34813605899662",
+      "wgs84_Long": "18.093837484644805",
+      "sweRef_N": "6582905.5",
+      "sweRef_E": "675909.5",
+      "organisationRegistryNumber": "5566095047",
+      "principalOrganizerType": "Fristående",
+      "corporationName": "FUTURASKOLAN AB",
+      "companyForm": "Fristående",
+      "schoolOrientation": "INTERNATIONELL",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40978257"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/40978257/statistics"
+        }
+      }
+    }
+  }
+}

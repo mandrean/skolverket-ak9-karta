@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-04-21T10:25:55.297Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/60382920",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "60382920",
+      "name": "Rågsveds grundskola",
+      "contactInfo": {
+        "email": "ragsvedsgrundskola@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/ragsveds-grundskola",
+        "telephone": "08-50849300",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Rågsveds skolgränd 8",
+            "zipCode": "12465",
+            "city": "Bandhagen"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.258196443657994",
+      "wgs84_Long": "18.024612128080392",
+      "sweRef_N": "6572716",
+      "sweRef_E": "672430",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "fsk",
+          "displayName": "Förskoleklassen",
+          "schoolYears": [
+            "0"
+          ]
+        },
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60382920"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/60382920/statistics"
+        }
+      }
+    }
+  }
+}

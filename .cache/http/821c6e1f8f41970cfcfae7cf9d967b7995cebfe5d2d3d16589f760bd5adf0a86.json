@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-04-21T10:25:32.180Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/13301127",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "13301127",
+      "name": "Ekens skola",
+      "contactInfo": {
+        "email": "ronja.ekstrom@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/ekens-skola",
+        "telephone": "08-50840482",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Vävar Johans gata 5",
+            "zipCode": "12069",
+            "city": "Stockholm"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.30461535340114",
+      "wgs84_Long": "18.110960393363325",
+      "sweRef_N": "6578108",
+      "sweRef_E": "677109",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13301127"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/13301127/statistics"
+        }
+      }
+    }
+  }
+}

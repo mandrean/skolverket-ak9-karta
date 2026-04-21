@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-04-21T10:26:01.822Z",
+  "url": "https://api.skolverket.se/planned-educations/v4/school-units/58294404",
+  "acceptHeader": "application/vnd.skolverket.plannededucations.api.v4.hal+json",
+  "json": {
+    "status": "OK",
+    "message": "Success",
+    "body": {
+      "code": "58294404",
+      "name": "Tellusborgsskolan",
+      "contactInfo": {
+        "email": "tellusborgsskolan@edu.stockholm.se",
+        "web": "https://grundskola.stockholm/hitta-grundskola/grundskola/tellusborgsskolan",
+        "telephone": "08-50822700",
+        "addresses": [
+          {
+            "type": "VISITING_ADDRESS",
+            "street": "Tellusborgsvägen 36",
+            "zipCode": "12649",
+            "city": "Hägersten"
+          }
+        ]
+      },
+      "geographicalAreaCode": "0180",
+      "wgs84_Lat": "59.304188384649485",
+      "wgs84_Long": "18.01258343950731",
+      "sweRef_N": "6577803",
+      "sweRef_E": "671513",
+      "organisationRegistryNumber": "2120000142",
+      "principalOrganizerType": "Kommunal",
+      "corporationName": "STOCKHOLMS KOMMUN",
+      "companyForm": "Kommunal",
+      "schoolOrientation": "Ej relevant",
+      "typeOfSchooling": [
+        {
+          "code": "gr",
+          "displayName": "Grundskolan",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "code": "gran",
+          "displayName": "Anpassad grundskola",
+          "schoolYears": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "abroadSchool": false,
+      "_links": {
+        "self": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58294404"
+        },
+        "statistics": {
+          "href": "https://api.skolverket.se/planned-educations/v4/school-units/58294404/statistics"
+        }
+      }
+    }
+  }
+}
