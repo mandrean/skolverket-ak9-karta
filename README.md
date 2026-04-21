@@ -86,6 +86,24 @@ http://localhost:5173
 
 Kartan läser `public/data/stockholm-grade9-schools.json`. Knappen **Ladda om JSON** läser bara om den lokala filen; den kontaktar inte Skolverket.
 
+## 3. Publicera med GitHub Pages
+
+Appen är förberedd för projekt-URL:
+
+```text
+https://mandrean.github.io/skolverket-ak9-karta/
+```
+
+GitHub Actions-workflowen i `.github/workflows/pages.yml` publicerar innehållet i `public/` till GitHub Pages när ändringar pushas till `master` eller `main`, och kan också köras manuellt från Actions-fliken.
+
+Första gången behöver repositoryt ha Pages-källan satt till **GitHub Actions** under:
+
+```text
+Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
+```
+
+Alla appens lokala resurser laddas med relativa sökvägar (`styles.css`, `app.js`, `data/...`) så den fungerar både lokalt och under `/skolverket-ak9-karta/`.
+
 ## Hur Skolverket-anropen begränsas
 
 All logik för externa anrop ligger i `scripts/build-data.mjs`:
@@ -134,3 +152,4 @@ Om meritvärden inte hittas kan du öppna dessa filer och justera `extractMeritV
 - `public/index.html` – frontend.
 - `public/app.js` – Leaflet-karta, filter och popup.
 - `public/styles.css` – UI och markörer.
+- `.github/workflows/pages.yml` – publicerar `public/` till GitHub Pages.

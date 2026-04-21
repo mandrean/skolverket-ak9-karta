@@ -1,4 +1,4 @@
-const DATA_URL = '/data/stockholm-grade9-schools.json';
+const DATA_URL = 'data/stockholm-grade9-schools.json';
 
 const STOCKHOLM_COORDINATE_BOUNDS = {
   minLat: 58.75,
