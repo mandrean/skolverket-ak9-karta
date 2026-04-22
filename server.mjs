@@ -58,6 +58,6 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(`Statisk Skolverket-karta körs på http://localhost:${PORT}`);
-  console.log('Appen läser bara public/data/stockholm-grade9-schools.json.');
-  console.log('Uppdatera data med: npm run build:data');
+  console.log('Appen läser bara lokala JSON-filer i public/data/.');
+  console.log('Uppdatera data med: npm run build:data:all');
 });

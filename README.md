@@ -1,34 +1,61 @@
-# Skolverket åk 9-karta – statisk JSON + karta
+# Skolverket åk 9-karta – statiska JSON-filer + karta
 
 <img width="2246" height="1498" alt="image" src="https://github.com/user-attachments/assets/65d4de5e-cea1-4b5f-9c76-0efa97aec86e" />
 
 Den här versionen är uppdelad i två tydliga delar:
 
-1. **Byggläge**: hämtar data från Skolverkets API, filtrerar fram grundskolor med slutbetyg/meritvärde i åk 9 och skriver en JSON-fil.
-2. **Kartapp**: läser bara den färdiga JSON-filen och plottar skolorna. Den gör inga anrop till Skolverket.
+1. **Byggläge**: hämtar data från Skolverkets API, filtrerar fram grundskolor med slutbetyg/meritvärde i åk 9 och skriver en JSON-fil per region.
+2. **Kartapp**: läser bara de färdiga JSON-filerna och plottar skolorna. Den gör inga anrop till Skolverket.
 
 Det gör att Skolverket bara kontaktas när du aktivt kör om databygget.
 
-## 1. Bygg JSON-filen
+## 1. Bygg JSON-filerna
 
 ```bash
 npm run build:data
 ```
 
-Default skrivs filen här:
+Default bygger Region Stockholm och skriver filen här:
 
 ```text
 public/data/stockholm-grade9-schools.json
+```
+
+Bygg båda regionerna:
+
+```bash
+npm run build:data:all
+```
+
+Eller bygg dem separat:
+
+```bash
+npm run build:data:stockholm
+npm run build:data:vastra-gotaland
+```
+
+Filerna som kartan läser är:
+
+```text
+public/data/stockholm-grade9-schools.json
+public/data/vastra-gotaland-grade9-schools.json
 ```
 
 JSON-filen har formen:
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-04-21T00:00:00.000Z",
   "source": { "name": "Skolverket Planned educations API" },
-  "scope": { "county": "Stockholms län", "municipalities": [] },
+  "scope": {
+    "region": {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "fullName": "Region Stockholm"
+    },
+    "municipalities": []
+  },
   "metadata": { "complete": true },
   "schools": [
     {
@@ -36,6 +63,8 @@ JSON-filen har formen:
       "name": "Hässelby Villastads skola",
       "municipalityCode": "0180",
       "municipality": "Stockholm",
+      "regionId": "stockholm",
+      "region": "Stockholm",
       "lat": 59.3839,
       "lng": 17.8398,
       "typeOfSchool": "Grundskola",
@@ -52,6 +81,7 @@ JSON-filen har formen:
 ```bash
 MUNICIPALITY_CODES=0180 npm run build:data
 MUNICIPALITY_CODES=0180,0182 npm run build:data
+REGION=vastra-gotaland MUNICIPALITY_CODES=1480 npm run build:data
 ```
 
 ### Skriv till annan fil
@@ -84,7 +114,7 @@ npm start
 http://localhost:5173
 ```
 
-Kartan läser `public/data/stockholm-grade9-schools.json`. Knappen **Ladda om JSON** läser bara om den lokala filen; den kontaktar inte Skolverket.
+Kartan läser de lokala JSON-filerna i `public/data/`. Regionfiltret väljer vilken fil som laddas. Knappen **Ladda om JSON** läser bara om vald lokal fil; den kontaktar inte Skolverket.
 
 ## 3. Publicera med GitHub Pages
 
@@ -120,11 +150,11 @@ Nuvarande default är `API_MIN_DELAY_MS=250`, `STAT_BATCH_SIZE=100` och `STAT_BA
 
 ## Datakälla och filtrering
 
-Byggkommandot hämtar grundskoleenheter kommunvis i Stockholms län och försöker därefter hämta statistik för respektive skolenhet. Endast skolenheter där statistiksvaret innehåller genomsnittligt meritvärde för åk 9 skrivs till `schools`. F–6-skolor faller därför bort automatiskt eftersom de saknar åk 9-meritvärde.
+Byggkommandot hämtar grundskoleenheter kommunvis i vald region och försöker därefter hämta statistik för respektive skolenhet. Endast skolenheter där statistiksvaret innehåller genomsnittligt meritvärde för åk 9 skrivs till `schools`. F–6-skolor faller därför bort automatiskt eftersom de saknar åk 9-meritvärde.
 
 Skolurvalet använder `/v4/school-units` med `geographicalAreaCode`, `typeOfSchooling=gr` och `schoolYears=9`. Den kompakta endpointen `/compact-school-units` används inte för kommunurval eftersom den inte stödjer kommunfilter i Swagger-specifikationen.
 
-Koordinater valideras dessutom mot ett grovt bounds-intervall för Stockholms län. Det skyddar kartan mot enstaka felaktiga WGS84-koordinater i källsvaret.
+Koordinater valideras dessutom mot ett grovt bounds-intervall för vald region. Det skyddar kartan mot enstaka felaktiga WGS84-koordinater i källsvaret.
 
 ## Felsök statistikrespons
 
@@ -147,7 +177,8 @@ Om meritvärden inte hittas kan du öppna dessa filer och justera `extractMeritV
 ## Filöversikt
 
 - `scripts/build-data.mjs` – hämta från Skolverket, cache, batchning, paginering, meritextraktion och JSON-skrivning.
-- `public/data/stockholm-grade9-schools.json` – statisk datafil som kartan läser.
+- `public/data/stockholm-grade9-schools.json` – statisk datafil för Region Stockholm.
+- `public/data/vastra-gotaland-grade9-schools.json` – statisk datafil för Västra Götalandsregionen.
 - `server.mjs` – enkel statisk server; gör inga Skolverket-anrop.
 - `public/index.html` – frontend.
 - `public/app.js` – Leaflet-karta, filter och popup.

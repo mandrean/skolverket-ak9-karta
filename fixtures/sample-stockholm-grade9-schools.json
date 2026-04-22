@@ -1,15 +1,25 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-04-21T00:00:00.000Z",
   "source": {
     "name": "sample",
     "description": "Offline-exempel. Kör npm run build:data för att hämta aktuell data från Skolverket."
   },
   "scope": {
-    "county": "Stockholms län",
+    "region": {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "fullName": "Region Stockholm"
+    },
     "municipalities": [
       { "code": "0180", "name": "Stockholm" }
-    ]
+    ],
+    "coordinateBounds": {
+      "minLat": 58.75,
+      "maxLat": 60.25,
+      "minLng": 17.0,
+      "maxLng": 19.2
+    }
   },
   "metadata": {
     "complete": true,
@@ -24,7 +34,8 @@
       "name": "Hässelby Villastads skola",
       "municipalityCode": "0180",
       "municipality": "Stockholm",
-      "county": "Stockholms län",
+      "regionId": "stockholm",
+      "region": "Stockholm",
       "lat": 59.3839,
       "lng": 17.8398,
       "typeOfSchool": "Grundskola",

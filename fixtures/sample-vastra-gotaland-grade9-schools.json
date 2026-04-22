@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-04-21T00:00:00.000Z",
+  "source": {
+    "name": "sample",
+    "description": "Offline-exempel. Kör npm run build:data:vastra-gotaland för att hämta aktuell data från Skolverket."
+  },
+  "scope": {
+    "region": {
+      "id": "vastra-gotaland",
+      "name": "Västra Götaland",
+      "fullName": "Västra Götalandsregionen"
+    },
+    "municipalities": [
+      { "code": "1480", "name": "Göteborg" }
+    ],
+    "coordinateBounds": {
+      "minLat": 57.0,
+      "maxLat": 59.45,
+      "minLng": 10.7,
+      "maxLng": 14.8
+    }
+  },
+  "metadata": {
+    "complete": true,
+    "schoolUnitsExamined": 1,
+    "schoolsWithMerit": 1,
+    "networkCallsThisBuild": 0,
+    "warnings": []
+  },
+  "schools": [
+    {
+      "schoolUnitCode": "sample-vgr-1",
+      "name": "Exempelskola Västra Götaland",
+      "municipalityCode": "1480",
+      "municipality": "Göteborg",
+      "regionId": "vastra-gotaland",
+      "region": "Västra Götaland",
+      "lat": 57.7089,
+      "lng": 11.9746,
+      "typeOfSchool": "Grundskola",
+      "averageMeritGrade9": 255.5,
+      "averageMeritGrade9Label": "255,5",
+      "source": "sample"
+    }
+  ]
+}
