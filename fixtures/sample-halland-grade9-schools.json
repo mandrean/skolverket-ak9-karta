@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-04-21T00:00:00.000Z",
+  "source": {
+    "name": "sample",
+    "description": "Offline-exempel. Kör REGION=halland npm run build:data för att hämta aktuell data från Skolverket."
+  },
+  "scope": {
+    "region": {
+      "id": "halland",
+      "name": "Halland",
+      "fullName": "Region Halland"
+    },
+    "municipalities": [
+      { "code": "1380", "name": "Halmstad" }
+    ],
+    "coordinateBounds": {
+      "minLat": 56.25,
+      "maxLat": 57.85,
+      "minLng": 11.65,
+      "maxLng": 13.75
+    }
+  },
+  "metadata": {
+    "complete": true,
+    "schoolUnitsExamined": 1,
+    "schoolsWithMerit": 1,
+    "networkCallsThisBuild": 0,
+    "warnings": []
+  },
+  "schools": [
+    {
+      "schoolUnitCode": "13800001",
+      "name": "Brunnsåkersskolan",
+      "municipalityCode": "1380",
+      "municipality": "Halmstad",
+      "regionId": "halland",
+      "region": "Halland",
+      "lat": 56.6692,
+      "lng": 12.8577,
+      "typeOfSchool": "Grundskola",
+      "averageMeritGrade9": 241.3,
+      "averageMeritGrade9Label": "241,3",
+      "utbildningsguidenUrl": "https://utbildningsguiden.skolverket.se/skolenhet?schoolUnitID=13800001",
+      "source": "sample"
+    }
+  ]
+}

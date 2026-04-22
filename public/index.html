@@ -6,7 +6,7 @@
   <title>Åk 9-meritvärden på karta – regioner</title>
   <link rel="preconnect" href="https://unpkg.com" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQmC5S1sqgLMkRZ0bcpF5iGv7+edmVM=" crossorigin="" />
-  <link rel="stylesheet" href="styles.css?v=regions-20260422" />
+  <link rel="stylesheet" href="styles.css?v=halland-multiselect-20260422" />
 </head>
 <body>
   <header class="topbar">
@@ -27,14 +27,15 @@
 
       <section class="card filters">
         <h2>Filter</h2>
-        <label>
-          Region
-          <select id="regionFilter"></select>
-        </label>
-        <label>
-          Kommun
-          <select id="municipalityFilter"><option value="">Alla kommuner</option></select>
-        </label>
+        <div class="filter-field">
+          <span class="filter-label">Region</span>
+          <div id="regionFilter"></div>
+        </div>
+        <div class="filter-field">
+          <span class="filter-label">Kommun</span>
+          <div id="municipalityFilter"></div>
+        </div>
+        <p class="filter-hint">Tips: håll Shift när du klickar för att välja flera i rad.</p>
         <label>
           Sök skola
           <input id="searchFilter" type="search" placeholder="t.ex. Hässelby" />
@@ -74,6 +75,6 @@
   </template>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="app.js?v=regions-20260422" type="module"></script>
+  <script src="app.js?v=halland-multiselect-20260422" type="module"></script>
 </body>
 </html>

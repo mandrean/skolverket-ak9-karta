@@ -8,7 +8,8 @@
     "build:data": "node scripts/build-data.mjs",
     "build:data:stockholm": "REGION=stockholm node scripts/build-data.mjs",
     "build:data:vastra-gotaland": "REGION=vastra-gotaland node scripts/build-data.mjs",
-    "build:data:all": "npm run build:data:stockholm && npm run build:data:vastra-gotaland",
+    "build:data:halland": "REGION=halland node scripts/build-data.mjs",
+    "build:data:all": "npm run build:data:stockholm && npm run build:data:vastra-gotaland && npm run build:data:halland",
     "build:data:sample": "USE_SAMPLE_DATA=1 node scripts/build-data.mjs",
     "start": "node server.mjs",
     "check": "node --check server.mjs && node --check scripts/build-data.mjs && node --check public/app.js"
