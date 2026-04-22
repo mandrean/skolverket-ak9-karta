@@ -103,6 +103,15 @@ const VASTRA_GOTALAND_MUNICIPALITIES = [
   { code: '1499', name: 'Falköping' },
 ];
 
+const HALLAND_MUNICIPALITIES = [
+  { code: '1315', name: 'Hylte' },
+  { code: '1380', name: 'Halmstad' },
+  { code: '1381', name: 'Laholm' },
+  { code: '1382', name: 'Falkenberg' },
+  { code: '1383', name: 'Varberg' },
+  { code: '1384', name: 'Kungsbacka' },
+];
+
 const REGION_CONFIGS = {
   stockholm: {
     id: 'stockholm',
@@ -132,6 +141,20 @@ const REGION_CONFIGS = {
       maxLng: 14.8,
     },
   },
+  halland: {
+    id: 'halland',
+    name: 'Halland',
+    fullName: 'Region Halland',
+    dataFile: 'public/data/halland-grade9-schools.json',
+    sampleFile: 'fixtures/sample-halland-grade9-schools.json',
+    municipalities: HALLAND_MUNICIPALITIES,
+    coordinateBounds: {
+      minLat: 56.25,
+      maxLat: 57.85,
+      minLng: 11.65,
+      maxLng: 13.75,
+    },
+  },
 };
 
 const REGION_ALIASES = new Map([
@@ -144,6 +167,8 @@ const REGION_ALIASES = new Map([
   ['västra götaland', 'vastra-gotaland'],
   ['vgr', 'vastra-gotaland'],
   ['vg', 'vastra-gotaland'],
+  ['halland', 'halland'],
+  ['region-halland', 'halland'],
 ]);
 
 function normalizeRegionId(raw) {

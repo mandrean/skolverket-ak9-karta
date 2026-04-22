@@ -21,7 +21,7 @@ Default bygger Region Stockholm och skriver filen här:
 public/data/stockholm-grade9-schools.json
 ```
 
-Bygg båda regionerna:
+Bygg alla regioner:
 
 ```bash
 npm run build:data:all
@@ -32,6 +32,7 @@ Eller bygg dem separat:
 ```bash
 npm run build:data:stockholm
 npm run build:data:vastra-gotaland
+npm run build:data:halland
 ```
 
 Filerna som kartan läser är:
@@ -39,6 +40,7 @@ Filerna som kartan läser är:
 ```text
 public/data/stockholm-grade9-schools.json
 public/data/vastra-gotaland-grade9-schools.json
+public/data/halland-grade9-schools.json
 ```
 
 JSON-filen har formen:
@@ -82,6 +84,7 @@ JSON-filen har formen:
 MUNICIPALITY_CODES=0180 npm run build:data
 MUNICIPALITY_CODES=0180,0182 npm run build:data
 REGION=vastra-gotaland MUNICIPALITY_CODES=1480 npm run build:data
+REGION=halland MUNICIPALITY_CODES=1380 npm run build:data
 ```
 
 ### Skriv till annan fil
@@ -114,7 +117,7 @@ npm start
 http://localhost:5173
 ```
 
-Kartan läser de lokala JSON-filerna i `public/data/`. Regionfiltret väljer vilken fil som laddas. Knappen **Ladda om JSON** läser bara om vald lokal fil; den kontaktar inte Skolverket.
+Kartan läser de lokala JSON-filerna i `public/data/`. Regionfiltret väljer vilka filer som laddas. Region och kommun är checkbox-dropdowns: håll Shift när du klickar för att välja flera i rad. Knappen **Ladda om JSON** läser bara om valda lokala filer; den kontaktar inte Skolverket.
 
 ## 3. Publicera med GitHub Pages
 
@@ -179,6 +182,7 @@ Om meritvärden inte hittas kan du öppna dessa filer och justera `extractMeritV
 - `scripts/build-data.mjs` – hämta från Skolverket, cache, batchning, paginering, meritextraktion och JSON-skrivning.
 - `public/data/stockholm-grade9-schools.json` – statisk datafil för Region Stockholm.
 - `public/data/vastra-gotaland-grade9-schools.json` – statisk datafil för Västra Götalandsregionen.
+- `public/data/halland-grade9-schools.json` – statisk datafil för Region Halland.
 - `server.mjs` – enkel statisk server; gör inga Skolverket-anrop.
 - `public/index.html` – frontend.
 - `public/app.js` – Leaflet-karta, filter och popup.
