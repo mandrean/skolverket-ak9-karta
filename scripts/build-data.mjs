@@ -22,28 +22,6 @@ const envBool = (name, fallback = false) => {
   return ['1', 'true', 'yes', 'ja', 'on'].includes(String(raw).toLowerCase());
 };
 
-const CONFIG = {
-  plannedBaseUrl: env('SKOLVERKET_PLANNED_BASE_URL', 'https://api.skolverket.se/planned-educations').replace(/\/$/, ''),
-  cacheDir: path.resolve(ROOT_DIR, env('CACHE_DIR', '.cache')),
-  outFile: path.resolve(ROOT_DIR, env('OUT_FILE', 'public/data/stockholm-grade9-schools.json')),
-  httpCacheTtlMs: envNumber('HTTP_CACHE_TTL_MS', 7 * 24 * 60 * 60 * 1000),
-  forceHttpRefresh: envBool('FORCE_HTTP_REFRESH', false),
-  apiMinDelayMs: envNumber('API_MIN_DELAY_MS', 250),
-  requestTimeoutMs: envNumber('REQUEST_TIMEOUT_MS', 30_000),
-  pageSize: envNumber('PAGE_SIZE', 50),
-  maxPagesPerMunicipality: envNumber('MAX_PAGES_PER_MUNICIPALITY', 40),
-  statBatchSize: envNumber('STAT_BATCH_SIZE', 100),
-  statBatchPauseMs: envNumber('STAT_BATCH_PAUSE_MS', 250),
-  saveRawStatistics: envBool('SAVE_RAW_STATISTICS', false),
-  useSampleData: envBool('USE_SAMPLE_DATA', false),
-  municipalityCodes: env('MUNICIPALITY_CODES', '').split(',').map((x) => x.trim()).filter(Boolean),
-};
-
-const HTTP_CACHE_DIR = path.join(CONFIG.cacheDir, 'http');
-const RAW_STATS_DIR = path.join(CONFIG.cacheDir, 'raw-statistics');
-const ACCEPT_V4 = 'application/vnd.skolverket.plannededucations.api.v4.hal+json';
-const ACCEPT_V3 = 'application/vnd.skolverket.plannededucations.api.v3.hal+json';
-
 const STOCKHOLM_MUNICIPALITIES = [
   { code: '0114', name: 'Upplands Väsby' },
   { code: '0115', name: 'Vallentuna' },
@@ -73,19 +51,148 @@ const STOCKHOLM_MUNICIPALITIES = [
   { code: '0192', name: 'Nynäshamn' },
 ];
 
-const STOCKHOLM_COORDINATE_BOUNDS = {
-  minLat: 58.75,
-  maxLat: 60.25,
-  minLng: 17.0,
-  maxLng: 19.2,
+const VASTRA_GOTALAND_MUNICIPALITIES = [
+  { code: '1401', name: 'Härryda' },
+  { code: '1402', name: 'Partille' },
+  { code: '1407', name: 'Öckerö' },
+  { code: '1415', name: 'Stenungsund' },
+  { code: '1419', name: 'Tjörn' },
+  { code: '1421', name: 'Orust' },
+  { code: '1427', name: 'Sotenäs' },
+  { code: '1430', name: 'Munkedal' },
+  { code: '1435', name: 'Tanum' },
+  { code: '1438', name: 'Dals-Ed' },
+  { code: '1439', name: 'Färgelanda' },
+  { code: '1440', name: 'Ale' },
+  { code: '1441', name: 'Lerum' },
+  { code: '1442', name: 'Vårgårda' },
+  { code: '1443', name: 'Bollebygd' },
+  { code: '1444', name: 'Grästorp' },
+  { code: '1445', name: 'Essunga' },
+  { code: '1446', name: 'Karlsborg' },
+  { code: '1447', name: 'Gullspång' },
+  { code: '1452', name: 'Tranemo' },
+  { code: '1460', name: 'Bengtsfors' },
+  { code: '1461', name: 'Mellerud' },
+  { code: '1462', name: 'Lilla Edet' },
+  { code: '1463', name: 'Mark' },
+  { code: '1465', name: 'Svenljunga' },
+  { code: '1466', name: 'Herrljunga' },
+  { code: '1470', name: 'Vara' },
+  { code: '1471', name: 'Götene' },
+  { code: '1472', name: 'Tibro' },
+  { code: '1473', name: 'Töreboda' },
+  { code: '1480', name: 'Göteborg' },
+  { code: '1481', name: 'Mölndal' },
+  { code: '1482', name: 'Kungälv' },
+  { code: '1484', name: 'Lysekil' },
+  { code: '1485', name: 'Uddevalla' },
+  { code: '1486', name: 'Strömstad' },
+  { code: '1487', name: 'Vänersborg' },
+  { code: '1488', name: 'Trollhättan' },
+  { code: '1489', name: 'Alingsås' },
+  { code: '1490', name: 'Borås' },
+  { code: '1491', name: 'Ulricehamn' },
+  { code: '1492', name: 'Åmål' },
+  { code: '1493', name: 'Mariestad' },
+  { code: '1494', name: 'Lidköping' },
+  { code: '1495', name: 'Skara' },
+  { code: '1496', name: 'Skövde' },
+  { code: '1497', name: 'Hjo' },
+  { code: '1498', name: 'Tidaholm' },
+  { code: '1499', name: 'Falköping' },
+];
+
+const REGION_CONFIGS = {
+  stockholm: {
+    id: 'stockholm',
+    name: 'Stockholm',
+    fullName: 'Region Stockholm',
+    dataFile: 'public/data/stockholm-grade9-schools.json',
+    sampleFile: 'fixtures/sample-stockholm-grade9-schools.json',
+    municipalities: STOCKHOLM_MUNICIPALITIES,
+    coordinateBounds: {
+      minLat: 58.75,
+      maxLat: 60.25,
+      minLng: 17.0,
+      maxLng: 19.2,
+    },
+  },
+  'vastra-gotaland': {
+    id: 'vastra-gotaland',
+    name: 'Västra Götaland',
+    fullName: 'Västra Götalandsregionen',
+    dataFile: 'public/data/vastra-gotaland-grade9-schools.json',
+    sampleFile: 'fixtures/sample-vastra-gotaland-grade9-schools.json',
+    municipalities: VASTRA_GOTALAND_MUNICIPALITIES,
+    coordinateBounds: {
+      minLat: 57.0,
+      maxLat: 59.45,
+      minLng: 10.7,
+      maxLng: 14.8,
+    },
+  },
 };
 
+const REGION_ALIASES = new Map([
+  ['stockholm', 'stockholm'],
+  ['region-stockholm', 'stockholm'],
+  ['sthlm', 'stockholm'],
+  ['vastra-gotaland', 'vastra-gotaland'],
+  ['västra-götaland', 'vastra-gotaland'],
+  ['vastra gotaland', 'vastra-gotaland'],
+  ['västra götaland', 'vastra-gotaland'],
+  ['vgr', 'vastra-gotaland'],
+  ['vg', 'vastra-gotaland'],
+]);
+
+function normalizeRegionId(raw) {
+  const normalized = String(raw || 'stockholm')
+    .trim()
+    .toLowerCase()
+    .replace(/å/g, 'a')
+    .replace(/ä/g, 'a')
+    .replace(/ö/g, 'o')
+    .replace(/_/g, '-');
+  return REGION_ALIASES.get(normalized) ?? normalized;
+}
+
+const selectedRegionId = normalizeRegionId(env('REGION', 'stockholm'));
+const SELECTED_REGION = REGION_CONFIGS[selectedRegionId];
+
+if (!SELECTED_REGION) {
+  console.error(`Okänd REGION=${env('REGION', '')}. Välj en av: ${Object.keys(REGION_CONFIGS).join(', ')}`);
+  process.exit(1);
+}
+
+const CONFIG = {
+  plannedBaseUrl: env('SKOLVERKET_PLANNED_BASE_URL', 'https://api.skolverket.se/planned-educations').replace(/\/$/, ''),
+  cacheDir: path.resolve(ROOT_DIR, env('CACHE_DIR', '.cache')),
+  outFile: path.resolve(ROOT_DIR, env('OUT_FILE', SELECTED_REGION.dataFile)),
+  httpCacheTtlMs: envNumber('HTTP_CACHE_TTL_MS', 7 * 24 * 60 * 60 * 1000),
+  forceHttpRefresh: envBool('FORCE_HTTP_REFRESH', false),
+  apiMinDelayMs: envNumber('API_MIN_DELAY_MS', 250),
+  requestTimeoutMs: envNumber('REQUEST_TIMEOUT_MS', 30_000),
+  pageSize: envNumber('PAGE_SIZE', 50),
+  maxPagesPerMunicipality: envNumber('MAX_PAGES_PER_MUNICIPALITY', 40),
+  statBatchSize: envNumber('STAT_BATCH_SIZE', 100),
+  statBatchPauseMs: envNumber('STAT_BATCH_PAUSE_MS', 250),
+  saveRawStatistics: envBool('SAVE_RAW_STATISTICS', false),
+  useSampleData: envBool('USE_SAMPLE_DATA', false),
+  municipalityCodes: env('MUNICIPALITY_CODES', '').split(',').map((x) => x.trim()).filter(Boolean),
+};
+
+const HTTP_CACHE_DIR = path.join(CONFIG.cacheDir, 'http');
+const RAW_STATS_DIR = path.join(CONFIG.cacheDir, 'raw-statistics');
+const ACCEPT_V4 = 'application/vnd.skolverket.plannededucations.api.v4.hal+json';
+const ACCEPT_V3 = 'application/vnd.skolverket.plannededucations.api.v3.hal+json';
+
 const MUNICIPALITIES = CONFIG.municipalityCodes.length
-  ? STOCKHOLM_MUNICIPALITIES.filter((m) => CONFIG.municipalityCodes.includes(m.code))
-  : STOCKHOLM_MUNICIPALITIES;
+  ? SELECTED_REGION.municipalities.filter((m) => CONFIG.municipalityCodes.includes(m.code))
+  : SELECTED_REGION.municipalities;
 
 if (CONFIG.municipalityCodes.length && MUNICIPALITIES.length === 0) {
-  console.error(`Inga matchande kommuner för MUNICIPALITY_CODES=${CONFIG.municipalityCodes.join(',')}`);
+  console.error(`Inga matchande kommuner i ${SELECTED_REGION.fullName} för MUNICIPALITY_CODES=${CONFIG.municipalityCodes.join(',')}`);
   process.exit(1);
 }
 
@@ -289,11 +396,12 @@ function parseCoordinate(value) {
   return parseNumberLoose(value);
 }
 
-function isWithinStockholmBounds(lat, lng) {
-  return lat >= STOCKHOLM_COORDINATE_BOUNDS.minLat
-    && lat <= STOCKHOLM_COORDINATE_BOUNDS.maxLat
-    && lng >= STOCKHOLM_COORDINATE_BOUNDS.minLng
-    && lng <= STOCKHOLM_COORDINATE_BOUNDS.maxLng;
+function isWithinRegionBounds(lat, lng) {
+  const bounds = SELECTED_REGION.coordinateBounds;
+  return lat >= bounds.minLat
+    && lat <= bounds.maxLat
+    && lng >= bounds.minLng
+    && lng <= bounds.maxLng;
 }
 
 function schoolUnitCodeFromRaw(raw) {
@@ -319,16 +427,25 @@ function normalizeSchoolUnit(raw, municipalityFallback) {
   const lng = parseCoordinate(getNestedFirst(raw, ['wgs84Longitude', 'wgs84_Long', 'longitude', 'lng', 'lon', 'x', 'coordinateLongitude', 'coordinates.longitude']));
   const municipalityCode = String(getFirst(raw, ['municipalityCode', 'geographicalAreaCode']) ?? municipalityFallback.code).trim();
   const municipality = String(getFirst(raw, ['municipality', 'municipalityName', 'geographicalArea']) ?? municipalityFallback.name).trim();
-  const county = String(getFirst(raw, ['county', 'countyName']) ?? 'Stockholms län').trim();
   const typeOfSchool = typeOfSchoolLabel(raw);
 
   if (!schoolUnitCode || !name) return null;
   if (raw.abroadSchool === true) return null;
   if (lat === null || lng === null || Math.abs(lat) > 90 || Math.abs(lng) > 180) return null;
-  if (!isWithinStockholmBounds(lat, lng)) return null;
+  if (!isWithinRegionBounds(lat, lng)) return null;
   if (municipalityCode && municipalityCode !== municipalityFallback.code) return null;
 
-  return { schoolUnitCode, name, municipalityCode, municipality, county, typeOfSchool, lat, lng };
+  return {
+    schoolUnitCode,
+    name,
+    municipalityCode,
+    municipality,
+    regionId: SELECTED_REGION.id,
+    region: SELECTED_REGION.name,
+    typeOfSchool,
+    lat,
+    lng,
+  };
 }
 
 const unitEndpointCandidates = [
@@ -585,7 +702,7 @@ function sortSchools(schools) {
 
 function makeOutputDoc(schools, metadata) {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: nowIso(),
     source: {
       name: 'Skolverket Planned educations API',
@@ -594,8 +711,13 @@ function makeOutputDoc(schools, metadata) {
       statsEndpoint: chosenStatsEndpoint?.label ?? null,
     },
     scope: {
-      county: 'Stockholms län',
+      region: {
+        id: SELECTED_REGION.id,
+        name: SELECTED_REGION.name,
+        fullName: SELECTED_REGION.fullName,
+      },
       municipalities: MUNICIPALITIES,
+      coordinateBounds: SELECTED_REGION.coordinateBounds,
     },
     metadata: {
       ...metadata,
@@ -622,7 +744,7 @@ async function writeOutput(schools, metadata) {
 }
 
 async function writeSampleOutput() {
-  const samplePath = path.join(ROOT_DIR, 'fixtures', 'sample-stockholm-grade9-schools.json');
+  const samplePath = path.join(ROOT_DIR, SELECTED_REGION.sampleFile);
   const sample = await readJsonFile(samplePath);
   await writeJsonFile(CONFIG.outFile, { ...sample, generatedAt: nowIso() });
   log(`Skrev sampledata till ${path.relative(ROOT_DIR, CONFIG.outFile)}`);
@@ -642,7 +764,7 @@ async function buildData() {
   let schoolUnitsExamined = 0;
   let noMeritCount = 0;
 
-  log(`Bygger JSON till ${path.relative(ROOT_DIR, CONFIG.outFile)}`);
+  log(`Bygger JSON för ${SELECTED_REGION.fullName} till ${path.relative(ROOT_DIR, CONFIG.outFile)}`);
   log(`Kommuner: ${MUNICIPALITIES.map((m) => m.name).join(', ')}`);
   log(`API-takt: minst ${CONFIG.apiMinDelayMs} ms mellan anrop, statistikbatch ${CONFIG.statBatchSize}, batchpaus ${CONFIG.statBatchPauseMs} ms.`);
 
